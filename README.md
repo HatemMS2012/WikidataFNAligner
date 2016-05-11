@@ -12,7 +12,7 @@ First you need to download the word embedding indicies which can be found [here]
 - leveyDepDisco.zip: word embedding based on dependency graphs (more on information [here](https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/))
 - GoogleNewsDicoIndexCOL.zip: the GoogleNews word embeddings provided by [word2vec](http://word2vec.googlecode.com/).    
 
-Next, unzip these files and update hms.embedding.WordEmbeddingSpace to refer to the location of the containing folders on your disk.
+Next, unzip these files and update [WordEmbeddingSpace](src/hms/embedding/WordEmbeddingSpace.java) to refer to the location of the containing folders on your disk.
 
 ### NLP Jar
 
@@ -20,6 +20,6 @@ You also need to add the following [jar](https://goo.gl/KUZevH) to your class pa
 
 ### Running an Example
 
-Take a look on the main method in hms.alignment.PropertyFrameMatcher and see an example for running the code to reproduced the results of the AKBC 2016 paper: [Enriching Wikidata with Frame Semantics](http://www.akbc.ws/2016/).
+Take a look on the main method in [PropertyFrameMatcher](src/hms/alignment/PropertyFrameMatcher.java) and see an example for running the code to reproduced the results of the AKBC 2016 paper: [Enriching Wikidata with Frame Semantics](http://www.akbc.ws/2016/).
 
 
