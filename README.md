@@ -19,6 +19,10 @@ First you need to download the word embedding indicies which can be found [here]
 
 Next, unzip these files and update [WordEmbeddingSpace](src/hms/embedding/WordEmbeddingSpace.java) to refer to the location of the containing folders on your disk.
 
+### Setting up the Database
+The code uses a relation wikidata database. You can configure your connection in [config.properties](config.properties).
+Futhermore, we are using an XML API for accessing FrameNet you should also configure the path to your FrameNet folder by modifying the corresponding entry in [config.properties](config.properties)
+
 ### NLP Jar
 
 You also need to add the following [jar](https://goo.gl/KUZevH) to your class path.
