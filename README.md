@@ -16,10 +16,10 @@ Next, unzip these files and update hms.embedding.WordEmbeddingSpace to refer to 
 
 ### NLP Jar
 
-You also need to add the following jar to your class path.
+You also need to add the following [jar](https://goo.gl/KUZevH) to your class path.
 
 ### Running an Example
 
-Take a look on the main method in hms.alignment.PropertyFrameMatcher and see an example for running the code to reproduced the results of the AKBC 2016 paper.
+Take a look on the main method in hms.alignment.PropertyFrameMatcher and see an example for running the code to reproduced the results of the AKBC 2016 paper: [Enriching Wikidata with Frame Semantics](http://www.akbc.ws/2016/).
 
 
