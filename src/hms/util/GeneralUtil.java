@@ -26,7 +26,7 @@ public class GeneralUtil {
 			if(i==1)
 				continue;
 				 
-			String[] lineArr = strLine.split(",");
+			String[] lineArr = strLine.split("\t");
 			String propertyID = lineArr[0];
 			propIdList.add(propertyID);
 			

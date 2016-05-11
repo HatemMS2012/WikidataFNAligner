@@ -8,6 +8,9 @@ import java.util.List;
 import edu.stanford.nlp.ling.CoreLabel;
 import hms.alignment.frame.FrameContextCreator;
 import hms.alignment.frame.FrameContextDefaultCreator;
+import hms.alignment.similarity.EmbeddingSimilarityCalculator;
+import hms.embedding.VectorCombinationMethod;
+import hms.embedding.WordEmbeddingSpace;
 import hms.parser.AnnotatedWord;
 import hms.util.NLPUtil;
 import hms.wikidata.api.WikidataAPI;
@@ -109,9 +112,9 @@ public class PropertyContextCreatorMultiWord extends PropertyContextCreator {
 
 		}
 		if(pattern.equals("n-n-") || pattern.equals("n-n-prop-")){
-//			finalWordList.add(new AnnotatedWord(words[0],"n"));
-//			finalWordList.add(new AnnotatedWord(words[1],"n"));
-			finalWordList.add(new AnnotatedWord(words[0] + "_" + words[1],"n"));
+			finalWordList.add(new AnnotatedWord(words[0],"n"));
+			finalWordList.add(new AnnotatedWord(words[1],"n"));
+//			finalWordList.add(new AnnotatedWord(words[0] + "_" + words[1],"n"));
 		}
 		if(pattern.equals("v-prop-")){
 			finalWordList.add(new AnnotatedWord(words[0],"v"));
@@ -124,10 +127,10 @@ public class PropertyContextCreatorMultiWord extends PropertyContextCreator {
 			finalWordList.add(new AnnotatedWord(words[1],"v"));
 		}
 		if(pattern.equals("a-n-") || pattern.equals("a-n-prop-")){
-//			finalWordList.add(new AnnotatedWord(words[0],"a"));
-//			finalWordList.add(new AnnotatedWord(words[1],"n"));
+			finalWordList.add(new AnnotatedWord(words[0],"a"));
+			finalWordList.add(new AnnotatedWord(words[1],"n"));
 			
-			finalWordList.add(new AnnotatedWord(words[0] + "_" + words[1],"n"));
+//			finalWordList.add(new AnnotatedWord(words[0] + "_" + words[1],"n"));
 		}
 	
 		if(pattern.equals("v-n-prop-")){
@@ -159,17 +162,21 @@ public class PropertyContextCreatorMultiWord extends PropertyContextCreator {
 			finalWordList.add(new AnnotatedWord(words[1],"n"));
 			
 		}
-		System.out.println(text +": " + pattern + "- " + finalWordList);
+//		System.out.println(text +": " + pattern + "- " + finalWordList);
 		return finalWordList;
 	}
 	
 	public static void main(String[] args) {
 		
-		PropertyContextCreatorMultiWord c = new PropertyContextCreatorMultiWord("P69");
+		PropertyContextCreatorEmbeddingMultiWord c = new PropertyContextCreatorEmbeddingMultiWord("P1340");
+		c.setWordEmbeddingSpace(WordEmbeddingSpace.LEVY_DEP);
+		c.setThreshold(0.7);
 		System.out.println(c.createPropertyContext());
 		
-		FrameContextCreator f = new FrameContextDefaultCreator("Kinship");
+		FrameContextCreator f = new FrameContextDefaultCreator("Body_decoration");
 		System.out.println(f.createFrameContext());
 		
+		EmbeddingSimilarityCalculator simM = new EmbeddingSimilarityCalculator(WordEmbeddingSpace.GOOGLE_NEWS, VectorCombinationMethod.ADD);
+		System.out.println(simM.calculateSimilarity(f.createFrameContext(), c.createPropertyContext()));
 	}
 }

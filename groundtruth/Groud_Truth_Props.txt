@@ -1,140 +1,130 @@
 Property ID 	 Property Label 
-P101	field of work
-P102	member of political party
-P1029	crew member
-P1037	manager/director
-P1038	relative
-P1046	discovery method
-P1050	medical condition
-P106	occupation
-P1066	student of
-P1075	rector
-P108	employer
-P1100	number of cylinders
+P941	inspired by
+P1346	winner
 P1104	number of pages
-P1114	quantity
-P1136	solved by
-P114	airline alliance
-P119	place of burial
-P1196	manner of death
-P127	owned by
-P1290	godparent
-P1302	primary destinations
-P131	located in the administrative territorial entity
-P1313	office held by head of government
-P1318	proved by
-P1339	number of injured
-P1340	eye color
-P1342	number of members
+P828	has cause
 P1344	participant of
 P1345	number of victims
-P1346	winner
+P1100	number of cylinders
+P1342	number of members
+P1340	eye color
+P272	production company
 P137	operator
-P1376	capital of
+P931	place served by airport
 P138	named after
-P138	namedafter
-P1399	convicted of
+P495	country of origin
+P1339	number of injured
 P140	religion
-P1416	affiliation
-P1419	shape
-P1444	journey destination
-P1477	birth name
-P1477	birthname
-P1478	has contributing factor
-P1478	has immediate cause
-P1479	has contributing factor
-P1534	end cause
-P1536	immediate cause of
-P1537	contributing factor of
-P1542	cause of
-P1547	depends on
-P1552	has quality
-P157	killed by
-P157	killedby
-P1591	defendant
-P1592	prosecutor
-P1593	defender
-P1595	charge
-P1596	penalty
-P161	cast member
-P162	producer
 P169	chief executive officer
-P17	country
-P170	creator
+P286	head coach
+P607	conflict
+P1444	journey destination
 P175	performer
-P176	manufacturer
-P177	crosses
-P180	depicts
-P1809	choreographer
-P1840	investigated by
-P1884	hair color
-P1884	haircolor
+P170	creator
+P710	participant
+P157	killed by
+P1318	proved by
+P1313	office held by head of government
+P1552	has quality
+P17	country
+P162	producer
+P161	cast member
+P742	pseudonym
 P189	location of discovery
-P1923	participating team
-P1924	vaccine for
-P194	legislative body
-P195	collection
-P1995	medical specialty
+P1029	crew member
+P509	cause of death
+P748	appointed by
 P20	place of death
-P2012	cuisine
-P2043	length
-P2048	height
-P2049	width
-P2052	speed
-P2054	density
-P2079	fabrication method
-P208	executive body
-P209	highest judicial authority
-P210	party chief representative
 P22	father
 P25	mother
 P26	spouse
-P272	production company
-P286	head coach
+P195	collection
+P194	legislative body
+P177	crosses
+P176	manufacturer
+P739	ammunition
 P30	continent
-P35	head of state
+P735	given name
+P1136	solved by
+P734	family name
+P737	influenced by
+P1376	capital of
 P36	capital
+P35	head of state
 P39	position held
+P180	depicts
+P1809	choreographer
+P1924	vaccine for
+P1923	participating team
 P40	child
 P43	stepfather
 P44	stepmother
-P451	cohabitant
-P462	color
-P463	member of
-P463	memberof
-P466	occupant
-P488	chairperson
-P495	country of origin
-P50	author
-P509	cause of death
-P512	academic degree
-P515	phase of matter
-P57	director
-P570	date of death
-P570	dateofdeath
-P58	screenwriter
-P607	conflict
-P61	discoverer or inventor
 P634	captain
-P676	lyrics by
-P69	educated at
-P7	brother
-P710	participant
-P734	family name
-P735	given name
-P737	influenced by
-P739	ammunition
-P742	pseudonym
-P748	appointed by
+P512	academic degree
 P750	distributor
-P770	cause of destruction
+P1478	has immediate cause
+P50	author
+P1479	has contributing factor
+P515	phase of matter
+P1477	birth name
+P1114	quantity
+P1595	charge
+P1596	penalty
+P1593	defender
+P58	screenwriter
+P1591	defendant
+P57	director
+P1592	prosecutor
+P61	discoverer or inventor
+P1066	student of
+P69	educated at
 P790	approved by
-P802	student
+P770	cause of destruction
+P1050	medical condition
+P1290	godparent
+P1840	investigated by
+P209	highest judicial authority
+P208	executive body
+P1046	discovery method
+P2012	cuisine
+P570	date of death
+P676	lyrics by
+P1038	relative
+P1399	convicted of
+P466	occupant
+P106	occupation
+P463	member of
+P462	color
+P102	member of political party
+P101	field of work
+P1547	depends on
+P1302	primary destinations
+P108	employer
+P1542	cause of
+P2079	fabrication method
+P210	party chief representative
+P1419	shape
+P451	cohabitant
+P1416	affiliation
+P1537	contributing factor of
+P1536	immediate cause of
+P1534	end cause
+P488	chairperson
+P127	owned by
 P807	separated from
-P828	has cause
-P9	sister
+P1884	hair color
 P924	medical treatment
-P931	place served by airport
-P931	placeservedbyairport
-P941	inspired by
-P941	inspiredby
+P802	student
+P2054	density
+P2052	speed
+P131	located in the administrative territorial entity
+P114	airline alliance
+P7	brother
+P9	sister
+P1995	medical specialty
+P119	place of burial
+P2048	height
+P2049	width
+P1075	rector
+P1196	manner of death
+P2043	length

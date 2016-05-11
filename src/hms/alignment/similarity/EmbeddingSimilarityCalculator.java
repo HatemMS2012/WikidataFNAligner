@@ -97,17 +97,20 @@ public class EmbeddingSimilarityCalculator extends ContextSimilarityCalculator {
 	
 	
 	public static void main(String[] args) {
-		EmbeddingSimilarityCalculator s = new EmbeddingSimilarityCalculator(WordEmbeddingSpace.LEVY_DEP, VectorCombinationMethod.AVG);
+		EmbeddingSimilarityCalculator s = new EmbeddingSimilarityCalculator(WordEmbeddingSpace.GOOGLE_NEWS, VectorCombinationMethod.AVG);
 		
 		Set<String> s1 = new HashSet<>();
-		s1.add("war");
-		s1.add("love");
+//		[colour.n, color.n, colours.n, colouration.n, coloration.n, eye.n, colors.n, eyes.n]
+//		[body.n, decoration.n, tattoo.n, foundation.n, eyeliner.n, blusher.n, lipstick.n, kohl.n, concealer.n, make-up.n, mascara.n, eyeshadow.n, rouge.n]
+
+		s1.add("colour");
+		s1.add("color");
 		
 		Set<String> s2 = new HashSet<>();
-		s2.add("weapon");
-		s2.add("soldier");
-		s2.add("woman");
-		
+		s2.add("body");
+		s2.add("decoration");
+		s2.add("tattoo");
+//		
 		double sim = s.calculateSimilarity(s1, s2);
 		System.out.println(sim);
 	}

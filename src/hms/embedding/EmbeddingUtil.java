@@ -19,13 +19,13 @@ import de.linguatools.disco.WrongWordspaceTypeException;
 public class EmbeddingUtil {
 
 	//DISCO defaults
-	private static DISCO disco ;
+	private DISCO disco ;
 
 	
 	public EmbeddingUtil(String wordEmbeddingSpace){
 		try {
 			
-			disco = new DISCO(wordEmbeddingSpace.toString(), false);
+			disco = new DISCO(wordEmbeddingSpace, false);
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -184,11 +184,5 @@ public class EmbeddingUtil {
 		
 		return null;
 	}
-	
-	public static void main(String[] args) {
-		EmbeddingUtil eU = new EmbeddingUtil(WordEmbeddingSpace.LEVY_DEP);
-		System.out.println(eU.getEmbeddingSimilarWords("take", 0.6));
-		
-		
-	}
+
 }

@@ -146,6 +146,11 @@ public class PropertyFrameMatcher {
 
 			String frameID = f.getName();
 			
+			if(frameID.equals("Location_of_light")){
+				System.out.println();
+			}
+			
+			
 			FrameContextCreator defaultFrameContextCreator = new FrameContextDefaultCreator(frameID);
 
 			Collection<AnnotatedWord> frameContext = defaultFrameContextCreator.createFrameContext();
@@ -153,7 +158,6 @@ public class PropertyFrameMatcher {
 			double value = embedSim.calculateSimilarity(frameContext, propertyContext);
 			
 			if(value > 0){
-				
 				matchingFrames.put(frameID, value);
 			}
 			
@@ -202,7 +206,7 @@ public class PropertyFrameMatcher {
 ////		
 //		System.out.println(MapUtil.getTopN(matchingFrames,5));
 		double embedThreshold = 0.7;
-		p.paperApproachForAllProps("groundtruth/test_cases_new_v5.csv","results/FramePropertyAlignments/paper_method_"+embedThreshold+"_.txt",5,embedThreshold);
+		p.paperApproachForAllProps("groundtruth/Groud_Truth_Props.txt","results/FramePropertyAlignments/paper_method_"+embedThreshold+"_temp.txt",10,embedThreshold);
 	}
 	
 	public static void main1(String[] args) {
