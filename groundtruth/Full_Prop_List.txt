@@ -1,0 +1,732 @@
+P149	architectural style	
+P144	based on	
+P264	record label	
+P1108	electronegativity	
+P1109	refractive index	
+P1107	proportion	
+P1349	ploidy	
+P1104	number of pages	
+P1346	winner	
+P1347	military casualty classification	
+P1589	deepest point	
+P1102	flattening	
+P1344	participant of	
+P1103	number of platforms	
+P1345	number of victims	
+P1100	number of cylinders	
+P1221	compressor type	
+P1342	number of members	
+P1101	floors above ground	
+P1343	described by source	
+P1340	eye color	
+P1582	natural product of taxon	
+P1462	standards body	
+P272	production company	
+P150	contains administrative territorial entity	
+P137	operator	
+P136	genre	
+P138	named after	
+P375	space launch vehicle	
+P495	country of origin	
+P1339	number of injured	
+P135	movement	
+P134	has dialect	
+P376	located on astronomical body	
+P1458	color index	
+P1215	apparent magnitude	
+P1336	territory claimed by	
+P1457	absolute magnitude	
+P1454	legal form	
+P1455	list of works	
+P1576	lifestyle	
+P1697	total valid votes	
+P1210	supercharger	
+P1211	fuel system	
+P1574	exemplar of	
+P1571	codomain	
+P1570	number of vertices	
+P140	religion	
+P263	official residence	
+P166	award received	
+P287	designer	
+P286	head coach	
+P289	vessel class	
+P167	structure replaced by	
+P1326	latest date	
+P1568	domain	
+P1689	central government debt as a percent of GDP	
+P1327	professional or sports partner	
+P1569	number of edges	
+P1445	fictional universe described in	
+P1446	number of missing	
+P1201	space tug	
+P1322	dual to	
+P1202	carries scientific instrument	
+P1444	journey destination	
+P1441	present in work	
+P1200	bodies of water basin category	
+P1321	place of origin (Switzerland)	
+P1560	given name version for other gender	
+P1561	number of survivors	
+P172	ethnic group	
+P175	performer	
+P171	parent taxon	
+P170	creator	
+P291	place of publication	
+P159	headquarters location	
+P1319	earliest date	
+P155	follows	
+P276	location	
+P397	astronomical body	
+P275	license	
+P1317	floruit	
+P157	killed by	
+P399	companion of	
+P1318	proved by	
+P156	followed by	
+P277	programming language	
+P398	child astronomical body	
+P1436	collection or exhibition size	
+P1557	manifestation of	
+P1678	has vertex figure	
+P1558	tempo marking	
+P1313	office held by head of government	
+P1434	describes the fictional universe	
+P1314	number of spans	
+P1435	heritage status	
+P1677	index case of	
+P1432	b-side	
+P1674	number confirmed	
+P1312	has facet polytope	
+P1433	published in	
+P1672	this taxon is source of	
+P1431	executive producer	
+P1552	has quality	
+P161	cast member	
+P282	writing system	
+P163	flag	
+P189	location of discovery	
+P1029	crew member	
+P2118	Kinematic viscosity	
+P2119	vapor pressure	
+P1027	conferred by	
+P1148	neutron number	
+P2116	Vaporization enthalpy	
+P1028	donated by	
+P2117	Combustion enthalpy	
+P2114	Half-Life	
+P1026	doctoral thesis	
+P1268	represents organisation	
+P1389	product certification	
+P2112	wing area	
+P1145	Lagrangian point	
+P1387	political alignment	
+P2113	sublimation temperature	
+P1142	political ideology	
+P1264	valid in period	
+P1382	coincident with	
+P1141	number of processor cores	
+P1383	contains settlement	
+P195	collection	
+P194	legislative body	
+P197	adjacent station	
+P196	minor planet group	
+P190	sister city	
+P193	main building contractor	
+P177	crosses	
+P176	manufacturer	
+P179	series	
+P2109	power output	
+P178	developer	
+P1018	language regulatory body	
+P1139	floors below ground	
+P2107	decomposition point	
+P1137	fossil found in this unit	
+P2105	size of team at finish	
+P2103	size of team at start	
+P1136	solved by	
+P1012	including	
+P2101	melting point	
+P1013	criterion used	
+P1376	capital of	
+P1373	daily ridership	
+P1132	number of participants	
+P1372	binding of software library	
+P184	doctoral advisor	
+P183	endemic to	
+P186	material used	
+P180	depicts	
+P1128	employees	
+P1249	time of earliest written record	
+P1129	national team caps	
+P1126	isospin quantum number	
+P1247	compression ratio	
+P1127	isospin z-component	
+P1124	TEU	
+P1366	replaced by	
+P1125	Gini coefficient	
+P1001	applies to jurisdiction	
+P1122	spin quantum number	
+P1002	engine configuration	
+P1123	parity	
+P1365	replaces	
+P1120	number of deaths	
+P1000	record held	
+P1121	oxidation state	
+P1363	points/goal scored by	
+P199	business division	
+P1117	pKa	
+P1359	number of points/goals conceded	
+P1478	has immediate cause	
+P1479	has contributing factor	
+P1113	series length	
+P1114	quantity	
+P1598	consecrator	
+P1595	charge	
+P1112	Pokédex number	
+P1596	penalty	
+P1351	number of points/goals scored	
+P1593	defender	
+P1110	attendance	
+P1352	ranking	
+P1594	judge	
+P1470	maximum glide ratio	
+P1591	defendant	
+P1350	number of matches played	
+P1592	prosecutor	
+P1590	number of casualties	
+P1068	instruction set	
+P1066	student of	
+P2031	work period (start)	
+P1064	track gauge	
+P2032	work period (end)	
+P1060	pathogen transmission process	
+P1181	numeric value	
+P1056	product	
+P1057	chromosome	
+P1299	depicted by	
+P1174	visitors per year	
+P1295	emissivity	
+P2021	Erdős number	
+P1050	medical condition	
+P1171	approximation algorithm	
+P1290	godparent	
+P1170	transmitted signal	
+P1049	deity of	
+P1046	discovery method	
+P1164	cardinality of the group	
+P1165	home world	
+P2012	cuisine	
+P1041	sockets supported	
+P1283	filmography	
+P1040	film editor	
+P1038	relative	
+P1399	convicted of	
+P1037	manager/director	
+P1158	location of landing	
+P1279	inflation rate	
+P1034	main food source	
+P1035	honorific suffix	
+P1398	replaced by structure	
+P1032	Digital Rights Management system	
+P1033	GHS signal word	
+P1151	topic's main Wikimedia portal	
+P1393	proxy	
+P2120	radius	
+P2079	fabrication method	
+P2075	speed of sound	
+P2076	temperature	
+P2073	range	
+P908	PEGI rating	
+P2068	thermal conductivity	
+P2069	magnetic moment	
+P1098	number of speakers	
+P2066	fusion enthalpy	
+P1099	number of masts	
+P2067	mass	
+P1096	orbital eccentricity	
+P1097	g-factor	
+P1092	total produced	
+P1093	gross tonnage	
+P2061	aspect ratio	
+P1090	redshift	
+P805	subject of	
+P926	postsynaptic connection	
+P925	presynaptic connection	
+P807	separated from	
+P928	activating neurotransmitter	
+P927	anatomical location	
+P922	magnetic ordering	
+P800	notable work	
+P921	main subject	
+P803	professorship	
+P924	medical treatment	
+P2058	depositor	
+P802	student	
+P923	medical examinations	
+P1087	ELO rating	
+P2055	electrical conductivity	
+P1088	Mohs' hardness	
+P2056	heat capacity	
+P2053	watershed area	
+P1086	atomic number	
+P2054	density	
+P1083	capacity	
+P2051	M sin i	
+P2052	speed	
+P1081	Human Development Index	
+P1082	population	
+P2050	wingspan	
+P1080	from fictional universe	
+P6	head of government	
+P7	brother	
+P915	filming location	
+P9	sister	
+P914	USK rating	
+P916	GSRR rating	
+P2048	height	
+P2049	width	
+P1078	valvetrain configuration	
+P1199	mode of inheritance	
+P2046	area	
+P913	notation	
+P1079	launch contractor	
+P2047	running time	
+P912	has facility	
+P2044	elevation above sea level	
+P1198	unemployment rate	
+P2045	orbital inclination	
+P1074	fictional analog of	
+P1075	rector	
+P1196	manner of death	
+P2043	length	
+P1072	readable file format	
+P1193	prevalence	
+P1073	writable file format	
+P1194	received signal	
+P1191	first performance	
+P1071	location of final assembly	
+P1192	connecting service	
+P1906	office held by head of state	
+P942	theme music	
+P941	inspired by	
+P1903	Volcanic explosivity index	
+P706	located on terrain feature	
+P826	tonality	
+P708	diocese	
+P707	satellite bus	
+P828	has cause	
+P702	encoded by	
+P823	speaker	
+P944	Code of nomenclature	
+P822	mascot	
+P943	programmer	
+P825	dedicated to	
+P703	found in taxon	
+P945	allegiance	
+P931	place served by airport	
+P930	type of electrification	
+P816	decays to	
+P937	work location	
+P817	decay mode	
+P812	academic major	
+P811	academic minor	
+P813	retrieved	
+P720	asteroid spectral type	
+P841	feast day	
+P840	narrative location	
+P607	conflict	
+P606	first flight	
+P609	terminus location	
+P608	exhibition history	
+P729	service entry	
+P726	candidate	
+P725	voice actor	
+P967	guest of honor	
+P2097	term length of office	
+P2098	substitute/deputy/replacement of office/officeholder	
+P2095	co-driver	
+P2094	qualifies for	
+P832	public holiday	
+P710	participant	
+P831	parent club	
+P837	day in year for periodic occurrence	
+P834	train depot	
+P833	interchange station	
+P17	country	
+P19	place of birth	
+P500	exclave of	
+P621	time of spacecraft orbit decay	
+P620	time of spacecraft landing	
+P741	playing hand	
+P744	asteroid family	
+P501	enclave within	
+P622	spacecraft docking/undocking	
+P1704	pollenizer	
+P740	location of formation	
+P1703	pollination	
+P629	edition or translation of	
+P749	parent company	
+P509	cause of death	
+P504	home port	
+P746	date of disappearance	
+P624	guidance system	
+P21	sex or gender	
+P748	appointed by	
+P20	place of death	
+P505	general manager	
+P747	edition(s)	
+P868	foods traditionally associated	
+P22	father	
+P25	mother	
+P26	spouse	
+P610	highest point	
+P730	service retirement	
+P972	catalog	
+P612	mother house	
+P1817	addressee	
+P611	religious order	
+P853	CERO rating	
+P974	tributary	
+P971	category combines topics	
+P970	neurological function	
+P618	source of energy	
+P739	ammunition	
+P1811	list of episodes	
+P738	(OBSOLETE) influence of	
+P859	sponsor	
+P619	time of spacecraft launch	
+P30	continent	
+P735	given name	
+P734	family name	
+P737	influenced by	
+P736	cover artist	
+P36	capital	
+P35	head of state	
+P38	currency	
+P37	official language	
+P39	position held	
+P1809	choreographer	
+P522	type of orbit	
+P885	origin of the watercourse	
+P400	platform	
+P521	scheduled service destination	
+P403	mouth of the watercourse	
+P524	temporal range end	
+P887	based on heuristic	
+P523	temporal range start	
+P765	surface played on	
+P1924	vaccine for	
+P881	type of variable star	
+P880	CPU	
+P520	armament	
+P641	sport	
+P1923	participating team	
+P408	software engine	
+P647	drafted by	
+P768	electoral district	
+P40	child	
+P404	game mode	
+P767	contributor	
+P407	language of work (or name)	
+P43	stepfather	
+P406	soundtrack album	
+P527	has part	
+P769	significant drug interaction	
+P44	stepmother	
+P47	shares border with	
+P1917	posttranslational modification association with	
+P511	honorific prefix	
+P1918	altered regulation leads to	
+P631	structural engineer	
+P873	phase point	
+P1915	gene inversion association with	
+P634	captain	
+P1916	gene substitution association with	
+P512	academic degree	
+P1913	gene duplication association with	
+P870	instrumentation	
+P991	successful candidate	
+P1914	gene insertion association with	
+P1911	increased expression in	
+P751	introduced feature	
+P872	printed by	
+P1912	deletion association with	
+P750	distributor	
+P1910	decreased expression in	
+P518	applies to part	
+P50	author	
+P515	phase of matter	
+P636	route of administration	
+P878	avionics	
+P514	interleaves with	
+P756	removed feature	
+P517	interaction	
+P54	member of sports team	
+P516	powerplant	
+P53	noble family	
+P58	screenwriter	
+P57	director	
+P59	constellation	
+P1909	side effect	
+P423	shooting handedness	
+P786	stipe character	
+P301	category's main topic	
+P543	oath made by	
+P664	organizer	
+P785	hymenium attachment	
+P425	field of this profession	
+P546	docking port	
+P788	mushroom ecological type	
+P545	torch lit by	
+P787	spore print color	
+P660	EC classification	
+P1625	has melody	
+P1867	eligible voters	
+P421	located in time zone	
+P542	officially opened by	
+P784	mushroom cap shape	
+P1868	ballots cast	
+P541	office contested	
+P783	hymenium type	
+P61	discoverer or inventor	
+P1622	drives on the	
+P1740	category for films shot at this location	
+P306	operating system	
+P427	taxonomic type	
+P669	located on street	
+P1620	plaintiff	
+P547	commemorates	
+P789	edibility	
+P65	site of astronomical discovery	
+P1981	FSK film rating	
+P66	ancestral home	
+P69	educated at	
+P790	approved by	
+P412	voice type	
+P533	target	
+P411	canonization status	
+P532	port of registry	
+P414	stock exchange	
+P1619	date of official opening	
+P413	position played on team / speciality	
+P534	streak color	
+P655	translator	
+P770	cause of destruction	
+P410	military rank	
+P530	diplomatic relation	
+P1731	Fach	
+P1853	blood type	
+P1971	number of children	
+P537	twinning	
+P658	tracklist	
+P1851	input set	
+P415	radio format	
+P418	seal description	
+P417	patron saint	
+P538	fracturing	
+P659	GenLoc assembly	
+P78	top-level domain	
+P780	symptoms	
+P566	basionym	
+P565	crystal habit	
+P205	basin country	
+P447	score by	
+P568	footwall	
+P689	afflicts	
+P567	hangingwall	
+P688	encodes	
+P1605	has natural reservoir	
+P562	central bank/issuer	
+P1606	natural reservoir of	
+P682	biological process	
+P1603	number of cases	
+P201	lake outflow	
+P1604	biosafety level	
+P1725	beats per minute	
+P200	lake inflows	
+P684	ortholog	
+P81	connecting line	
+P1962	patron	
+P449	original network	
+P85	anthem	
+P1840	investigated by	
+P206	located next to body of water	
+P448	location of spacecraft launch	
+P569	date of birth	
+P84	architect	
+P209	highest judicial authority	
+P87	librettist	
+P208	executive body	
+P86	composer	
+P88	commissioned by	
+P690	space group	
+P450	astronaut mission	
+P571	inception	
+P570	date of death	
+P676	lyrics by	
+P797	executive authority	
+P796	geo datum	
+P556	crystal system	
+P551	residence	
+P793	significant event	
+P1716	brand	
+P550	chivalric order	
+P553	website account on	
+P674	characters	
+P1956	takeoff and landing capability	
+P552	handedness	
+P92	main regulatory text	
+P1833	number of registered users/contributors	
+P91	sexual orientation	
+P1830	owner of	
+P1951	investor	
+P1831	electorate	
+P559	terminus	
+P1950	second surname in Spanish name	
+P437	distribution	
+P98	editor	
+P97	noble title	
+P681	cell component	
+P680	molecular function	
+P467	legislated by	
+P588	coolant	
+P103	native language	
+P466	occupant	
+P106	occupation	
+P469	lakes on river	
+P105	taxon rank	
+P468	dan/kyu rank	
+P589	point group	
+P1308	officeholder	
+P1429	pet	
+P463	member of	
+P462	color	
+P102	member of political party	
+P1427	journey origin	
+P1548	maximum Strahler number	
+P344	director of photography	
+P101	field of work	
+P585	point in time	
+P1304	central bank	
+P1425	ecoregion (WWF)	
+P1546	motto	
+P1547	depends on	
+P1789	chief operating officer	
+P1302	primary destinations	
+P1423	template's main topic	
+P1303	instrument	
+P1424	topic's main template	
+P108	employer	
+P1542	cause of	
+P1301	number of elevators	
+P1540	male population	
+P1661	Alexa rank	
+P1420	taxon synonym	
+P1660	has index case	
+P470	Eight Banner register	
+P577	publication date	
+P576	dissolved or abolished	
+P579	IMA status and/or rank	
+P457	foundational text	
+P578	Sandbox-TimeValue	
+P1418	orbits completed	
+P1539	female population	
+P210	party chief representative	
+P452	industry	
+P694	replaced synonym (for nom. nov.)	
+P1419	shape	
+P451	cohabitant	
+P693	cleavage	
+P1416	affiliation	
+P1537	contributing factor of	
+P1658	number of faces	
+P1779	possible creator	
+P575	time of discovery	
+P1538	number of households	
+P453	character role	
+P574	date of taxon name publication	
+P1414	GUI toolkit or framework	
+P1535	used by	
+P1656	unveiled by	
+P1536	immediate cause of	
+P1657	MPAA film rating	
+P1412	languages spoken or published	
+P1533	family name identical to this first name	
+P1654	wing configuration	
+P1775	follower of	
+P1534	end cause	
+P1410	number of seats in legislature	
+P1531	parent(s) of this hybrid	
+P1652	referee	
+P1773	attributed to	
+P1411	nominated for	
+P1532	country for sport	
+P1774	workshop of	
+P459	determination method	
+P1891	signatory	
+P580	start time	
+P461	opposite of	
+P582	end time	
+P460	said to be the same as	
+P126	maintained by	
+P489	currency symbol description	
+P488	chairperson	
+P128	regulates (molecular biology)	
+P127	owned by	
+P248	stated in	
+P369	Sandbox-Item	
+P122	basic form of government	
+P364	original language of work	
+P485	archives at	
+P121	item operated	
+P1408	licensed to broadcast to	
+P1889	different from	
+P366	use	
+P123	publisher	
+P1406	script directionality	
+P1403	original combination	
+P1887	vice-county	
+P1885	cathedral	
+P1641	port	
+P129	physically interacts with	
+P1884	hair color	
+P1881	list of characters	
+P1640	curator	
+P1880	measured by	
+P371	presenter	
+P131	located in the administrative territorial entity	
+P115	home venue	
+P114	airline alliance	
+P598	commander of	
+P237	coat of arms	
+P358	discography	
+P479	input device	
+P111	measured physical quantity	
+P110	illustrator	
+P1639	pendant of	
+P113	airline hub	
+P1636	date of baptism in early childhood	
+P1878	Vox-ATypI classification	
+P1999	UNESCO language status	
+P355	subsidiaries	
+P112	founder	
+P1637	undercarriage	
+P1876	spacecraft	
+P1877	after a work by	
+P1753	list related to category	
+P1995	medical specialty	
+P1754	category related to list	
+P1875	represented by	
+P119	place of burial	
+P1872	minimum number of players	
+P118	league	
+P1752	scale	
+P1873	maximum number of players	
+P1750	name day	
+P1990	species kept	
+P360	is a list of	
+P241	military branch	
+P483	recorded at	
+P361	part ofP703	found in taxon
+P361	part of	

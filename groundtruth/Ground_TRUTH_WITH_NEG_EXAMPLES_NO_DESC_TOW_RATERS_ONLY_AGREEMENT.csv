@@ -1,0 +1,784 @@
+Property ID , Property Label , Matching Frame ,sum ratings
+P101,field of work,Institutions,0
+P101,field of work,Craft,0
+P101,field of work,Importance,0
+P101,field of work,Being_employed,1
+P101,field of work,Research,1
+P101,field of work,Fields,1
+P102,member of political party,Aggregate,0
+P102,member of political party,Being_obligated,0
+P102,member of political party,Proper_reference,0
+P102,member of political party,Renunciation,0
+P102,member of political party,Social_event,0
+P102,member of political party,Imposing_obligation,0
+P102,member of political party,Membership,1
+P102,member of political party,Alliance,1
+P102,member of political party,People_along_political_spectrum,1
+P1029,crew member,Aggregate,0
+P1029,crew member,Alliance,0
+P1029,crew member,Increment,0
+P1029,crew member,Ordinal_numbers,0
+P1029,crew member,Disembarking,0
+P1029,crew member,Board_vehicle,0
+P1029,crew member,Operate_vehicle,1
+P1029,crew member,People_by_vocation,1
+P1037,manager/director,Behind_the_scenes,0
+P1037,manager/director,Membership,0
+P1037,manager/director,Leadership,1
+P1037,manager/director,People_by_vocation,1
+P1038,relative,Aggregate,0
+P1038,relative,Membership,0
+P1038,relative,Alliance,0
+P1038,relative,Increment,0
+P1038,relative,Leadership,0
+P1038,relative,People_by_vocation,0
+P1038,relative,People_by_residence,0
+P1038,relative,Kinship,1
+P1038,relative,Personal_relationship,1
+P1046,discovery method,Gizmo,0
+P1046,discovery method,Artifact,0
+P1046,discovery method,Craft,0
+P1046,discovery method,Achieving_first,1
+P1046,discovery method,Research,1
+P1050,medical condition,Influence_of_event_on_cognizer,0
+P1050,medical condition,Compatibility,0
+P1050,medical condition,Being_obligatory,0
+P1050,medical condition,Being_obligated,0
+P1050,medical condition,Medical_specialties,0
+P1050,medical condition,Medical_conditions,1
+P1050,medical condition,State_of_entity,1
+P1050,medical condition,Institutionalization,1
+P1050,medical condition,Cure,1
+P106,occupation,Unemployment_rate,0
+P106,occupation,Being_employed,1
+P106,occupation,Employment_scenario,1
+P106,occupation,Being_obligated,1
+P106,occupation,Employing,1
+P106,occupation,Get_a_job,1
+P106,occupation,Employment_start,1
+P106,occupation,Fields,1
+P1066,student of,Medical_professionals,0
+P1066,student of,Education_teaching,1
+P1066,student of,Studying,1
+P1066,student of,People_by_vocation,1
+P1075,rector,Medical_professionals,0
+P1075,rector,Rite,0
+P1075,rector,Leadership,1
+P1075,rector,People_by_vocation,1
+P108,employer,Being_employed,1
+P108,employer,Employing,1
+P108,employer,Get_a_job,1
+P108,employer,Employment_scenario,1
+P108,employer,Employment_continue,1
+P1100,number of cylinders,Familiarity,0
+P1100,number of cylinders,Adding_up,0
+P1100,number of cylinders,Gizmo,0
+P1100,number of cylinders,Fluidic_motion,0
+P1100,number of cylinders,Connectors,0
+P1100,number of cylinders,Cardinal_numbers,0
+P1100,number of cylinders,Quantity,1
+P1104,number of pages,Familiarity,0
+P1104,number of pages,Reliance_on_expectation,0
+P1104,number of pages,Contacting,0
+P1104,number of pages,Mass_motion,0
+P1104,number of pages,Cardinal_numbers,0
+P1104,number of pages,Quantity,1
+P1114,quantity,Adding_up,0
+P1114,quantity,Familiarity,0
+P1114,quantity,Similarity,0
+P1114,quantity,Amounting_to,0
+P1114,quantity,Quantity,1
+P1114,quantity,Measure_by_action,1
+P1136,solved by,Process_continue,0
+P1136,solved by,Preventing,0
+P1136,solved by,Eventive_affecting,0
+P1136,solved by,Coming_to_be,0
+P1136,solved by,Resolve_problem,1
+P114,airline alliance,Be_in_agreement_on_action,1
+P114,airline alliance,Make_agreement_on_action,1
+P114,airline alliance,Alliance,1
+P114,airline alliance,Organization,1
+P114,airline alliance,Collaboration,1
+P119,place of burial,Buildings,0
+P119,place of burial,Dead_or_alive,0
+P119,place of burial,Rite,0
+P119,place of burial,Preserving,0
+P119,place of burial,Residence,0
+P119,place of burial,Cause_to_move_in_place,0
+P119,place of burial,Moving_in_place,0
+P119,place of burial,Indigenous_origin,0
+P119,place of burial,Quitting_a_place,0
+P119,place of burial,Death,1
+P1196,manner of death,Conduct,0
+P1196,manner of death,Biological_area,0
+P1196,manner of death,Rashness,0
+P1196,manner of death,People_by_morality,0
+P1196,manner of death,Mental_property,0
+P1196,manner of death,Death,1
+P127,owned by,Coming_to_be,0
+P127,owned by,Cause_to_end,0
+P127,owned by,Being_obligated,0
+P127,owned by,Required_event,0
+P127,owned by,Renting,0
+P127,owned by,Possession,1
+P1290,godparent,Leadership,0
+P1290,godparent,People_by_residence,0
+P1290,godparent,People_by_age,0
+P1290,godparent,Kinship,1
+P1302,primary destinations,First_rank,0
+P1302,primary destinations,Relational_natural_features,0
+P1302,primary destinations,Setting_out,0
+P1302,primary destinations,Locale,0
+P1302,primary destinations,Ride_vehicle,1
+P131,located in the administrative territorial entity,Measure_area,0
+P131,located in the administrative territorial entity,Have_as_requirement,0
+P131,located in the administrative territorial entity,Biological_urge,0
+P131,located in the administrative territorial entity,Isolated_places,0
+P131,located in the administrative territorial entity,Biological_area,0
+P131,located in the administrative territorial entity,Political_locales,1
+P1313,office held by head of government,Existence,0
+P1313,office held by head of government,Cause_change_of_position_on_a_scale,0
+P1313,office held by head of government,Replacing,0
+P1313,office held by head of government,Arranging,0
+P1313,office held by head of government,Leadership,1
+P1318,proved by,Obviousness,0
+P1318,proved by,Statement,0
+P1318,proved by,Reasoning,1
+P1318,proved by,Evidence,1
+P1318,proved by,Coming_to_believe,1
+P1339,number of injured,Make_noise,0
+P1339,number of injured,Familiarity,0
+P1339,number of injured,Corporal_punishment,0
+P1339,number of injured,Observable_bodyparts,0
+P1339,number of injured,Perception_body,0
+P1339,number of injured,Proliferating_in_number,1
+P1339,number of injured,Quantity,1
+P1339,number of injured,Experience_bodily_harm,1
+P1340,eye color,Be_in_agreement_on_assessment,0
+P1340,eye color,People_by_vocation,0
+P1340,eye color,Shaped_part,0
+P1340,eye color,Light_movement,0
+P1340,eye color,Clothing_parts,0
+P1340,eye color,Body_mark,1
+P1340,eye color,Color,1
+P1340,eye color,Observable_bodyparts,1
+P1342,number of members,Measure_by_action,0
+P1342,number of members,Familiarity,0
+P1342,number of members,Undergo_change,0
+P1342,number of members,Mass_motion,0
+P1342,number of members,Scarcity,0
+P1342,number of members,Quantity,1
+P1342,number of members,Aggregate,1
+P1344,participant of,Education_teaching,0
+P1344,participant of,Experience_bodily_harm,0
+P1344,participant of,Part_edge,0
+P1344,participant of,Process_stopped_state,0
+P1344,participant of,Post_giving,0
+P1344,participant of,Bragging,0
+P1344,participant of,Pre_giving,0
+P1344,participant of,Performers_and_roles,0
+P1344,participant of,Participation,1
+P1345,number of victims,Familiarity,0
+P1345,number of victims,People_by_morality,0
+P1345,number of victims,Clemency,0
+P1345,number of victims,Abusing,0
+P1345,number of victims,Cardinal_numbers,0
+P1345,number of victims,Quantity,1
+P1345,number of victims,Aggregate,1
+P1346,winner,Lose_possession,0
+P1346,winner,Behind_the_scenes,0
+P1346,winner,Ordinal_numbers,0
+P1346,winner,Finish_competition,1
+P1346,winner,Competition,1
+P137,operator,Suitability,0
+P137,operator,Compatibility,0
+P137,operator,Economy,0
+P137,operator,Renting,0
+P137,operator,Commerce_scenario,0
+P137,operator,Operating_a_system,1
+P137,operator,Using,1
+P1376,capital of,Severity_of_offense,0
+P1376,capital of,Clothing_parts,0
+P1376,capital of,Ratification,0
+P1376,capital of,Leadership,0
+P1376,capital of,Change_of_leadership,0
+P1376,capital of,People_along_political_spectrum,0
+P1376,capital of,Money,0
+P1376,capital of,Political_locales,1
+P138,named after,Word_relations,0
+P138,named after,Linguistic_meaning,0
+P138,namedafter,Being_named,1
+P138,named after,Namesake,1
+P138,named after,Name_conferral,1
+P1399,convicted of,Arraignment,1
+P1399,convicted of,Notification_of_charges,1
+P1399,convicted of,Offenses,1
+P1399,convicted of,Verdict,1
+P140,religion,Biological_area,0
+P140,religion,Posture,0
+P140,religion,Social_connection,0
+P140,religion,Strictness,0
+P140,religion,Proper_reference,0
+P140,religion,People_by_religion,1
+P1416,affiliation,Cognitive_connection,0
+P1416,affiliation,Collaboration,0
+P1416,affiliation,Organization,1
+P1416,affiliation,Membership,1
+P1419,shape,Cause_to_move_in_place,0
+P1419,shape,Moving_in_place,0
+P1419,shape,Coming_to_be,0
+P1419,shape,Distinctiveness,1
+P1419,shape,Shapes,1
+P1444,journey destination,Piracy,0
+P1444,journey destination,Cause_change_of_position_on_a_scale,0
+P1444,journey destination,Coming_to_be,0
+P1444,journey destination,Cause_to_end,0
+P1444,journey destination,Process_end,0
+P1444,journey destination,Travel,1
+P1444,journey destination,Traversing,1
+P1444,journey destination,Arriving,1
+P1444,journey destination,Ride_vehicle,1
+P1477,birth name,Topic,0
+P1477,birth name,Medical_conditions,0
+P1477,birth name,Fullness,0
+P1477,birth name,Calendric_unit,0
+P1477,birth name,Personal_relationship,0
+P1477,birth name,Body_description_part,0
+P1477,birthname,Being_named,1
+P1477,birthname,Name_conferral,1
+P1478,has contributing factor,Cause_to_move_in_place,0
+P1478,has contributing factor,Cause_to_make_noise,0
+P1478,has immediate cause,Health_response,0
+P1478,has contributing factor,Causation,1
+P1478,has contributing factor,Cause_to_start,1
+P1479,has contributing factor,Personal_relationship,0
+P1479,has contributing factor,Measurable_attributes,0
+P1479,has contributing factor,Objective_influence,1
+P1479,has contributing factor,Importance,1
+P1479,has contributing factor,Causation,1
+P1479,has contributing factor,Sign,1
+P1534,end cause,Cause_change_of_position_on_a_scale,0
+P1534,end cause,Piracy,0
+P1534,end cause,Cause_to_make_noise,0
+P1534,end cause,Cause_to_start,0
+P1534,end cause,Endangering,0
+P1534,end cause,Coming_to_be,0
+P1534,end cause,Causation,1
+P1534,end cause,Cause_to_end,1
+P1536,immediate cause of,Hindering,0
+P1536,immediate cause of,Coming_to_be,0
+P1536,immediate cause of,Endangering,0
+P1536,immediate cause of,Causation,1
+P1536,immediate cause of,Cause_to_start,1
+P1537,contributing factor of,Ingredients,0
+P1537,contributing factor of,Causation,1
+P1542,cause of,Rashness,0
+P1542,cause of,Health_response,0
+P1542,cause of,Causation,1
+P1542,cause of,Objective_influence,1
+P1547,depends on,Reliance_on_expectation,1
+P1547,depends on,Reliance,1
+P1547,depends on,Contingency,1
+P1547,depends on,Objective_influence,1
+P1552,has quality,Desirability,0
+P1552,has quality,Undergo_change,0
+P1552,has quality,Being_in_effect,0
+P1552,has quality,Extreme_value,0
+P1552,has quality,Possession,0
+P1552,has quality,Attributes,1
+P1552,has quality,Idiosyncrasy,1
+P1552,has quality,Distinctiveness,1
+P1552,has quality,Gradable_attributes,1
+P1552,has quality,Measurable_attributes,1
+P157,killed by,Robbery,0
+P157,killed by,Kidnapping,0
+P157,killed by,Rape,0
+P157,killed by,Dead_or_alive,0
+P157,killedby,Execution,1
+P157,killedby,Killing,1
+P1591,defendant,Appeal,1
+P1591,defendant,Want_suspect,1
+P1591,defendant,Try_defendant,1
+P1591,defendant,Criminal_process,1
+P1591,defendant,Trial,1
+P1591,defendant,Arraignment,1
+P1592,prosecutor,Institutions,0
+P1592,prosecutor,Secrecy_status,0
+P1592,prosecutor,Extradition,0
+P1592,prosecutor,Public_services,0
+P1592,prosecutor,Trial,1
+P1592,prosecutor,Try_defendant,1
+P1592,prosecutor,Arraignment,1
+P1592,prosecutor,Notification_of_charges,1
+P1592,prosecutor,People_by_vocation,1
+P1593,defender,Attempting_scenario,0
+P1593,defender,Finish_competition,0
+P1593,defender,Lose_possession,0
+P1593,defender,People_by_vocation,0
+P1593,defender,Criminal_process,1
+P1593,defender,Trial,1
+P1593,defender,Defend,1
+P1595,charge,Want_suspect,1
+P1595,charge,Suspicion,1
+P1595,charge,Notification_of_charges,1
+P1595,charge,Offenses,1
+P1595,charge,Arraignment,1
+P1595,charge,Verdict,1
+P1595,charge,Criminal_process,1
+P1596,penalty,Revenge,0
+P1596,penalty,Fining,1
+P1596,penalty,Pardon,1
+P1596,penalty,Commutation,1
+P1596,penalty,Rewards_and_punishments,1
+P1596,penalty,Sentencing,1
+P1596,penalty,Imprisonment,1
+P161,cast member,Prominence,0
+P161,cast member,Encoding,0
+P161,cast member,Observable_bodyparts,0
+P161,cast member,Text,0
+P161,cast member,Personal_relationship,0
+P161,cast member,Performers,1
+P161,cast member,Behind_the_scenes,1
+P161,cast member,Performers_and_roles,1
+P162,producer,Adorning,0
+P162,producer,Summarizing,0
+P162,producer,Text,0
+P162,producer,Cause_to_move_in_place,0
+P162,producer,Motion_directional,0
+P162,producer,Cause_fluidic_motion,0
+P162,producer,Behind_the_scenes,1
+P169,chief executive officer,Notification_of_charges,0
+P169,chief executive officer,Medical_professionals,0
+P169,chief executive officer,Commutation,0
+P169,chief executive officer,Employing,0
+P169,chief executive officer,Leadership,1
+P169,chief executive officer,Subordinates_and_Superiors,1
+P169,chief executive officer,People_by_vocation,1
+P17,country,Being_dry,0
+P17,country,Convey_importance,0
+P17,country,Intoxication,0
+P17,country,Military,0
+P17,country,Political_locales,1
+P17,country,Foreign_or_domestic_country,1
+P170,creator,Purpose,0
+P170,creator,Linguistic_meaning,0
+P170,creator,People_by_vocation,0
+P170,creator,Achieving_first,0
+P170,creator,Physical_artworks,1
+P170,creator,Create_physical_artwork,1
+P170,creator,Create_representation,1
+P175,performer,Aggregate,0
+P175,performer,Congregating,0
+P175,performer,Left_to_do,0
+P175,performer,Gathering_up,0
+P175,performer,Quarreling,0
+P175,performer,Text,0
+P175,performer,Noise_makers,0
+P175,performer,Behind_the_scenes,1
+P175,performer,Performing_arts,1
+P175,performer,Performers,1
+P176,manufacturer,Behind_the_scenes,0
+P176,manufacturer,Cause_to_make_noise,0
+P176,manufacturer,Noise_makers,0
+P176,manufacturer,Commerce_sell,0
+P176,manufacturer,Commerce_scenario,0
+P176,manufacturer,Commerce_goods-transfer,0
+P176,manufacturer,Intentionally_create,1
+P176,manufacturer,Manufacturing,1
+P177,crosses,Natural_features,0
+P177,crosses,Part_orientational,0
+P177,crosses,Roadways,1
+P180,depicts,Text,0
+P180,depicts,Adorning,0
+P180,depicts,Physical_artworks,1
+P180,depicts,Create_representation,1
+P180,depicts,Create_physical_artwork,1
+P1809,choreographer,Text,0
+P1809,choreographer,Medical_professionals,0
+P1809,choreographer,People_by_vocation,1
+P1809,choreographer,Performing_arts,1
+P1809,choreographer,Performers,1
+P1840,investigated by,Cognitive_connection,0
+P1840,investigated by,Scrutiny,1
+P1840,investigated by,Inspecting,1
+P1840,investigated by,Criminal_investigation,1
+P1884,hair color,Subject_stimulus,0
+P1884,hair color,Body_decoration,1
+P1884,haircolor,Color,1
+P1884,haircolor,Hair_configuration,1
+P1884,hair color,Observable_bodyparts,1
+P189,location of discovery,Cause_to_move_in_place,0
+P189,location of discovery,Hiding_objects,0
+P189,location of discovery,Moving_in_place,0
+P189,location of discovery,Quitting_a_place,0
+P189,location of discovery,Artifact,0
+P189,location of discovery,Locale_by_use,0
+P189,location of discovery,Becoming_aware,0
+P189,location of discovery,Achieving_first,1
+P189,location of discovery,Indigenous_origin,1
+P1923,participating team,Aggregate,0
+P1923,participating team,Activity_start,0
+P1923,participating team,Intentionally_act,0
+P1923,participating team,Competition,1
+P1923,participating team,Participation,1
+P1924,vaccine for,Have_as_translation_equivalent,0
+P1924,vaccine for,Hit_target,0
+P1924,vaccine for,Exchange_currency,0
+P1924,vaccine for,Purpose,0
+P1924,vaccine for,Toxic_substance,0
+P1924,vaccine for,Medical_specialties,0
+P1924,vaccine for,Cure,1
+P194,legislative body,Aggregate,0
+P194,legislative body,Locale_by_use,0
+P194,legislative body,Experience_bodily_harm,0
+P194,legislative body,Body_movement,0
+P194,legislative body,Political_locales,0
+P194,legislative body,Ratification,0
+P194,legislative body,Leadership,0
+P194,legislative body,Judicial_body,1
+P195,collection,Part_edge,0
+P195,collection,Part_ordered_segments,0
+P195,collection,Shaped_part,0
+P195,collection,Rest,0
+P195,collection,Text,0
+P195,collection,Performing_arts,0
+P195,collection,Craft,0
+P195,collection,Physical_artworks,1
+P1995,medical specialty,Medical_instruments,0
+P1995,medical specialty,Cure,0
+P1995,medical specialty,Medical_specialties,1
+P1995,medical specialty,Medical_professionals,1
+P20,place of death,Indigenous_origin,0
+P20,place of death,Quitting_a_place,0
+P20,place of death,Placing,0
+P20,place of death,Departing,0
+P20,place of death,Cause_to_move_in_place,0
+P20,place of death,Moving_in_place,0
+P20,place of death,Killing,0
+P20,place of death,Dead_or_alive,0
+P20,place of death,Death,1
+P2012,cuisine,Chemical-sense_description,0
+P2012,cuisine,Cooking_creation,1
+P2012,cuisine,Food,1
+P2043,length,Age,0
+P2043,length,Spanning_values,0
+P2043,length,Dimension,1
+P2048,height,Biological_area,0
+P2048,height,Natural_features,0
+P2048,height,Dimension,1
+P2049,width,Beyond_compare,0
+P2049,width,Dimension,1
+P2052,speed,Intoxicants,0
+P2052,speed,Sharpness,0
+P2052,speed,Dimension,0
+P2052,speed,Taking_time,0
+P2052,speed,Measurable_attributes,1
+P2052,speed,Speed,1
+P2054,density,Motion_directional,0
+P2054,density,Change_of_phase,0
+P2054,density,Dimension,0
+P2054,density,Emitting,0
+P2054,density,Measurable_attributes,1
+P2079,fabrication method,Criminal_investigation,0
+P2079,fabrication method,Cause_to_resume,0
+P2079,fabrication method,Artifact,0
+P2079,fabrication method,Craft,0
+P2079,fabrication method,Manufacturing,1
+P2079,fabrication method,Processing_materials,1
+P208,executive body,Experience_bodily_harm,0
+P208,executive body,Body_movement,0
+P208,executive body,Aggregate,0
+P208,executive body,Change_posture,0
+P208,executive body,Breathing,0
+P208,executive body,Observable_bodyparts,0
+P208,executive body,Shaped_part,0
+P208,executive body,Medical_instruments,0
+P208,executive body,Containers,0
+P208,executive body,Judicial_body,1
+P209,highest judicial authority,Imprisonment,0
+P209,highest judicial authority,Detaining,0
+P209,highest judicial authority,Judicial_body,1
+P210,party chief representative,Aggregate,0
+P210,party chief representative,Being_obligatory,0
+P210,party chief representative,Fairness_evaluation,0
+P210,party chief representative,Being_obligated,0
+P210,party chief representative,Ratification,0
+P210,party chief representative,Assistance,0
+P210,party chief representative,Leadership,1
+P210,party chief representative,People_along_political_spectrum,1
+P22,father,People_by_age,0
+P22,father,Difficulty,0
+P22,father,Attention_getting,0
+P22,father,Kinship,1
+P25,mother,People_by_age,0
+P25,mother,Volubility,0
+P25,mother,Kinship,1
+P26,spouse,Coming_to_be,0
+P26,spouse,Cause_to_end,0
+P26,spouse,Required_event,0
+P26,spouse,People_by_vocation,0
+P26,spouse,People_by_residence,0
+P26,spouse,Being_obligated,0
+P26,spouse,Personal_relationship,1
+P26,spouse,Kinship,1
+P26,spouse,Forming_relationships,1
+P272,production company,Buildings,0
+P272,production company,Cause_to_move_in_place,0
+P272,production company,Motion_directional,0
+P272,production company,Cause_fluidic_motion,0
+P272,production company,Moving_in_place,0
+P272,production company,Text,0
+P272,production company,Building_subparts,0
+P272,production company,Behind_the_scenes,1
+P286,head coach,Education_teaching,0
+P286,head coach,Aggregate,0
+P286,head coach,Collaboration,0
+P286,head coach,Self_motion,0
+P286,head coach,Vehicle,0
+P286,head coach,Observable_bodyparts,0
+P286,head coach,Leadership,1
+P30,continent,Natural_features,0
+P30,continent,Relational_natural_features,0
+P30,continent,Biological_area,0
+P30,continent,Part_orientational,0
+P30,continent,Political_locales,1
+P30,continent,Locale,1
+P35,head of state,Being_dry,0
+P35,head of state,Convey_importance,0
+P35,head of state,Intoxication,0
+P35,head of state,Prohibiting,0
+P35,head of state,People_by_morality,0
+P35,head of state,Accoutrements,0
+P35,head of state,Leadership,1
+P35,head of state,Subordinates_and_Superiors,1
+P36,capital,Cause_to_move_in_place,0
+P36,capital,Hiding_objects,0
+P36,capital,Moving_in_place,0
+P36,capital,Expectation,0
+P36,capital,Buildings,0
+P36,capital,Leadership,0
+P36,capital,Political_locales,1
+P36,capital,Locale,1
+P39,position held,Existence,0
+P39,position held,Replacing,0
+P39,position held,Arranging,0
+P39,position held,Ratification,0
+P39,position held,Political_locales,0
+P39,position held,Cause_change_of_position_on_a_scale,0
+P39,position held,Take_place_of,0
+P39,position held,Occupy_rank,1
+P39,position held,Leadership,1
+P40,child,Prevarication,0
+P40,child,Attention_getting,0
+P40,child,Kinship,1
+P43,stepfather,Reforming_a_system,0
+P43,stepfather,Cause_change_of_position_on_a_scale,0
+P43,stepfather,Birth,0
+P43,stepfather,Attention_getting,0
+P43,stepfather,People_by_age,0
+P43,stepfather,People_by_residence,0
+P43,stepfather,Kinship,1
+P44,stepmother,Reforming_a_system,0
+P44,stepmother,Cause_change_of_position_on_a_scale,0
+P44,stepmother,Birth,0
+P44,stepmother,People_by_age,0
+P44,stepmother,People_by_residence,0
+P44,stepmother,Kinship,1
+P451,cohabitant,Committing_crime,0
+P451,cohabitant,Reforming_a_system,0
+P451,cohabitant,People_by_morality,0
+P451,cohabitant,Biological_area,0
+P451,cohabitant,Kinship,0
+P451,cohabitant,People_by_vocation,0
+P451,cohabitant,Forming_relationships,0
+P451,cohabitant,People_by_residence,1
+P451,cohabitant,Personal_relationship,1
+P462,color,Location_of_light,0
+P462,color,Light_movement,0
+P462,color,Body_decoration,0
+P462,color,Sensation,0
+P462,color,Color,1
+P463,member of,Increment,0
+P463,member of,Ordinal_numbers,0
+P463,member of,Public_services,0
+P463,member of,People_by_vocation,0
+P463,member of,Leadership,0
+P463,memberof,Membership,1
+P463,memberof,Alliance,1
+P466,occupant,Renting_out,0
+P466,occupant,Renting,0
+P466,occupant,Possession,0
+P466,occupant,People_by_residence,1
+P466,occupant,Residence,1
+P488,chairperson,Alliance,0
+P488,chairperson,Leadership,1
+P495,country of origin,Isolated_places,0
+P495,country of origin,Cause_to_move_in_place,0
+P495,country of origin,Hiding_objects,0
+P495,country of origin,Indigenous_origin,1
+P495,country of origin,Political_locales,1
+P495,country of origin,Locale,1
+P495,country of origin,Indigenous_origin,1
+P495,country of origin,People_by_origin,1
+P50,author,Coming_to_believe,0
+P50,author,Being_employed,0
+P50,author,Research,0
+P50,author,Text,1
+P50,author,Text_creation,1
+P509,cause of death,Cause_to_move_in_place,0
+P509,cause of death,Explaining_the_facts,0
+P509,cause of death,Cause_fluidic_motion,0
+P509,cause of death,Cause_change_of_position_on_a_scale,0
+P509,cause of death,Rashness,0
+P509,cause of death,Coming_to_be,0
+P509,cause of death,Endangering,0
+P509,cause of death,Death,1
+P512,academic degree,Familiarity,0
+P512,academic degree,Place_weight_on,0
+P512,academic degree,Measure_scenario,0
+P512,academic degree,Degree_of_processing,0
+P512,academic degree,Documents,0
+P512,academic degree,Medical_specialties,0
+P512,academic degree,Studying,1
+P512,academic degree,Education_teaching,1
+P515,phase of matter,Linguistic_meaning,0
+P515,phase of matter,Process_start,0
+P515,phase of matter,Grasp,0
+P515,phase of matter,Change_of_phase_scenario,1
+P57,director,Text,0
+P57,director,Leadership,0
+P57,director,Behind_the_scenes,1
+P570,date of death,Piracy,0
+P570,date of death,Being_born,0
+P570,date of death,Cause_change_of_position_on_a_scale,0
+P570,date of death,Cause_to_end,0
+P570,date of death,Intoxication,0
+P570,date of death,Dead_or_alive,0
+P570,date of death,Killing,0
+P570,dateofdeath,Death,1
+P58,screenwriter,Performers,0
+P58,screenwriter,Performing_arts,0
+P58,screenwriter,Text,1
+P58,screenwriter,Behind_the_scenes,1
+P607,conflict,Quarreling,0
+P607,conflict,Attack,0
+P607,conflict,Hostile_encounter,1
+P607,conflict,Fighting_activity,1
+P61,discoverer or inventor,Desirability,0
+P61,discoverer or inventor,Being_named,0
+P61,discoverer or inventor,Ordinal_numbers,0
+P61,discoverer or inventor,Word_relations,0
+P61,discoverer or inventor,Achieving_first,1
+P61,discoverer or inventor,Invention,1
+P634,captain,Defend,0
+P634,captain,Education_teaching,0
+P634,captain,Military,0
+P634,captain,Leadership,1
+P676,lyrics by,Expressing_publicly,0
+P676,lyrics by,Noise_makers,0
+P676,lyrics by,Encoding,0
+P676,lyrics by,Text,1
+P676,lyrics by,Text_creation,1
+P69,educated at,Aggregate,0
+P69,educated at,Calendric_unit,0
+P69,educated at,Being_born,0
+P69,educated at,Becoming_a_member,0
+P69,educated at,Locale_by_use,0
+P69,educated at,People_by_vocation,0
+P69,educated at,Education_teaching,1
+P69,educated at,Studying,1
+P7,brother,People_by_age,0
+P7,brother,Attention_getting,0
+P7,brother,Kinship,1
+P710,participant,Response,0
+P710,participant,Redirecting,0
+P710,participant,Change_operational_state,0
+P710,participant,People_by_vocation,0
+P710,participant,Education_teaching,0
+P710,participant,Participation,1
+P734,family name,Aggregate,0
+P734,family name,Medical_conditions,0
+P734,family name,Calendric_unit,0
+P734,family name,Word_relations,0
+P734,family name,Type,0
+P734,family name,Being_named,1
+P734,family name,Name_conferral,1
+P735,given name,Desirability,0
+P735,given name,First_experience,0
+P735,given name,Medical_conditions,0
+P735,given name,Achieving_first,0
+P735,given name,People_by_religion,0
+P735,given name,People_by_morality,0
+P735,given name,Being_named,1
+P735,given name,Name_conferral,1
+P737,influenced by,Recovery,0
+P737,influenced by,Talking_into,0
+P737,influenced by,Path_travelled,0
+P737,influenced by,Awareness,0
+P737,influenced by,Statement,0
+P737,influenced by,Evidence,0
+P737,influenced by,Intoxication,0
+P737,influenced by,Subjective_influence,1
+P739,ammunition,Shoot_projectiles,0
+P739,ammunition,Weapon,1
+P739,ammunition,Ammunition,1
+P742,pseudonym,Pre_giving,0
+P742,pseudonym,Stage_of_progress,0
+P742,pseudonym,Calendric_unit,0
+P742,pseudonym,Pre_transfer,0
+P742,pseudonym,Accoutrements,0
+P742,pseudonym,Containers,0
+P742,pseudonym,Simple_name,1
+P742,pseudonym,Being_named,1
+P742,pseudonym,Name_conferral,1
+P748,appointed by,Quitting,0
+P748,appointed by,Being_obligatory,0
+P748,appointed by,Choosing,1
+P748,appointed by,Change_of_leadership,1
+P750,distributor,Dispersal,0
+P750,distributor,Commerce_sell,1
+P750,distributor,Commerce_scenario,1
+P770,cause of destruction,Cause_to_move_in_place,0
+P770,cause of destruction,Cause_to_start,0
+P770,cause of destruction,Cause_fluidic_motion,0
+P770,cause of destruction,Cause_change_of_position_on_a_scale,0
+P770,cause of destruction,Destroying,1
+P770,cause of destruction,Catastrophe,1
+P770,cause of destruction,Causation,1
+P770,cause of destruction,Damaging,1
+P790,approved by,Grant_permission,1
+P802,student,People_by_age,0
+P802,student,Education_teaching,1
+P802,student,Studying,1
+P807,separated from,Compatibility,0
+P807,separated from,Departing,0
+P807,separated from,Quitting_a_place,0
+P807,separated from,Being_detached,1
+P807,separated from,Separation,1
+P828,has cause,Obviousness,0
+P828,has cause,Causation,1
+P828,has cause,Causation_scenario,1
+P828,has cause,Explaining_the_facts,1
+P828,has cause,Sign,1
+P9,sister,People_by_age,0
+P9,sister,People_by_residence,0
+P9,sister,Attention_getting,0
+P9,sister,Kinship,1
+P924,medical treatment,Recovery,1
+P924,medical treatment,Cure,1
+P931,place served by airport,Cause_to_move_in_place,0
+P931,place served by airport,Hiding_objects,0
+P931,place served by airport,Expectation,0
+P931,place served by airport,Event,0
+P931,place served by airport,Political_locales,0
+P931,place served by airport,Residence,0
+P931,place served by airport,Isolated_places,0
+P931,place served by airport,Moving_in_place,0
+P931,placeservedbyairport,Locale_by_use,1
+P941,inspired by,Make_noise,0
+P941,inspired by,Cause_fluidic_motion,0
+P941,inspired by,Chemical-sense_description,0
+P941,inspired by,Travel,0
+P941,inspired by,Desiring,0
+P941,inspired by,Getting_scenario,0
+P941,inspiredby,Subjective_influence,1

@@ -1,0 +1,210 @@
+PropertyID,PropertyLabel,FrameID,FrameLabel,PSubject,PObject
+P101,fieldofwork,FN_ID_X1,Fields,Practitioner,Activity
+P101,fieldofwork,FN_ID_X2,Research,Researcher,Field
+P102,memberofpoliticalparty,FN_ID_X3,Membership,Member,Group
+P1029,crewmember,FN_ID_X4,Operate_vehicle,Vehicle,Driver
+P1038,relative,FN_ID_X5,Kinship,Ego;Alter,Ego;Alter
+P1050,medicalcondition,FN_ID_X6,Medical_conditions,Patient,Ailment
+P1050,medical condition,FN_ID_X7,State_of_entity,Entity,State
+P106,occupation,FN_ID_X8,Fields,Practitioner,Activity;Salient_entity;Type
+P1066,studentof,FN_ID_X9,Education_teaching,Student,Teacher
+P1066,studentof,FN_ID_X10,Studying,Student,Teacher
+P1075,rector,FN_ID_X11,Leadership,Governed,Leader
+P108,employer,FN_ID_X12,Being_employed,Employee,Employer
+P108,employer,FN_ID_X13,Employing,Employee,Employer
+P108,employer,FN_ID_X14,Get_a_job,Employee,Employer
+P108,employer,FN_ID_X15,Employment_scenario,Employee,Employer
+P1136,solvedby,FN_ID_X16,Resolve_problem,Problem,Agent
+P114,airlinealliance,FN_ID_X17,Alliance,Members;Member_1;Member_2,Alliance
+P114,airlinealliance,FN_ID_X18,Organization,Members,Organization
+P114,airlinealliance,FN_ID_X19,Collaboration,Partner_1;Partner_2,Partner_1;Partner_2
+P119,locationofburial,FN_ID_X20,Death,Protagonist,Place
+P1196,mannerofdeath,FN_ID_X21,Death,Protagonist,Explanation;Manner
+P127,ownedby,FN_ID_X22,Possession,Possession,Owner
+P1290,godparent,FN_ID_X23,Kinship,Ego;Alter,Ego;Alter
+P1302,primarydestinations,FN_ID_X24,Roadways,Roadway,Goal
+P131,locatedintheadministrativeterritorialentity,FN_ID_X25,Political_locales,Locale;Name,Container_possessor
+P1313,officeheldbyheadofgovernment,FN_ID_X26,Leadership,Leader,Governed
+P1340,eyecolor,FN_ID_X27,Color,Entity,Color
+P1340,eyecolor,FN_ID_X28,Observable_bodyparts,Body_part,Descriptor
+P1344,participantof,FN_ID_X29,Participation,Participant_1;Participant_2;Participants,Event
+P1346,winner,FN_ID_X30,Finish_competition,Competition,Competitor
+P1346,winner,FN_ID_X31,Competition,Competition,Participant_1;Participant_1;Participants
+P1376,capitalof,FN_ID_X32,Political_locales,Locale;Name,Container_possessor
+P138,namedafter,FN_ID_X33,Being_named,Name,Entity
+P138,namedafter,FN_ID_X34,Namesake,Namesake,Entity
+P138,namedafter,FN_ID_X35,Name_conferral,Name,Entity
+P1399,convictedof,FN_ID_X36,Verdict,Defendant,Charges
+P1399,convictedof,FN_ID_X37,Arraignment,Defendant,Charges
+P1399,convictedof,FN_ID_X38,Notification_of_charges,Accused,Charges
+P1399,convictedof,FN_ID_X39,Offenses,Perpetrator,Offense
+P140,religion,FN_ID_X40,People_by_religion,Person,Religion
+P1416,affiliation,FN_ID_X41,Organization,Member,Name;Organization
+P1416,affiliation,FN_ID_X42,Membership,Member,Group
+P1419,shape,FN_ID_X43,Shapes,Substance,Shape
+P1477,birthname,FN_ID_X44,Being_named,Entity,Name
+P1477,birthname,FN_ID_X45,Name_conferral,Entity,Name
+P1478,hasimmediatecause,FN_ID_X46,Causation,Effect;Affected,Cause;Actor
+P1478,hasimmediatecause,FN_ID_X47,Cause_to_start,Effect,Cause
+P1479,hascontributingfactor,FN_ID_X48,Objective_influence,Dependent_entity;Dependent_situation;Dependent_variable,Influencing_entity;Influencing_situation;Influencing_variable
+P1479,hascontributingfactor,FN_ID_X49,Importance,Undertaking,Factor
+P1479,hascontributingfactor,FN_ID_X50,Causation,Effect;Affected,Cause;Actor
+P1534,endcause,FN_ID_X51,Causation,Effect;Affected,Cause;Actor
+P1534,endcause,FN_ID_X52,Cause_to_end,Process;State,Agent;Cause
+P1536,immediatecauseof,FN_ID_X53,Causation,Cause;Actor,Effect;Affected
+P1536,immediatecauseof,FN_ID_X54,Cause_to_start,Cause,Effect
+P1537,contributingfactorof,FN_ID_X55,Causation,Cause;Actor,Effect;Affected
+P1537,contributingfactorof,FN_ID_X56,Importance,Factor,Undertaking
+P1542,causeof,FN_ID_X57,Causation,Cause;Actor,Effect;Affected
+P1542,causeof,FN_ID_X58,Objective_influence,Influencing_entity;Influencing_situation;Influencing_variable,Dependent_entity;Dependent_situation;Dependent_variable
+P1547,dependson,FN_ID_X59,Reliance,Protagonist,Instrument;Intermediary
+P1547,dependson,FN_ID_X60,Contingency,Outcome,Determinant
+P1552,hasquality,FN_ID_X61,Attributes,Entity,Attribute
+P1552,hasquality,FN_ID_X62,Idiosyncrasy,Entity,Idiosyncrasy
+P1552,hasquality,FN_ID_X63,Distinctiveness,Entity,Feature
+P1552,hasquality,FN_ID_X64,Gradable_attributes,Entity,Attribute
+P157,killedby,FN_ID_X65,Execution,Executed,Executioner
+P157,killedby,FN_ID_X66,Killing,Victim,Killer
+P1595,charge,FN_ID_X67,Notification_of_charges,Accused,Charges
+P1595,charge,FN_ID_X68,Offenses,Perpetrator,Offense
+P1595,charge,FN_ID_X69,Arraignment,Defendant,Charges
+P1595,charge,FN_ID_X70,Verdict,Defendant,Charges
+P1596,penalty,FN_ID_X71,Rewards_and_punishments,Evaluee,Response_action
+P1596,penalty,FN_ID_X72,Sentencing,Convict,Sentence
+P161,castmember,FN_ID_X73,Performers,Type,Person
+P161,castmember,FN_ID_X74,Behind_the_scenes,Production,Artist
+P161,castmember,FN_ID_X75,Performers_and_roles,Performance,Performer
+P162,producer,FN_ID_X76,Behind_the_scenes,Production,Artist
+P169,chiefexecutiveofficer,FN_ID_X77,Leadership,Governed,Leader
+P169,chiefexecutiveofficer,FN_ID_X78,Subordinates_and_Superiors,Subordinate,Superior
+P17,country,FN_ID_X79,Political_locales,Locale;Name,Container_possessor
+P170,creator,FN_ID_X80,Physical_artworks,Artifact;Name,Creator
+P170,creator,FN_ID_X81,Create_physical_artwork,Representation,Creator
+P170,creator,FN_ID_X82,Create_representation,Representation,Creator
+P175,performer,FN_ID_X83,Behind_the_scenes,Production,Artist
+P175,performer,FN_ID_X84,Performing_arts,Performance,Performer
+P175,performer,FN_ID_X85,Performers,Type,Person
+P176,manufacturer,FN_ID_X86,Intentionally_create,Created_entity,Creator
+P176,manufacturer,FN_ID_X87,Manufacturing,Product,Producer;Manufacturer
+P180,depicts,FN_ID_X88,Physical_artworks,Artifact,Represented
+P1809,choreographer,FN_ID_X89,Behind_the_scenes,Production,Artist
+P1809,choreographer,FN_ID_X90,Performing_arts,Performance,Performer
+P1809,choreographer,FN_ID_X91,Performers,Type,Person
+P1840,investigatedby,FN_ID_X92,Scrutiny,Ground;Phenomenon,Cognizer
+P1840,investigatedby,FN_ID_X93,Inspecting,Ground,Inspector
+P1884,haircolor,FN_ID_X94,Color,Entity,Color
+P1884,haircolor,FN_ID_X95,Hair_configuration,Possessor,Configuration
+P1884,haircolor,FN_ID_X96,Observable_bodyparts,Body_part,Descriptor
+P1923,participatingteam,FN_ID_X97,Competition,Competition,Participants;Participant_1
+P1923,participatingteam,FN_ID_X98,Participation,Event,Participants
+P194,legislativebody,FN_ID_X99,Judicial_body,Jurisdiction,Judicial_body
+P1995,medicalspecialty,FN_ID_X100,Medical_specialties,Affliction,Specialty
+P1995,medicalspecialty,FN_ID_X101,Medical_professionals,Affliction,Professional
+P2048,height,FN_ID_X102,Dimension,Object,Measurement
+P2049,width,FN_ID_X103,Dimension,Object,Measurement
+P2052,speed,FN_ID_X104,Speed,Entity,Speed
+P2052,speed,FN_ID_X105,Measurable_attributes,Entity,Value
+P2054,density,FN_ID_X106,Measurable_attributes,Entity,Value
+P208,executivebody,FN_ID_X107,Judicial_body,Jurisdiction,Judicial_body
+P209,highestjudicialauthority,FN_ID_X108,Judicial_body,Jurisdiction,Judicial_body
+P210,partychiefrepresentative,FN_ID_X109,Leadership,Governed,Leader
+P22,father,FN_ID_X110,Kinship,Ego;Alter,Ego;Alter
+P25,mother,FN_ID_X111,Kinship,Ego;Alter,Ego;Alter
+P26,spouse,FN_ID_X112,Personal_relationship,Partner_1;Partner_2,Partner_1;Partner_2
+P272,productioncompany,FN_ID_X113,Behind_the_scenes,Production,Studio
+P286,teammanager,FN_ID_X114,Leadership,Governed,Leader
+P30,continent,FN_ID_X115,Locale,Locale;Name,Container_possessor
+P30,continent,FN_ID_X116,Political_locales,Locale;Name,Container_possessor
+P30,continent,FN_ID_X117,Natural_features,Locale;Name,Container_possessor
+P36,capital,FN_ID_X118,Political_locales,Container_possessor,Locale;Name
+P39,positionheld,FN_ID_X119,Occupy_rank,Item,Rank
+P40,child,FN_ID_X120,Kinship,Ego;Alter,Ego;Alter
+P43,stepfather,FN_ID_X121,Kinship,Ego;Alter,Ego;Alter
+P44,stepmother,FN_ID_X122,Kinship,Ego;Alter,Ego;Alter
+P451,cohabitant,FN_ID_X123,Personal_relationship,Partner_1;Partner_2,Partner_1;Partner_2
+P462,color,FN_ID_X124,Color,Entity,Color
+P463,memberof,FN_ID_X125,Membership,Member,Group
+P463,memberof,FN_ID_X126,Alliance,Members;Member_1;Member_2,Alliance
+P466,occupant,FN_ID_X127,Residence,Location,Resident
+P488,chairperson,FN_ID_X128,Leadership,Governed,Leader
+P488,chairperson,FN_ID_X129,Membership,Group,Member
+P495,countryoforigin,FN_ID_X130,Indigenous_origin,Entity,Origin
+P495,countryoforigin,FN_ID_X131,People_by_origin,Person,Origin
+P50,author,FN_ID_X132,Text,Text,Author
+P50,author,FN_ID_X133,Text_creation,Text,Author
+P509,causeofdeath,FN_ID_X134,Death,Protagonist,Cause;Explanation
+P512,academicdegree,FN_ID_X135,Studying,Student,Intended_academic_credit
+P512,academicdegree,FN_ID_X136,Education_teaching,Student,Qualification
+P515,phaseofmatter,FN_ID_X137,Change_of_phase_scenario,Patient,Result
+P57,director,FN_ID_X138,Behind_the_scenes,Production,Artist
+P570,dateofdeath,FN_ID_X139,Death,Protagonist,Time
+P58,screenwriter,FN_ID_X140,Text,Text;Title,Author
+P58,screenwriter,FN_ID_X141,Behind_the_scenes,Production,Artist
+P61,discovererorinventor,FN_ID_X142,Achieving_first,New_idea,Cognizer
+P61,discovererorinventor,FN_ID_X143,Invention,Invention,Cognizer
+P634,captain,FN_ID_X144,Leadership,Governed,Leader
+P676,lyricsby,FN_ID_X145,Text,Text,Author
+P676,lyricsby,FN_ID_X146,Text_creation,Text,Author
+P69,educatedat,FN_ID_X147,Education_teaching,Student,Institution
+P69,educatedat,FN_ID_X148,Studying,Student,Institution
+P7,brother,FN_ID_X149,Kinship,Ego;Alter,Ego;Alter
+P710,participant,FN_ID_X150,Participation,Event,Participant_1;Participant_2;Participants
+P734,surname,FN_ID_X151,Being_named,Entity,Name
+P734,surname,FN_ID_X152,Name_conferral,Entity,Name
+P735,givenname,FN_ID_X153,Being_named,Entity,Name
+P735,givenname,FN_ID_X154,Name_conferral,Entity,Name
+P742,pseudonym,FN_ID_X155,Being_named,Entity,Name
+P742,pseudonym,FN_ID_X156,Name_conferral,Entity,Name
+P748,appointedby,FN_ID_X157,Choosing,Chosen,Cognizer
+P748,appointedby,FN_ID_X158,Change_of_leadership,New_leader,Selector
+P770,causeofdestruction,FN_ID_X159,Destroying,Undergoer,Cause;Destroyer
+P770,causeofdestruction,FN_ID_X160,Catastrophe,Undergoer;Undesirable_event ,Cause
+P770,causeofdestruction,FN_ID_X161,Causation,Effect;Affected,Cause;Actor
+P770,causeofdestruction,FN_ID_X162,Damaging,Patient,Cause
+P828,hascause,FN_ID_X163,Causation,Effect;Affected,Cause;Actor
+P828,hascause,FN_ID_X164,Causation_scenario,Effect,Cause
+P828,hascause,FN_ID_X165,Explaining_the_facts,State_of_affairs,Fact
+P9,sister,FN_ID_X166,Kinship,Ego;Alter,Ego;Alter
+P924,medicaltreatment,FN_ID_X167,Cure,Affliction,Treatment;Medication
+P931,placeservedbyairport,FN_ID_X168,Locale_by_use,Use,Locale;Name
+P941,inspiredby,FN_ID_X169,Subjective_influence,Product;Cognizer,Situation;Entity;Agent
+P1037,manager/director,FN_ID_X170,Leadership,Governed,Leader
+P1037,manager/director,FN_ID_X171,Membership,Group,Member
+P189,location of discovery,X_1,Achieving_first,New_idea,Place
+P189,location of discovery,X_2,Indigenous_origin,Entity,Origin
+P1104,number of pages,X_3,Quantity,Individuals,Quantity
+P1345,number of victims,X_4,Quantity,Individuals,Quantity
+P1100,number of cylinders,X_5,Quantity,Individuals,Quantity
+P1342,number of members,X_6,Quantity,Individuals,Quantity
+P2079,fabrication method,X_7,Manufacturing,Product,Manner
+P20,place of death,X_8,Death,Protagonist,Place
+P195,collection,X_9,Physical_artworks,Artifact,-
+P790,approved by,X_10,Grant_permission,Grantee,Grantor
+P137,operator,X_11,Operating_a_system,System,Operator
+P177,crosses,X_12,Roadways,Roadway ,Path 
+P1339,number of injured,X_13,Experience_bodily_harm,Containing_event ,-
+P739,ammunition,X_14,Weapon,Weapon;Name,-
+P739,ammunition,X_15,Ammunition,-,Ammunition 
+P739,ammunition,X_16,Bearing_arms,Weapon ,-
+P737,influenced by,X_17,Subjective_influence,Cognizer,Agent;Situation;Entity 
+P35,head of state,X_18,Leadership,Governed ,Leader 
+P1924,vaccine for,X_19,Cure,Medication,Affliction
+P607,conflict,X_20,Hostile_encounter,Side_1;Side_2;Sides,Explanation 
+P607,conflict,X_21,Fighting_activity,Combatants,Fight 
+P807,separated from,X_22,Separation,Parts,Whole
+P1444,journey destination,X_23,Travel,Descriptor;Explanation;Purpose,Goal
+P1046,discovery method,X_24,Achieving_first,New_idea,Means 
+P802,student,X_25,Education_teaching,Teacher,Student
+P802,student,X_26,Studying,Teacher,Student
+P2012,cuisine,X_27,Cooking_creation,Cook ,Produced_food 
+P750,distributor,X_28,Commerce_sell,Goods,Seller 
+P750,distributor,X_29,Commerce_scenario,Goods,Seller 
+P1318,proved by,X_30,Evidence,Proposition,Cognizer 
+P1114,quantity,X_31,Quantity,Individuals,Quantity
+P1593,defender,X_32,Criminal_process,-,Defense
+P1593,defender,X_33,Trial,Case,Defense
+P1591,defendant,X_34,Try_defendant,-,Defendant
+P1591,defendant,X_35,Criminal_process,-,Defendant
+P1591,defendant,X_36,Trial,Case,Defendant
+P1592,prosecutor,X_37,Trial,Case,Prosecution
+P2043,length,X_38,Dimension,Object,Measurement

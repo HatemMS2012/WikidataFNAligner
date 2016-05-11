@@ -1,0 +1,1291 @@
+Property ID 	 Property Label 	 Matching Frame 	 Score
+P941	inspired by	Subjective_influence	0.5905288296993024
+P941	inspired by	Experiencer_subj	0.5871230729127743
+P941	inspired by	Idiosyncrasy	0.5527881693686287
+P941	inspired by	Desiring	0.542469249788177
+P941	inspired by	Talking_into	0.538814711328349
+P941	inspired by	Mental_property	0.527186354858762
+P941	inspired by	Grasp	0.5236882000709194
+P941	inspired by	Subject_stimulus	0.5181015384234836
+P941	inspired by	Linguistic_meaning	0.5175676960442733
+P941	inspired by	Awareness	0.5171842452434698
+P1346	winner	Finish_competition	0.6692159359156752
+P1346	winner	Ordinal_numbers	0.3726494624602542
+P1346	winner	Competition	0.36091238684744986
+P1346	winner	Lose_possession	0.3305271194222119
+P1346	winner	Behind_the_scenes	0.3282982385061869
+P1346	winner	Participation	0.3251504024900797
+P1346	winner	Performers	0.32403290117591366
+P1346	winner	Part_whole	0.3216847857079016
+P1346	winner	Performing_arts	0.3126643206460492
+P1346	winner	Clarity_of_resolution	0.31047824043451216
+P1104	number of pages	Quantity	0.7261745013880521
+P1104	number of pages	Aggregate	0.5916454955097845
+P1104	number of pages	Abundance	0.5201784964495458
+P1104	number of pages	Cardinal_numbers	0.48468935277758324
+P1104	number of pages	Proliferating_in_number	0.47345066126861285
+P1104	number of pages	Mass_motion	0.466460480062778
+P1104	number of pages	Reading	0.46429208517963894
+P1104	number of pages	Adding_up	0.46251919570134303
+P1104	number of pages	Scarcity	0.4301098278498716
+P1104	number of pages	Type	0.428540875232299
+P828	has cause	Causation	0.7356485542140989
+P828	has cause	Cause_to_start	0.6427529739398042
+P828	has cause	Explaining_the_facts	0.6195906377911378
+P828	has cause	Obviousness	0.6167591829620316
+P828	has cause	Sign	0.5852392495107159
+P828	has cause	Health_response	0.5816315979724848
+P828	has cause	Rashness	0.5786514661971364
+P828	has cause	Linguistic_meaning	0.5732120380410959
+P828	has cause	Reasoning	0.5655426148110284
+P828	has cause	Subjective_influence	0.5651933170394026
+P1344	participant of	Participation	0.4955256904947713
+P1344	participant of	Performers_and_roles	0.4788660354978152
+P1344	participant of	Post_giving	0.45559801439696374
+P1344	participant of	Bragging	0.45178832799106317
+P1344	participant of	Pre_giving	0.4498435067309097
+P1344	participant of	Agree_or_refuse_to_act	0.44803316910159774
+P1344	participant of	Part_piece	0.44217635262754706
+P1344	participant of	Performers	0.4420521324939811
+P1344	participant of	First_rank	0.4410814689051233
+P1344	participant of	Suspicion	0.43966292209116425
+P1345	number of victims	Aggregate	0.5967708620641394
+P1345	number of victims	Quantity	0.5841680810624558
+P1345	number of victims	People_by_morality	0.4990478284181474
+P1345	number of victims	Clemency	0.44678967817277304
+P1345	number of victims	Abusing	0.4458048551846087
+P1345	number of victims	Mass_motion	0.44575223518439805
+P1345	number of victims	Rape	0.44332483764620817
+P1345	number of victims	Committing_crime	0.44308073681733645
+P1345	number of victims	Morality_evaluation	0.4337232511825165
+P1345	number of victims	People_by_jurisdiction	0.42647804504621994
+P1100	number of cylinders	Quantity	0.5666495884328139
+P1100	number of cylinders	Aggregate	0.5427644527203157
+P1100	number of cylinders	Gizmo	0.50573595077718
+P1100	number of cylinders	Fluidic_motion	0.4571913162861219
+P1100	number of cylinders	Connectors	0.4490133540330009
+P1100	number of cylinders	Abundance	0.44844667677282934
+P1100	number of cylinders	Cause_fluidic_motion	0.44797790853185254
+P1100	number of cylinders	Process	0.44071357208483053
+P1100	number of cylinders	Filling	0.4404210323204917
+P1100	number of cylinders	Mass_motion	0.4385190827102118
+P1342	number of members	Aggregate	0.5997595149604055
+P1342	number of members	Quantity	0.5624090319470707
+P1342	number of members	Adding_up	0.49195147685839113
+P1342	number of members	Mass_motion	0.48773215473054976
+P1342	number of members	Scarcity	0.4784235957894736
+P1342	number of members	Increment	0.4770786645337056
+P1342	number of members	Amounting_to	0.46563485130604504
+P1342	number of members	Dimension	0.46272682556764677
+P1342	number of members	Unemployment_rate	0.45006602339220636
+P1342	number of members	Measure_volume	0.445670791115655
+P1340	eye color	Color	0.6878276634723729
+P1340	eye color	Location_of_light	0.6285795833293649
+P1340	eye color	Light_movement	0.6270420668214988
+P1340	eye color	Body_decoration	0.5812565068556533
+P1340	eye color	Sensation	0.533472213449851
+P1340	eye color	Hair_configuration	0.530361041181768
+P1340	eye color	Filling	0.5016228723866286
+P1340	eye color	Adorning	0.49953666040960865
+P1340	eye color	Accoutrements	0.4761181787920504
+P1340	eye color	Distinctiveness	0.46813609533222755
+P272	production company	Behind_the_scenes	0.6721297420810899
+P272	production company	Performing_arts	0.580783490752781
+P272	production company	Buildings	0.5674384404176389
+P272	production company	Building_subparts	0.5581411727385309
+P272	production company	Text	0.5381743475702149
+P272	production company	Physical_artworks	0.5098825812865928
+P272	production company	Aggregate	0.4995425808354839
+P272	production company	Locale_by_use	0.4658350701024898
+P272	production company	Architectural_part	0.4627120481803392
+P272	production company	Part_ordered_segments	0.4494488706047781
+P137	operator	Renting	0.5979136872012488
+P137	operator	Commerce_scenario	0.5653433107762038
+P137	operator	Operating_a_system	0.5652268074728825
+P137	operator	Using	0.5434614321021191
+P137	operator	Commerce_sell	0.5425399107376785
+P137	operator	Renting_out	0.5374137333944984
+P137	operator	Employing	0.5302766182993834
+P137	operator	Commercial_transaction	0.5267767473834767
+P137	operator	Commerce_money-transfer	0.519633279536915
+P137	operator	People_by_vocation	0.5110220081319504
+P931	place served by airport	Locale_by_use	0.6298755677027376
+P931	place served by airport	Political_locales	0.5574078657656769
+P931	place served by airport	Isolated_places	0.5107860542018539
+P931	place served by airport	Buildings	0.5024251264630404
+P931	place served by airport	Residence	0.4954878907736619
+P931	place served by airport	Measure_area	0.4630725371148925
+P931	place served by airport	Board_vehicle	0.4627493200107781
+P931	place served by airport	Ride_vehicle	0.4454334738082454
+P931	place served by airport	Bringing	0.4385112692794317
+P931	place served by airport	Locale	0.4334511136055614
+P138	named after	Being_named	0.7726484935128186
+P138	named after	Word_relations	0.6968650176017858
+P138	named after	Name_conferral	0.6834601023654306
+P138	named after	Linguistic_meaning	0.5896307852302787
+P138	named after	Namesake	0.5863569053739783
+P138	named after	Achieving_first	0.5376138375478754
+P138	named after	Spelling_and_pronouncing	0.526200257502004
+P138	named after	Referring_by_name	0.5007476315818108
+P138	named after	Text	0.49821065184081254
+P138	named after	Communicate_categorization	0.4886662756886816
+P495	country of origin	Indigenous_origin	0.7153659823067685
+P495	country of origin	People_by_origin	0.5055971115893255
+P495	country of origin	Political_locales	0.45267697767934484
+P495	country of origin	Linguistic_meaning	0.4513005709148434
+P495	country of origin	People_by_jurisdiction	0.4449430924355372
+P495	country of origin	Type	0.4386960597439973
+P495	country of origin	Actually_occurring_entity	0.437115907214338
+P495	country of origin	Being_born	0.43396580403776164
+P495	country of origin	Isolated_places	0.43102057291070006
+P495	country of origin	People_by_religion	0.43095138988766385
+P1339	number of injured	Experience_bodily_harm	0.6899031272157584
+P1339	number of injured	Medical_conditions	0.6221294452846747
+P1339	number of injured	Cause_harm	0.561117013061305
+P1339	number of injured	Observable_bodyparts	0.5100931746840431
+P1339	number of injured	Body_mark	0.5010487477035221
+P1339	number of injured	Perception_body	0.4989985755970015
+P1339	number of injured	Undergoing	0.4629799278071946
+P1339	number of injured	Recovery	0.45821248579123386
+P1339	number of injured	Attack	0.4562708712763293
+P1339	number of injured	Biological_urge	0.42692233168027677
+P140	religion	People_by_religion	0.7060694813396603
+P140	religion	Rite	0.6021233560127495
+P140	religion	People_along_political_spectrum	0.5930065315802354
+P140	religion	Religious_belief	0.5760993956499161
+P140	religion	Strictness	0.5648488211155142
+P140	religion	Proper_reference	0.539188010301193
+P140	religion	People_by_morality	0.533802477296261
+P140	religion	Custom	0.5330926603415104
+P140	religion	Morality_evaluation	0.5329625084606298
+P140	religion	Institutions	0.5327871290418708
+P169	chief executive officer	People_by_vocation	0.6393097501015239
+P169	chief executive officer	Leadership	0.5791756003687522
+P169	chief executive officer	Subordinates_and_Superiors	0.4278537108681969
+P169	chief executive officer	Employing	0.4172188258121057
+P169	chief executive officer	Medical_professionals	0.40946663630456487
+P169	chief executive officer	Quitting	0.39930405435587907
+P169	chief executive officer	Education_teaching	0.36997987757552575
+P169	chief executive officer	First_rank	0.35696143702412236
+P169	chief executive officer	Hiring	0.3483146076271107
+P169	chief executive officer	Get_a_job	0.33532657287561424
+P286	head coach	Organization	0.5188244338182074
+P286	head coach	Education_teaching	0.4487415657958569
+P286	head coach	Leadership	0.4446123145998727
+P286	head coach	People_by_vocation	0.44441791028508937
+P286	head coach	Expertise	0.4400915951125103
+P286	head coach	Defend	0.4056979757102807
+P286	head coach	Subordinates_and_Superiors	0.40530142951858716
+P286	head coach	Performers_and_roles	0.38077831416202645
+P286	head coach	Aggregate	0.3768142832624123
+P286	head coach	Employing	0.37674805153822255
+P607	conflict	Hostile_encounter	0.9302821358120194
+P607	conflict	Quarreling	0.7388125055943295
+P607	conflict	Fighting_activity	0.6908634211984536
+P607	conflict	Attack	0.5337654075042073
+P607	conflict	Discussion	0.4626905086316183
+P607	conflict	Point_of_dispute	0.4459692086169177
+P607	conflict	Change_of_leadership	0.4416747367188245
+P607	conflict	Killing	0.41199345106100965
+P607	conflict	Compatibility	0.40599923691906586
+P607	conflict	Bearing_arms	0.39611979216529486
+P1444	journey destination	Travel	0.8855009741512945
+P1444	journey destination	Setting_out	0.6312822649679619
+P1444	journey destination	Ride_vehicle	0.6190332260332818
+P1444	journey destination	Traversing	0.547699196703717
+P1444	journey destination	Self_motion	0.5369346241146323
+P1444	journey destination	Board_vehicle	0.5339263946400166
+P1444	journey destination	Arriving	0.5247049465159154
+P1444	journey destination	Operate_vehicle	0.5221970718437496
+P1444	journey destination	Bringing	0.5208396307832323
+P1444	journey destination	Disembarking	0.5141632169824448
+P175	performer	Noise_makers	0.581684889330214
+P175	performer	Behind_the_scenes	0.5337408557811385
+P175	performer	Performing_arts	0.498615948502209
+P175	performer	Performers	0.4843401470454145
+P175	performer	Text	0.4648460238732308
+P175	performer	People_by_vocation	0.4490465229391184
+P175	performer	Aggregate	0.4399920015772542
+P175	performer	Temporal_pattern	0.42328891123957757
+P175	performer	People_by_origin	0.4108184945297019
+P175	performer	Sociability	0.4006785815326268
+P170	creator	People_by_vocation	0.5892328355666696
+P170	creator	Physical_artworks	0.5567452064379944
+P170	creator	Create_representation	0.5250314498076858
+P170	creator	Create_physical_artwork	0.5242127953435947
+P170	creator	Achieving_first	0.5186856741138376
+P170	creator	Behind_the_scenes	0.5035788209246779
+P170	creator	Text	0.47755926514509295
+P170	creator	Medical_professionals	0.45324117564616934
+P170	creator	Performing_arts	0.4396493898412873
+P170	creator	Education_teaching	0.4257655760048254
+P710	participant	Performers	0.5663273506228406
+P710	participant	People_by_vocation	0.5475806127369219
+P710	participant	People	0.49101480500406597
+P710	participant	Behind_the_scenes	0.46582390521737527
+P710	participant	Education_teaching	0.44642237959358644
+P710	participant	Medical_professionals	0.4362698496278182
+P710	participant	People_by_age	0.43432594452402534
+P710	participant	Sociability	0.42250074999751985
+P710	participant	People_by_origin	0.4223165073260775
+P710	participant	Body_description_part	0.4195213945572292
+P157	killed by	Killing	0.7576137203261724
+P157	killed by	Kidnapping	0.6868179429251291
+P157	killed by	Rape	0.6160356002092271
+P157	killed by	Dead_or_alive	0.5964422673899624
+P157	killed by	Robbery	0.580236900714525
+P157	killed by	People_by_morality	0.5755720823965188
+P157	killed by	Execution	0.5720078542260124
+P157	killed by	Death	0.5601078495883074
+P157	killed by	Reporting	0.5507166212151531
+P157	killed by	Revenge	0.5502550089135292
+P1318	proved by	Evidence	0.5747416600398001
+P1318	proved by	Reasoning	0.48945032266230243
+P1318	proved by	Statement	0.4304869092198922
+P1318	proved by	Obviousness	0.4129391945995794
+P1318	proved by	Coming_to_believe	0.41074109960906774
+P1318	proved by	Surpassing	0.4102794920163147
+P1318	proved by	Beyond_compare	0.3931263911345278
+P1318	proved by	Certainty	0.39152390413424326
+P1318	proved by	Expectation	0.389586059250561
+P1318	proved by	Awareness	0.3886979947847533
+P1313	office held by head of government	Leadership	0.6241668876441906
+P1313	office held by head of government	Judicial_body	0.5875280780781882
+P1313	office held by head of government	Ratification	0.5134167492131148
+P1313	office held by head of government	People_along_political_spectrum	0.5127671700397636
+P1313	office held by head of government	Reforming_a_system	0.5044099677154309
+P1313	office held by head of government	Subordinates_and_Superiors	0.5003970355507309
+P1313	office held by head of government	Change_of_leadership	0.4977553102276245
+P1313	office held by head of government	Building_subparts	0.48345359022896645
+P1313	office held by head of government	Military	0.47905847929147793
+P1313	office held by head of government	Agree_or_refuse_to_act	0.478813521798307
+P1552	has quality	Distinctiveness	0.6570749094021642
+P1552	has quality	Idiosyncrasy	0.6353129217581486
+P1552	has quality	Gradable_attributes	0.6338836119479548
+P1552	has quality	Measurable_attributes	0.6322053046660173
+P1552	has quality	Linguistic_meaning	0.6299014823470286
+P1552	has quality	Obviousness	0.6196594687747814
+P1552	has quality	Attributes	0.604541592745606
+P1552	has quality	Measure_scenario	0.601282008272628
+P1552	has quality	Awareness	0.5753344703552086
+P1552	has quality	Cause_change	0.5684452855762733
+P17	country	Political_locales	0.6374133372958329
+P17	country	Leadership	0.5992528738460465
+P17	country	Foreign_or_domestic_country	0.5242791616868809
+P17	country	Military	0.5068569784675495
+P17	country	State	0.5021093627126582
+P17	country	People_by_jurisdiction	0.49542546191001197
+P17	country	Judicial_body	0.48326247375876996
+P17	country	State_of_entity	0.4529017704085688
+P17	country	Economy	0.4518749341519268
+P17	country	Change_of_leadership	0.44993396378492917
+P162	producer	Behind_the_scenes	0.6675230331066113
+P162	producer	Text	0.5551009223758824
+P162	producer	Performers	0.5322047387270712
+P162	producer	Performing_arts	0.4895132350633578
+P162	producer	Performers_and_roles	0.4741012981515931
+P162	producer	People_by_vocation	0.40343420805818764
+P162	producer	Personal_relationship	0.3662780170510572
+P162	producer	People_by_morality	0.3210498015528796
+P162	producer	Physical_artworks	0.3206778158623602
+P162	producer	Subordinates_and_Superiors	0.3166631220273558
+P161	cast member	Behind_the_scenes	0.6323703603900882
+P161	cast member	Performers	0.6123788622221371
+P161	cast member	Performers_and_roles	0.5149242153356778
+P161	cast member	Text	0.5094037653684602
+P161	cast member	People_by_vocation	0.47245985900307935
+P161	cast member	Performing_arts	0.468502765776503
+P161	cast member	Personal_relationship	0.4605627512569197
+P161	cast member	Body_description_part	0.4060506765424903
+P161	cast member	Leadership	0.3618117274839351
+P161	cast member	Physical_artworks	0.35480085574386355
+P742	pseudonym	Being_named	0.8714804421598333
+P742	pseudonym	Name_conferral	0.6495526062398205
+P742	pseudonym	Namesake	0.5849899628316005
+P742	pseudonym	Referring_by_name	0.5362498856213715
+P742	pseudonym	Simple_name	0.5172140240512371
+P742	pseudonym	Word_relations	0.4838004638794665
+P742	pseudonym	Text_creation	0.4553832637380252
+P742	pseudonym	Type	0.4534702566394491
+P742	pseudonym	Spelling_and_pronouncing	0.4508594987654412
+P742	pseudonym	Adducing	0.4437138743131726
+P189	location of discovery	Achieving_first	0.5786376405591065
+P189	location of discovery	Becoming_aware	0.551327171890281
+P189	location of discovery	Locating	0.5440341594062857
+P189	location of discovery	Indigenous_origin	0.5382845423954798
+P189	location of discovery	Locale_by_use	0.5232133658071625
+P189	location of discovery	Setting_out	0.5032690797392361
+P189	location of discovery	Artifact	0.4878244120839601
+P189	location of discovery	Research	0.47858317106753656
+P189	location of discovery	Intentionally_create	0.4729960547908273
+P189	location of discovery	Scrutiny	0.4713848036958525
+P1029	crew member	People_by_vocation	0.42159114398256614
+P1029	crew member	Board_vehicle	0.3886781399670841
+P1029	crew member	Vehicle	0.37466779242434833
+P1029	crew member	Disembarking	0.3649028708838391
+P1029	crew member	Operate_vehicle	0.3455970520757903
+P1029	crew member	Leadership	0.33724126925964754
+P1029	crew member	Piracy	0.3290010274959684
+P1029	crew member	Use_vehicle	0.3266444581837267
+P1029	crew member	Suspicion	0.3199668549627729
+P1029	crew member	Process	0.319348423407202
+P509	cause of death	Death	0.6170828944227664
+P509	cause of death	Killing	0.6163900966990971
+P509	cause of death	Causation	0.5964053690464918
+P509	cause of death	Departing	0.5578434794282365
+P509	cause of death	Rashness	0.54440551438759
+P509	cause of death	Endangering	0.5292447397910912
+P509	cause of death	Explaining_the_facts	0.5235454787135962
+P509	cause of death	Catastrophe	0.511362512183886
+P509	cause of death	Quitting_a_place	0.5052083562590043
+P509	cause of death	Health_response	0.49365234841657635
+P748	appointed by	Leadership	0.44405638733304736
+P748	appointed by	Change_of_leadership	0.4307292385923234
+P748	appointed by	Quitting	0.3952264044662791
+P748	appointed by	Subordinates_and_Superiors	0.38516066440809626
+P748	appointed by	Being_obligatory	0.34978820430002305
+P748	appointed by	Being_named	0.3474528112202725
+P748	appointed by	Take_place_of	0.34580093203085266
+P748	appointed by	Being_obligated	0.3399810428846987
+P748	appointed by	Name_conferral	0.3352015536993756
+P748	appointed by	Exclude_member	0.33451584994851613
+P20	place of death	Killing	0.6142181266532184
+P20	place of death	Quitting_a_place	0.5930106334632068
+P20	place of death	Departing	0.5848965212522355
+P20	place of death	Death	0.5841178289235679
+P20	place of death	Dead_or_alive	0.5638845193282382
+P20	place of death	Kinship	0.523681447226217
+P20	place of death	Personal_relationship	0.5184495998228643
+P20	place of death	Forming_relationships	0.5174396154167509
+P20	place of death	Residence	0.5079121177916956
+P20	place of death	Setting_out	0.4955782425913107
+P22	father	Kinship	0.9192743276393478
+P22	father	People_by_age	0.7166882951223338
+P22	father	Personal_relationship	0.6412568004062763
+P22	father	Attention_getting	0.6045104436443296
+P22	father	People	0.5777617886180392
+P22	father	Birth	0.5687089428171083
+P22	father	Being_born	0.542860059424205
+P22	father	People_by_residence	0.5330399427382926
+P22	father	People_by_vocation	0.4989916363950293
+P22	father	Body_description_part	0.44610921489963257
+P25	mother	Kinship	0.9154553427955072
+P25	mother	People_by_age	0.7192505254534033
+P25	mother	Personal_relationship	0.6616750964465905
+P25	mother	Attention_getting	0.6074578144974786
+P25	mother	People	0.5827318654067658
+P25	mother	Birth	0.5805274337605518
+P25	mother	Being_born	0.5472518353925847
+P25	mother	People_by_residence	0.5388909341370308
+P25	mother	People_by_vocation	0.5019857983340048
+P25	mother	Body_description_part	0.4629494991549636
+P26	spouse	Personal_relationship	0.9265488907627458
+P26	spouse	Kinship	0.7395209496616397
+P26	spouse	Forming_relationships	0.7326922519900385
+P26	spouse	People_by_vocation	0.5476893685856474
+P26	spouse	People_by_residence	0.5454184289886482
+P26	spouse	People	0.5044908318858763
+P26	spouse	Attention_getting	0.49821078538627595
+P26	spouse	Subordinates_and_Superiors	0.4954618142636506
+P26	spouse	Rape	0.48052832491103353
+P26	spouse	Leadership	0.47856474269158167
+P195	collection	Physical_artworks	0.5886415539195414
+P195	collection	Text	0.5823145614632608
+P195	collection	Craft	0.5549558013945035
+P195	collection	Create_physical_artwork	0.5467450459174996
+P195	collection	Performing_arts	0.49070117971177496
+P195	collection	Rest	0.4888448672980446
+P195	collection	Architectural_part	0.4761232599847948
+P195	collection	Building_subparts	0.46975109135012455
+P195	collection	Create_representation	0.42946280571547224
+P195	collection	Buildings	0.4227491076737689
+P194	legislative body	Political_locales	0.6685207821989733
+P194	legislative body	Judicial_body	0.618386982839429
+P194	legislative body	Ratification	0.5751265445045306
+P194	legislative body	People_by_jurisdiction	0.5297935104101076
+P194	legislative body	Leadership	0.5178100316844233
+P194	legislative body	People_along_political_spectrum	0.4900023271542733
+P194	legislative body	Locale_by_use	0.48819621271852737
+P194	legislative body	Committing_crime	0.45150006266353626
+P194	legislative body	Military	0.44861803451564247
+P194	legislative body	Organization	0.44621616033387557
+P177	crosses	Roadways	0.8085179450961832
+P177	crosses	Natural_features	0.6179531355030596
+P177	crosses	Connecting_architecture	0.5366987267338359
+P177	crosses	Architectural_part	0.5153268908310136
+P177	crosses	Part_orientational	0.4820945340444864
+P177	crosses	Locale_by_use	0.4662433879222535
+P177	crosses	Path_shape	0.4596294006948075
+P177	crosses	Buildings	0.4570726070848977
+P177	crosses	Vehicle	0.44360843624597757
+P177	crosses	Relational_natural_features	0.43511354175922795
+P176	manufacturer	Manufacturing	0.6860953488949159
+P176	manufacturer	Import_export	0.540973986819693
+P176	manufacturer	Commerce_sell	0.5398296886235743
+P176	manufacturer	Commerce_scenario	0.5273912405449499
+P176	manufacturer	Commerce_goods-transfer	0.5058794731139449
+P176	manufacturer	Importing	0.49200216403251534
+P176	manufacturer	Commercial_transaction	0.4877954510170529
+P176	manufacturer	Intentionally_create	0.48005293741832605
+P176	manufacturer	Commerce_money-transfer	0.47759737034094923
+P176	manufacturer	Commerce_buy	0.4714799163493434
+P739	ammunition	Weapon	0.8228545020326966
+P739	ammunition	Ammunition	0.8118808909398669
+P739	ammunition	Use_firearm	0.6160894324571167
+P739	ammunition	Bearing_arms	0.5792119577243475
+P739	ammunition	Shoot_projectiles	0.5647130281482726
+P739	ammunition	Shooting_scenario	0.5600249526865642
+P739	ammunition	Containers	0.5020796480639691
+P739	ammunition	Gizmo	0.5005082490148921
+P739	ammunition	Substance	0.4678256647106585
+P739	ammunition	Fastener	0.4181783345241268
+P30	continent	Relational_natural_features	0.5383699965243833
+P30	continent	Natural_features	0.5062488470036874
+P30	continent	Political_locales	0.4726926702813689
+P30	continent	Biological_area	0.4620210010223269
+P30	continent	Part_orientational	0.42213786774915246
+P30	continent	Indigenous_origin	0.38672870338998744
+P30	continent	Isolated_places	0.3856105341895746
+P30	continent	Within_distance	0.38468338493958826
+P30	continent	Foreign_or_domestic_country	0.3826096642818344
+P30	continent	Measure_area	0.34893878661347105
+P735	given name	Being_named	0.7104333623786003
+P735	given name	Name_conferral	0.6463457716341675
+P735	given name	People_by_religion	0.6340661518178072
+P735	given name	People_by_morality	0.6004856907191077
+P735	given name	Linguistic_meaning	0.5952417452324517
+P735	given name	Word_relations	0.5940061053431617
+P735	given name	Judgment	0.5858012627275602
+P735	given name	Proper_reference	0.5664234105684913
+P735	given name	Mental_property	0.5499698171867995
+P735	given name	Morality_evaluation	0.5489750528138418
+P1136	solved by	Resolve_problem	0.5667531702291113
+P1136	solved by	Coming_to_be	0.4330167622759476
+P1136	solved by	Process_continue	0.41965054096981896
+P1136	solved by	Preventing	0.4090033107138434
+P1136	solved by	Eventive_affecting	0.399027554572796
+P1136	solved by	Altered_phase	0.39667217460918
+P1136	solved by	Topic	0.39427802078397217
+P1136	solved by	Hindering	0.39343870044431634
+P1136	solved by	Compatibility	0.3907244270473011
+P1136	solved by	Causation	0.39053047464349716
+P734	family name	Being_named	0.8089842350717794
+P734	family name	Name_conferral	0.651323544932079
+P734	family name	Namesake	0.585555858980925
+P734	family name	Word_relations	0.571311795151189
+P734	family name	Referring_by_name	0.5544024884245973
+P734	family name	Type	0.5407430538571717
+P734	family name	Simple_name	0.5112167471541756
+P734	family name	Linguistic_meaning	0.4921364363658556
+P734	family name	Spelling_and_pronouncing	0.4783947447418355
+P734	family name	Distinctiveness	0.47308584258523984
+P737	influenced by	Telling	0.5489023509212483
+P737	influenced by	Statement	0.5395994487398432
+P737	influenced by	Subjective_influence	0.5374510118779566
+P737	influenced by	Evidence	0.5367964549670502
+P737	influenced by	Topic	0.5289197059181514
+P737	influenced by	Suasion	0.519955495197441
+P737	influenced by	Experiencer_subj	0.5192279439643597
+P737	influenced by	Talking_into	0.516434254937617
+P737	influenced by	Awareness	0.5115963522219964
+P737	influenced by	Experiencer_obj	0.5060398353488669
+P1376	capital of	Change_of_leadership	0.44112831238764216
+P1376	capital of	Ratification	0.42992438534908933
+P1376	capital of	Political_locales	0.4291299406754396
+P1376	capital of	People_along_political_spectrum	0.4082188138889676
+P1376	capital of	Leadership	0.39671877403498634
+P1376	capital of	Alliance	0.35592186080013644
+P1376	capital of	Locale	0.34908758164497067
+P1376	capital of	Simple_naming	0.33605785122203435
+P1376	capital of	Judicial_body	0.3272084609871042
+P1376	capital of	Occupy_rank	0.32571794905890633
+P36	capital	Political_locales	0.7447514895874475
+P36	capital	Locale_by_use	0.628058004455473
+P36	capital	Leadership	0.5865880185424536
+P36	capital	Judicial_body	0.5530883686532007
+P36	capital	Locale	0.5236870889892784
+P36	capital	Buildings	0.5218655995725884
+P36	capital	People_by_jurisdiction	0.48911419936948514
+P36	capital	Isolated_places	0.4839692395637694
+P36	capital	Ratification	0.47833047528949363
+P36	capital	Education_teaching	0.4751621590216469
+P35	head of state	Leadership	0.9105823421771175
+P35	head of state	Subordinates_and_Superiors	0.5013416903680497
+P35	head of state	Change_of_leadership	0.4887048996227761
+P35	head of state	People_by_vocation	0.46311508515123356
+P35	head of state	People_by_morality	0.4631055601178782
+P35	head of state	Kinship	0.454105600493022
+P35	head of state	Political_locales	0.4401366347194213
+P35	head of state	People	0.4222705134537601
+P35	head of state	Personal_relationship	0.4107250663886337
+P35	head of state	Accoutrements	0.3946016821282977
+P39	position held	Leadership	0.5793041696940687
+P39	position held	Change_of_leadership	0.5511527537416173
+P39	position held	People_along_political_spectrum	0.5503022635842004
+P39	position held	Ratification	0.5251794479122569
+P39	position held	Political_locales	0.5093715094068676
+P39	position held	Building_subparts	0.5056377379787094
+P39	position held	Judicial_body	0.503605566550075
+P39	position held	People_by_jurisdiction	0.47618199842686654
+P39	position held	Being_located	0.47416163503878667
+P39	position held	Buildings	0.4735085538952345
+P180	depicts	Physical_artworks	0.7435122577613172
+P180	depicts	Create_representation	0.6021051556683331
+P180	depicts	Create_physical_artwork	0.587238225280639
+P180	depicts	Text	0.5646984769718325
+P180	depicts	Adorning	0.5460306367091283
+P180	depicts	Communicate_categorization	0.5248535771656361
+P180	depicts	Trajector-Landmark	0.5036790787599762
+P180	depicts	Architectural_part	0.49452510422299933
+P180	depicts	Performing_arts	0.4941779422154565
+P180	depicts	Craft	0.4773329477799702
+P1809	choreographer	Behind_the_scenes	0.5626223723684144
+P1809	choreographer	People_by_vocation	0.5062858492739916
+P1809	choreographer	Performing_arts	0.4609149711763115
+P1809	choreographer	Performers	0.44986779183208486
+P1809	choreographer	Text	0.44442377985707937
+P1809	choreographer	Medical_professionals	0.3970206429375743
+P1809	choreographer	Personal_relationship	0.369399063453377
+P1809	choreographer	Performers_and_roles	0.3691544928235669
+P1809	choreographer	Noise_makers	0.36792885205602527
+P1809	choreographer	Leadership	0.3286681784798566
+P1924	vaccine for	Medical_conditions	0.8258311629494655
+P1924	vaccine for	Cure	0.5497573687911196
+P1924	vaccine for	Medical_specialties	0.5034143090870574
+P1924	vaccine for	Health_response	0.4822328892629461
+P1924	vaccine for	Toxic_substance	0.47111914805408694
+P1924	vaccine for	Body_mark	0.4438612154860201
+P1924	vaccine for	Medical_instruments	0.4254307628563398
+P1924	vaccine for	Intoxicants	0.4112749278287402
+P1924	vaccine for	Active_substance	0.3962614335567456
+P1924	vaccine for	Medical_professionals	0.3853103665840111
+P1923	participating team	Participation	0.6334081674630336
+P1923	participating team	Competition	0.54042167204433
+P1923	participating team	Intentionally_act	0.5016985514633131
+P1923	participating team	Activity_start	0.4467709557764266
+P1923	participating team	Collaboration	0.44647114341017213
+P1923	participating team	Performers_and_roles	0.4221178765588102
+P1923	participating team	Successful_action	0.41926646538756435
+P1923	participating team	Withdraw_from_participation	0.41614843970633186
+P1923	participating team	Process_continue	0.4119744084691061
+P1923	participating team	Activity_done_state	0.40984985429991805
+P40	child	Kinship	0.8837728044490477
+P40	child	People_by_age	0.8217793143066693
+P40	child	Personal_relationship	0.6665740481898215
+P40	child	People	0.6406803170522596
+P40	child	Attention_getting	0.6148775507619435
+P40	child	Birth	0.5907847620617132
+P40	child	Being_born	0.5786016502484775
+P40	child	People_by_residence	0.5553700212745303
+P40	child	People_by_vocation	0.5205893223881928
+P40	child	Body_description_part	0.5149127040661196
+P43	stepfather	Kinship	0.9048597965849876
+P43	stepfather	Personal_relationship	0.6461138680493158
+P43	stepfather	People_by_age	0.5594202425948503
+P43	stepfather	People_by_residence	0.5171291979930104
+P43	stepfather	Attention_getting	0.5168844482923357
+P43	stepfather	People	0.49858334544606253
+P43	stepfather	People_by_vocation	0.47306650664581235
+P43	stepfather	Birth	0.41615271686993827
+P43	stepfather	Being_born	0.4151236409087385
+P43	stepfather	Forming_relationships	0.40691183120970514
+P44	stepmother	Kinship	0.829439582414512
+P44	stepmother	Personal_relationship	0.6931952538429799
+P44	stepmother	People_by_age	0.5150620717024577
+P44	stepmother	People_by_residence	0.5038639686656607
+P44	stepmother	Forming_relationships	0.44413706411775644
+P44	stepmother	Attention_getting	0.43636817275581
+P44	stepmother	People_by_vocation	0.4348395945091521
+P44	stepmother	People	0.43427439109807947
+P44	stepmother	Rape	0.4241061381214392
+P44	stepmother	Body_description_part	0.3768680239295076
+P634	captain	Leadership	0.43586655437969246
+P634	captain	People_by_vocation	0.3926447250814152
+P634	captain	Military	0.37540436479488865
+P634	captain	Defend	0.3285015082892113
+P634	captain	Education_teaching	0.30819831932989844
+P634	captain	Operate_vehicle	0.30673868759660905
+P634	captain	People	0.3016158394133826
+P634	captain	Medical_professionals	0.2891433893798341
+P634	captain	Subordinates_and_Superiors	0.28738240090736306
+P634	captain	Aggregate	0.2799331983901385
+P512	academic degree	Education_teaching	0.5714179444192586
+P512	academic degree	Studying	0.5683649176009851
+P512	academic degree	Medical_specialties	0.4864354371835484
+P512	academic degree	Rank	0.4588118163694699
+P512	academic degree	Research	0.42891546665062497
+P512	academic degree	Craft	0.4139903968981766
+P512	academic degree	Documents	0.40396268096509275
+P512	academic degree	Examination	0.38556245829485564
+P512	academic degree	Institutions	0.38219854543586745
+P512	academic degree	Familiarity	0.3793955755756901
+P750	distributor	Commerce_sell	0.5837429109389662
+P750	distributor	Commerce_scenario	0.5508583220964798
+P750	distributor	Manufacturing	0.519908793310942
+P750	distributor	Import_export	0.5189367437243432
+P750	distributor	Dispersal	0.4962584882177293
+P750	distributor	Commerce_buy	0.4925244880773791
+P750	distributor	Commercial_transaction	0.48395272604099704
+P750	distributor	Product_delivery	0.48151356943931034
+P750	distributor	Importing	0.4755506206679052
+P750	distributor	Commerce_goods-transfer	0.4606346634143118
+P1478	has immediate cause	Causation	0.7284987720563548
+P1478	has immediate cause	Cause_to_start	0.6222555838892931
+P1478	has immediate cause	Obviousness	0.6045406838158128
+P1478	has immediate cause	Health_response	0.5967512612360375
+P1478	has immediate cause	Rashness	0.5878157427115708
+P1478	has immediate cause	Subjective_influence	0.5775931276992652
+P1478	has immediate cause	Hindering	0.5742552811364511
+P1478	has immediate cause	Objective_influence	0.5684436853945536
+P1478	has immediate cause	Linguistic_meaning	0.5656203113670016
+P1478	has immediate cause	Cause_change	0.5653981082937386
+P50	author	Text	0.7045822432094362
+P50	author	Text_creation	0.5385113953191296
+P50	author	People_by_vocation	0.5328621604305489
+P50	author	Behind_the_scenes	0.446336128629898
+P50	author	Research	0.44063119114379573
+P50	author	Medical_professionals	0.43527945223623943
+P50	author	Education_teaching	0.421535268538285
+P50	author	Achieving_first	0.41531588003503384
+P50	author	Performers	0.40598611940037116
+P50	author	Volubility	0.40383442502284306
+P1479	has contributing factor	Importance	0.606710135750065
+P1479	has contributing factor	Cause_change	0.5390929103398528
+P1479	has contributing factor	Obviousness	0.529910013985996
+P1479	has contributing factor	Inclusion	0.5299005692253397
+P1479	has contributing factor	Causation	0.5287041862686107
+P1479	has contributing factor	Cognitive_connection	0.5195201478341486
+P1479	has contributing factor	Measurable_attributes	0.5094245397133451
+P1479	has contributing factor	Contingency	0.49980201073056124
+P1479	has contributing factor	Being_up_to_it	0.4977658604638487
+P1479	has contributing factor	Subjective_influence	0.49672100218596454
+P515	phase of matter	Change_of_phase_scenario	0.5243965772656315
+P515	phase of matter	Extreme_point	0.5088607264024231
+P515	phase of matter	Process_start	0.48481288371625814
+P515	phase of matter	Progress	0.47547070494720334
+P515	phase of matter	Process_pause	0.4392536884144597
+P515	phase of matter	Process	0.41962811294711316
+P515	phase of matter	Receiving_scenario	0.4068216743071265
+P515	phase of matter	Change_of_phase	0.4063137354959363
+P515	phase of matter	Temporal_pattern	0.40474095659186166
+P515	phase of matter	Stage_of_progress	0.40461950997629803
+P1477	birth name	Being_named	0.8133101562971732
+P1477	birth name	Name_conferral	0.6989601085342099
+P1477	birth name	Word_relations	0.5834590973373109
+P1477	birth name	Linguistic_meaning	0.5689050457339933
+P1477	birth name	Referring_by_name	0.5619253498311534
+P1477	birth name	Text_creation	0.556654256327998
+P1477	birth name	Text	0.5493454030867755
+P1477	birth name	Simple_name	0.5483196341569875
+P1477	birth name	Namesake	0.5475118339084838
+P1477	birth name	Spelling_and_pronouncing	0.5410558566284821
+P1114	quantity	Quantity	0.6765517104415013
+P1114	quantity	Scarcity	0.5702672226815668
+P1114	quantity	Adding_up	0.555316955370605
+P1114	quantity	Similarity	0.5546769977420936
+P1114	quantity	Amounting_to	0.5468788445456931
+P1114	quantity	Measure_scenario	0.5326691358150968
+P1114	quantity	Abundance	0.5152361654320073
+P1114	quantity	Typicality	0.5065023315382893
+P1114	quantity	Aggregate	0.5028165702341854
+P1114	quantity	Actually_occurring_entity	0.4951368821105585
+P1595	charge	Notification_of_charges	0.6133096827245946
+P1595	charge	Criminal_process	0.5826476980717328
+P1595	charge	Arraignment	0.5744395946368042
+P1595	charge	Want_suspect	0.5537283717405821
+P1595	charge	Offenses	0.514533376368674
+P1595	charge	Entering_of_plea	0.49712993496441726
+P1595	charge	Verdict	0.49471124709500836
+P1595	charge	Try_defendant	0.47425138157801444
+P1595	charge	Jury_deliberation	0.47341944812096015
+P1595	charge	Extradition	0.4287790155286525
+P1596	penalty	Rewards_and_punishments	0.6687010295098018
+P1596	penalty	Commutation	0.5506918265983882
+P1596	penalty	Fining	0.5231558041305012
+P1596	penalty	Pardon	0.4921402161889602
+P1596	penalty	Imprisonment	0.48910952114642464
+P1596	penalty	Forgiveness	0.4477098307683852
+P1596	penalty	Sentencing	0.42336705135239133
+P1596	penalty	Corporal_punishment	0.39420494134965867
+P1596	penalty	Revenge	0.36723961567709257
+P1596	penalty	Reparation	0.3658179977138671
+P1593	defender	Defend	0.5800233897003263
+P1593	defender	People_by_vocation	0.31421263574608016
+P1593	defender	Attempting_scenario	0.2963857739512048
+P1593	defender	Finish_competition	0.2962763210145667
+P1593	defender	Lose_possession	0.2947127571128304
+P1593	defender	Use_firearm	0.28329979633716207
+P1593	defender	Transfer_scenario	0.27928861349680995
+P1593	defender	Replacing	0.2785569111186241
+P1593	defender	Leadership	0.27823833742688814
+P1593	defender	Resolve_attempt_scenario	0.2756898664422689
+P58	screenwriter	Text	0.6919752157722068
+P58	screenwriter	Behind_the_scenes	0.5714464696330218
+P58	screenwriter	Performing_arts	0.5238152313045006
+P58	screenwriter	People_by_vocation	0.502534927612788
+P58	screenwriter	Performers	0.46438915183688295
+P58	screenwriter	Text_creation	0.43059240396348514
+P58	screenwriter	Physical_artworks	0.40366794071301243
+P58	screenwriter	Medical_professionals	0.39993219582296363
+P58	screenwriter	Performers_and_roles	0.3992504912825763
+P58	screenwriter	Personal_relationship	0.39035563850233956
+P1591	defendant	Try_defendant	0.6472605696473032
+P1591	defendant	Criminal_process	0.6354846747602699
+P1591	defendant	Appeal	0.6292500377213321
+P1591	defendant	Trial	0.5930952900694639
+P1591	defendant	Arraignment	0.5382331482023431
+P1591	defendant	Verdict	0.5222153024071283
+P1591	defendant	Jury_deliberation	0.47985893735842283
+P1591	defendant	Notification_of_charges	0.47465032993754247
+P1591	defendant	Guilt_or_innocence	0.4648106194203291
+P1591	defendant	Reparation	0.46406968182338526
+P57	director	Behind_the_scenes	0.5564633631084973
+P57	director	Performing_arts	0.3986249099705372
+P57	director	Performers_and_roles	0.3814424625470556
+P57	director	Leadership	0.3735677668471567
+P57	director	Text	0.3475006243161264
+P57	director	People_by_vocation	0.3314836753370314
+P57	director	Redirecting	0.32163086937000746
+P57	director	Collaboration	0.31746102685043737
+P57	director	Performers	0.3082436385551055
+P57	director	Education_teaching	0.3029858735929535
+P1592	prosecutor	Try_defendant	0.5878520812199372
+P1592	prosecutor	Arraignment	0.5701274021558702
+P1592	prosecutor	Notification_of_charges	0.5655986921653021
+P1592	prosecutor	People_by_vocation	0.5526630791177448
+P1592	prosecutor	Trial	0.5342099187951936
+P1592	prosecutor	Criminal_process	0.5308366712808551
+P1592	prosecutor	Criminal_investigation	0.49807892871366505
+P1592	prosecutor	Verdict	0.4953405717097738
+P1592	prosecutor	Judicial_body	0.4945925386111464
+P1592	prosecutor	Extradition	0.48604331399894973
+P61	discoverer or inventor	Achieving_first	0.7588015184661578
+P61	discoverer or inventor	Invention	0.5608102484239251
+P61	discoverer or inventor	Being_named	0.5246856294860185
+P61	discoverer or inventor	Intentionally_create	0.5155837920240194
+P61	discoverer or inventor	Word_relations	0.4820210136357255
+P61	discoverer or inventor	Idiosyncrasy	0.46673197529826693
+P61	discoverer or inventor	Imitating	0.4640826722631537
+P61	discoverer or inventor	Communicate_categorization	0.4467658088653589
+P61	discoverer or inventor	Distinctiveness	0.4412042522798595
+P61	discoverer or inventor	Research	0.43981469288479663
+P1066	student of	Education_teaching	0.8064553922107337
+P1066	student of	People_by_vocation	0.739520934521889
+P1066	student of	Medical_professionals	0.5865800737065826
+P1066	student of	Studying	0.5512831860121683
+P1066	student of	People	0.5207080273750754
+P1066	student of	Kinship	0.514488518399016
+P1066	student of	Personal_relationship	0.5133855651019861
+P1066	student of	People_by_age	0.5097092201589902
+P1066	student of	Leadership	0.5058728573340946
+P1066	student of	People_by_residence	0.4643865236304214
+P69	educated at	Education_teaching	0.7268843363368994
+P69	educated at	Studying	0.5936905156185678
+P69	educated at	Being_born	0.42903224489441943
+P69	educated at	Becoming_a_member	0.4252542985267839
+P69	educated at	People_by_vocation	0.4169804756083462
+P69	educated at	Wealthiness	0.4143903358875308
+P69	educated at	Personal_relationship	0.4072658623787878
+P69	educated at	Familiarity	0.39846315900919005
+P69	educated at	Medical_specialties	0.3969817519285162
+P69	educated at	Being_employed	0.3885302857417537
+P790	approved by	Grant_permission	0.5960182094400104
+P790	approved by	Being_in_effect	0.5188482869896615
+P790	approved by	Ratification	0.5183850612341195
+P790	approved by	Sign_agreement	0.5074867325705938
+P790	approved by	Submitting_documents	0.4731402021684843
+P790	approved by	Terms_of_agreement	0.4636090116975433
+P790	approved by	Compliance	0.4587134427297584
+P790	approved by	Deny_permission	0.45143321580970996
+P790	approved by	Permitting	0.42870659072339967
+P790	approved by	Legality	0.42797569302448124
+P770	cause of destruction	Destroying	0.7551317091049866
+P770	cause of destruction	Causation	0.5891489663602217
+P770	cause of destruction	Catastrophe	0.5723972010222431
+P770	cause of destruction	Killing	0.5717565750465746
+P770	cause of destruction	Endangering	0.5500721604662132
+P770	cause of destruction	Death	0.5393818033250406
+P770	cause of destruction	Rotting	0.5216654287802899
+P770	cause of destruction	Damaging	0.5160218049900116
+P770	cause of destruction	Rashness	0.4913516319551593
+P770	cause of destruction	Revenge	0.4901588791622469
+P1050	medical condition	Medical_conditions	0.8718652056538692
+P1050	medical condition	Cure	0.6059071594644542
+P1050	medical condition	Medical_specialties	0.5780449836782235
+P1050	medical condition	Institutionalization	0.5055986334025651
+P1050	medical condition	Medical_professionals	0.5048077417849748
+P1050	medical condition	Body_mark	0.498550879747584
+P1050	medical condition	Health_response	0.4944232264297417
+P1050	medical condition	Biological_urge	0.4571829305785403
+P1050	medical condition	People_by_age	0.4477499961106847
+P1050	medical condition	Medical_instruments	0.43387512889471586
+P1290	godparent	Kinship	0.854093553399358
+P1290	godparent	Personal_relationship	0.6829097943197311
+P1290	godparent	Leadership	0.5637433869711577
+P1290	godparent	People_by_residence	0.519911597630249
+P1290	godparent	People_by_age	0.5084348753987655
+P1290	godparent	Attention_getting	0.5027353719110231
+P1290	godparent	Subordinates_and_Superiors	0.5014809951654919
+P1290	godparent	People_by_vocation	0.4850205083027012
+P1290	godparent	People	0.4768092256364951
+P1290	godparent	People_by_morality	0.468489413588801
+P1840	investigated by	Scrutiny	0.4533774690558899
+P1840	investigated by	Cognitive_connection	0.4443431506228652
+P1840	investigated by	Court_examination	0.438995672839623
+P1840	investigated by	Research	0.4315196701578719
+P1840	investigated by	Criminal_investigation	0.4295477821356409
+P1840	investigated by	Assessing	0.4177500252580914
+P1840	investigated by	Evidence	0.38823504560369887
+P1840	investigated by	Inspecting	0.3871090311309152
+P1840	investigated by	Examination	0.3616214208675409
+P1840	investigated by	Verification	0.3610477402366064
+P209	highest judicial authority	Judicial_body	0.7344643055168905
+P209	highest judicial authority	Appeal	0.6238582503936352
+P209	highest judicial authority	Law	0.5538505382550629
+P209	highest judicial authority	Criminal_process	0.5524492805408737
+P209	highest judicial authority	Extradition	0.5443266594741688
+P209	highest judicial authority	People_by_jurisdiction	0.5170178377170805
+P209	highest judicial authority	Trial	0.5169445737368236
+P209	highest judicial authority	Partiality	0.5124479824636077
+P209	highest judicial authority	Documents	0.5104235318763688
+P209	highest judicial authority	Notification_of_charges	0.5091037227762427
+P208	executive body	Observable_bodyparts	0.544951365119435
+P208	executive body	People_by_vocation	0.512078633334282
+P208	executive body	Leadership	0.45039562246549675
+P208	executive body	Subordinates_and_Superiors	0.4501004808342642
+P208	executive body	Shaped_part	0.44447516392913533
+P208	executive body	Employing	0.42893706522980846
+P208	executive body	Building_subparts	0.4186164531640636
+P208	executive body	Containers	0.41296494163090475
+P208	executive body	Hiding_objects	0.4023776832961039
+P208	executive body	Dead_or_alive	0.39862631579217134
+P1046	discovery method	Achieving_first	0.5498068521314706
+P1046	discovery method	Gizmo	0.5307209158917544
+P1046	discovery method	Craft	0.5210813479340595
+P1046	discovery method	Research	0.5133444464639784
+P1046	discovery method	Artifact	0.5117608218915719
+P1046	discovery method	Medical_instruments	0.5103647387908992
+P1046	discovery method	Intentionally_create	0.48754381491767956
+P1046	discovery method	Processing_materials	0.4865363247976994
+P1046	discovery method	Measurable_attributes	0.48608300277882854
+P1046	discovery method	Estimated_value	0.4735666531408883
+P2012	cuisine	Food	0.6759391849963237
+P2012	cuisine	Chemical-sense_description	0.5916872653948576
+P2012	cuisine	Cooking_creation	0.5803902096071567
+P2012	cuisine	Apply_heat	0.5149379925120856
+P2012	cuisine	Ingestion	0.5109290647058247
+P2012	cuisine	Absorb_heat	0.41761152474385554
+P2012	cuisine	Aesthetics	0.4054484888255241
+P2012	cuisine	Social_event	0.3949557453476701
+P2012	cuisine	Sensation	0.3861189497409085
+P2012	cuisine	People_by_origin	0.368845407694576
+P570	date of death	Death	0.6228340172404443
+P570	date of death	Killing	0.6140686684058709
+P570	date of death	Dead_or_alive	0.5724311398451684
+P570	date of death	Departing	0.5645820424638106
+P570	date of death	Quitting_a_place	0.5454450467911457
+P570	date of death	Personal_relationship	0.535415017933858
+P570	date of death	Being_born	0.5297747673221256
+P570	date of death	Forming_relationships	0.5247921745092657
+P570	date of death	Kinship	0.506158731235937
+P570	date of death	Birth	0.48364505466771623
+P676	lyrics by	Text	0.7248227777611167
+P676	lyrics by	Communication_manner	0.5410421667146997
+P676	lyrics by	Noise_makers	0.5397758128245883
+P676	lyrics by	Text_creation	0.5108377805366695
+P676	lyrics by	Encoding	0.48800894801240097
+P676	lyrics by	Performing_arts	0.4786610692305815
+P676	lyrics by	Behind_the_scenes	0.4783119066420007
+P676	lyrics by	Proper_reference	0.47636559734640405
+P676	lyrics by	Volubility	0.4757599806241956
+P676	lyrics by	Performers	0.4674620991284418
+P1038	relative	Membership	0.5085580811022193
+P1038	relative	Alliance	0.4218259447790204
+P1038	relative	People_by_vocation	0.419009069171462
+P1038	relative	Leadership	0.4162268007332396
+P1038	relative	Public_services	0.3941203016806683
+P1038	relative	Kinship	0.3802397701772014
+P1038	relative	Organization	0.3723388797803714
+P1038	relative	First_rank	0.36921657112624184
+P1038	relative	People_by_residence	0.3598943531389939
+P1038	relative	People_along_political_spectrum	0.3521247458312479
+P1399	convicted of	Verdict	0.6079400851228878
+P1399	convicted of	Arraignment	0.6021777261571288
+P1399	convicted of	Notification_of_charges	0.5999071402723711
+P1399	convicted of	Offenses	0.582257527565327
+P1399	convicted of	Imprisonment	0.5564534134352347
+P1399	convicted of	Detaining	0.5416648850656425
+P1399	convicted of	Guilt_or_innocence	0.5409008208652437
+P1399	convicted of	Extradition	0.5324398312249264
+P1399	convicted of	Arrest	0.5310769464641137
+P1399	convicted of	Want_suspect	0.5092044999534692
+P466	occupant	Residence	0.6580446848494556
+P466	occupant	Renting_out	0.5681256179108684
+P466	occupant	Renting	0.5605832974327707
+P466	occupant	People_by_residence	0.526850501264764
+P466	occupant	Possession	0.5223908984597105
+P466	occupant	Buildings	0.5005545317916563
+P466	occupant	Commerce_scenario	0.47113190512475117
+P466	occupant	People_by_jurisdiction	0.47040185529944517
+P466	occupant	Commerce_money-transfer	0.46596590487359224
+P466	occupant	Quitting_a_place	0.4563354009247273
+P106	occupation	Being_employed	0.6741609388461082
+P106	occupation	Employment_scenario	0.5687152574844803
+P106	occupation	Employment_start	0.5565826727427228
+P106	occupation	Employing	0.5520478843447371
+P106	occupation	Employment_end	0.5455354893978435
+P106	occupation	Employment_continue	0.5416134201058854
+P106	occupation	Unemployment_rate	0.5321882543251395
+P106	occupation	Fields	0.516047069361352
+P106	occupation	Craft	0.5097835985873049
+P106	occupation	Hiring	0.5078548856127282
+P463	member of	Membership	0.4904406668573923
+P463	member of	Alliance	0.3987913205454288
+P463	member of	Leadership	0.3626551993438303
+P463	member of	Public_services	0.342031335228372
+P463	member of	People_by_vocation	0.3303736332826617
+P463	member of	First_rank	0.3245657385145695
+P463	member of	Becoming_a_member	0.308889622485556
+P463	member of	Collaboration	0.3035051061315073
+P463	member of	Organization	0.29403202919057936
+P463	member of	Participation	0.27457065702580136
+P462	color	Color	0.6879707435270697
+P462	color	Location_of_light	0.5731163169283892
+P462	color	Light_movement	0.5676635770717434
+P462	color	Body_decoration	0.5489961654739205
+P462	color	Sensation	0.49878458953453375
+P462	color	Hair_configuration	0.4968451259158837
+P462	color	Adorning	0.4810831079558838
+P462	color	Filling	0.47371576883820055
+P462	color	Distinctiveness	0.4633369995522413
+P462	color	Chemical-sense_description	0.4406433753603285
+P102	member of political party	People_along_political_spectrum	0.6042991921964141
+P102	member of political party	Leadership	0.4934958130367352
+P102	member of political party	Proper_reference	0.4567284114693025
+P102	member of political party	Alliance	0.4389298903163932
+P102	member of political party	Renunciation	0.43508650251449194
+P102	member of political party	Ratification	0.4348280465687989
+P102	member of political party	Judicial_body	0.4308789313101384
+P102	member of political party	Membership	0.4255562678969071
+P102	member of political party	People_by_religion	0.4253551155396693
+P102	member of political party	Compatibility	0.41804062470005765
+P101	field of work	Research	0.5981785949372924
+P101	field of work	Craft	0.5804217488176497
+P101	field of work	Institutions	0.5755559775953343
+P101	field of work	Fields	0.5752922230946792
+P101	field of work	Studying	0.5680070555133048
+P101	field of work	Examination	0.5300226961562562
+P101	field of work	Biological_area	0.5271075709413721
+P101	field of work	Locale_by_use	0.515797026963949
+P101	field of work	Education_teaching	0.5012214395739636
+P101	field of work	Political_locales	0.49557766646083234
+P1547	depends on	Reliance	0.8027684201744295
+P1547	depends on	Contingency	0.7499822503301069
+P1547	depends on	Place_weight_on	0.5178881641277161
+P1547	depends on	Objective_influence	0.46649911238937775
+P1547	depends on	Reliance_on_expectation	0.45357169270769665
+P1547	depends on	Reciprocality_focus	0.4359719065243902
+P1547	depends on	Cause_change	0.42566722404990054
+P1547	depends on	Compatibility	0.4220261287725032
+P1547	depends on	Imposing_obligation	0.41668026734812424
+P1547	depends on	Position_on_a_scale	0.41021637280199963
+P1302	primary destinations	Travel	0.5245822541248577
+P1302	primary destinations	Locale	0.5025849753745834
+P1302	primary destinations	Setting_out	0.4715192882671843
+P1302	primary destinations	Relational_natural_features	0.4613762230254318
+P1302	primary destinations	Ride_vehicle	0.4491086289846552
+P1302	primary destinations	Locale_by_use	0.4477769422946484
+P1302	primary destinations	Isolated_places	0.43511445249608477
+P1302	primary destinations	Within_distance	0.43321119361152466
+P1302	primary destinations	Political_locales	0.425990862159238
+P1302	primary destinations	Board_vehicle	0.4256335965125889
+P108	employer	Being_employed	0.6918716335652156
+P108	employer	Employing	0.6466124463836013
+P108	employer	Get_a_job	0.6088438488421606
+P108	employer	Employment_continue	0.5943019178651437
+P108	employer	Employment_scenario	0.5891760952108983
+P108	employer	Hiring	0.5769410927943396
+P108	employer	Employment_end	0.5758746813563361
+P108	employer	Employment_start	0.5625189006814337
+P108	employer	Firing	0.5143342928342394
+P108	employer	Using	0.5133671283579967
+P1542	cause of	Causation	0.7076799601832628
+P1542	cause of	Sign	0.6223880266068771
+P1542	cause of	Health_response	0.6205524634481906
+P1542	cause of	Causation_scenario	0.6131558753602379
+P1542	cause of	Rashness	0.6092676827425907
+P1542	cause of	Objective_influence	0.587520610231866
+P1542	cause of	Obviousness	0.5850650016560532
+P1542	cause of	Endangering	0.5827343671865427
+P1542	cause of	Hindering	0.5765242051632818
+P1542	cause of	Explaining_the_facts	0.5703486487116269
+P2079	fabrication method	Gizmo	0.6093865774325817
+P2079	fabrication method	Manufacturing	0.5863805328922352
+P2079	fabrication method	Processing_materials	0.5563330720266453
+P2079	fabrication method	Craft	0.5351647284195806
+P2079	fabrication method	Artifact	0.5145636740256475
+P2079	fabrication method	Degree_of_processing	0.5140013179635741
+P2079	fabrication method	Using	0.497752642674524
+P2079	fabrication method	Businesses	0.4932826582229379
+P2079	fabrication method	Process	0.49134599090899306
+P2079	fabrication method	Intentionally_create	0.4898239677541289
+P210	party chief representative	Leadership	0.6408665861068341
+P210	party chief representative	People_along_political_spectrum	0.5286404017141813
+P210	party chief representative	Ratification	0.45400302605711873
+P210	party chief representative	People_by_vocation	0.45099181306734754
+P210	party chief representative	Alliance	0.44917347406165614
+P210	party chief representative	Change_of_leadership	0.44887335821728647
+P210	party chief representative	Subordinates_and_Superiors	0.44800459458160413
+P210	party chief representative	Organization	0.44188888845689245
+P210	party chief representative	Strictness	0.4160860516843922
+P210	party chief representative	Judicial_body	0.41406169684993227
+P1419	shape	Shapes	0.5396713780473057
+P1419	shape	Reshaping	0.5348505891305142
+P1419	shape	Dimension	0.4855580086638662
+P1419	shape	Hair_configuration	0.48221491711208
+P1419	shape	Shaped_part	0.4777148036092168
+P1419	shape	Moving_in_place	0.4591615669049069
+P1419	shape	Distinctiveness	0.45632238420986876
+P1419	shape	Clothing_parts	0.44857933268613565
+P1419	shape	Adorning	0.44846356412729427
+P1419	shape	Type	0.4396336727787265
+P451	cohabitant	Personal_relationship	0.8730370807711845
+P451	cohabitant	Kinship	0.7604624608818406
+P451	cohabitant	People_by_residence	0.6407329491968604
+P451	cohabitant	Forming_relationships	0.5914875574057581
+P451	cohabitant	People_by_vocation	0.5695673335569165
+P451	cohabitant	Subordinates_and_Superiors	0.5586469882618956
+P451	cohabitant	People	0.5519407087289849
+P451	cohabitant	Attention_getting	0.5419306796119859
+P451	cohabitant	People_by_age	0.5320271264746477
+P451	cohabitant	Leadership	0.5092260559216837
+P1416	affiliation	Membership	0.5896689578497675
+P1416	affiliation	Cognitive_connection	0.533804268214968
+P1416	affiliation	Collaboration	0.5147202546549993
+P1416	affiliation	Social_connection	0.49983793537980525
+P1416	affiliation	Participation	0.486707507928756
+P1416	affiliation	Compatibility	0.4751557575682068
+P1416	affiliation	Make_cognitive_connection	0.43298307229405825
+P1416	affiliation	Cause_to_amalgamate	0.41673123624222685
+P1416	affiliation	Familiarity	0.41303833938374546
+P1416	affiliation	Being_located	0.41088458491312824
+P1537	contributing factor of	Amounting_to	0.4818782908006257
+P1537	contributing factor of	Giving	0.48013175847883444
+P1537	contributing factor of	Importance	0.4766090534731064
+P1537	contributing factor of	Inclusion	0.4616025811182348
+P1537	contributing factor of	Gradable_attributes	0.4487985950022888
+P1537	contributing factor of	Attributes	0.44669738992680347
+P1537	contributing factor of	Cause_change_of_position_on_a_scale	0.44593122278249503
+P1537	contributing factor of	Causation	0.43755041003895034
+P1537	contributing factor of	Adding_up	0.43406584538979487
+P1537	contributing factor of	Cause_change	0.4297448249495019
+P1536	immediate cause of	Causation	0.7373186648407983
+P1536	immediate cause of	Cause_to_start	0.644030265465581
+P1536	immediate cause of	Endangering	0.6370700320854165
+P1536	immediate cause of	Hindering	0.5866432329621147
+P1536	immediate cause of	Preventing	0.5680925362735298
+P1536	immediate cause of	Rashness	0.552157642150743
+P1536	immediate cause of	Talking_into	0.5508043258385665
+P1536	immediate cause of	Thwarting	0.5477841820866438
+P1536	immediate cause of	Health_response	0.5354470014805288
+P1536	immediate cause of	Corroding_caused	0.5298039118830304
+P1534	end cause	Causation	0.7429333210742962
+P1534	end cause	Cause_to_start	0.6574633475722725
+P1534	end cause	Endangering	0.6365713068217385
+P1534	end cause	Preventing	0.5511607980367149
+P1534	end cause	Coming_to_be	0.5345430352817236
+P1534	end cause	Thwarting	0.5331534729176742
+P1534	end cause	Hindering	0.5312778582641146
+P1534	end cause	Corroding_caused	0.530058286246277
+P1534	end cause	Health_response	0.5255664866157972
+P1534	end cause	Cause_change_of_position_on_a_scale	0.5238955867513818
+P488	chairperson	Leadership	0.6356010855988428
+P488	chairperson	People_by_vocation	0.5079215042663762
+P488	chairperson	Membership	0.4567132094318074
+P488	chairperson	First_rank	0.43412309821121636
+P488	chairperson	Alliance	0.43136961906803967
+P488	chairperson	Organization	0.4140625398619236
+P488	chairperson	People_along_political_spectrum	0.3715042066429715
+P488	chairperson	Education_teaching	0.3698949251419317
+P488	chairperson	Public_services	0.36570169139743364
+P488	chairperson	Agree_or_refuse_to_act	0.34565072083599907
+P127	owned by	Commerce_scenario	0.6077263878182333
+P127	owned by	Renting	0.5861338774359217
+P127	owned by	Possession	0.5830694376600007
+P127	owned by	Commercial_transaction	0.5827549029426814
+P127	owned by	Commerce_sell	0.5814366483906698
+P127	owned by	Renting_out	0.5668917617061493
+P127	owned by	Commerce_buy	0.5620491039529113
+P127	owned by	Commerce_money-transfer	0.5409674717439809
+P127	owned by	Claim_ownership	0.511004529221549
+P127	owned by	Commerce_goods-transfer	0.4969926406524926
+P807	separated from	Separation	0.6329717798932367
+P807	separated from	Departing	0.5563660324352692
+P807	separated from	Quitting_a_place	0.5515911911347774
+P807	separated from	Compatibility	0.535682102100174
+P807	separated from	Being_detached	0.5270449526004725
+P807	separated from	Amalgamation	0.5127090062040102
+P807	separated from	Cause_to_amalgamate	0.509932060935299
+P807	separated from	Cause_to_fragment	0.5094677949712229
+P807	separated from	Quarreling	0.4809403567032444
+P807	separated from	Forming_relationships	0.47628531350652686
+P1884	hair color	Hair_configuration	0.75482955536137
+P1884	hair color	Body_decoration	0.6881551211386282
+P1884	hair color	Color	0.6666165814093082
+P1884	hair color	Accoutrements	0.633365172485511
+P1884	hair color	Observable_bodyparts	0.596020199479009
+P1884	hair color	Clothing	0.5894502609138053
+P1884	hair color	Grooming	0.5732085576467179
+P1884	hair color	Clothing_parts	0.5704654229816624
+P1884	hair color	Body_description_part	0.5657177749810529
+P1884	hair color	Body_mark	0.5621300571896127
+P924	medical treatment	Medical_specialties	0.7915938124664984
+P924	medical treatment	Cure	0.721052897459878
+P924	medical treatment	Medical_conditions	0.6261069549547226
+P924	medical treatment	Medical_professionals	0.5945868486578605
+P924	medical treatment	Medical_instruments	0.5270586482551222
+P924	medical treatment	Recovery	0.4990517535684314
+P924	medical treatment	Institutionalization	0.48845943759003013
+P924	medical treatment	Health_response	0.38070030210367706
+P924	medical treatment	Grooming	0.3792142049351859
+P924	medical treatment	Research	0.36873928791495664
+P802	student	Education_teaching	0.6429351620243484
+P802	student	People_by_age	0.5563478706991691
+P802	student	People_by_vocation	0.553561439240995
+P802	student	Studying	0.5405477632390461
+P802	student	People	0.5131474737528537
+P802	student	People_by_residence	0.5044495205777895
+P802	student	Kinship	0.4804956712543099
+P802	student	Attention_getting	0.45110983531523446
+P802	student	Personal_relationship	0.45099000999818706
+P802	student	Medical_professionals	0.40106213658237266
+P2054	density	Measurable_attributes	0.5501331848740955
+P2054	density	Scalars	0.510885438768153
+P2054	density	Change_of_phase	0.49693438121919836
+P2054	density	Dimension	0.48896210131235546
+P2054	density	Emitting	0.48382612647592205
+P2054	density	Cause_to_be_dry	0.4728016352162408
+P2054	density	Cause_fluidic_motion	0.4716721941563884
+P2054	density	Substance	0.4692428324148526
+P2054	density	Containment	0.46480960239171376
+P2054	density	Measure_linear_extent	0.4552701068762476
+P2052	speed	Speed	0.5830585837339118
+P2052	speed	Measurable_attributes	0.4330713942744947
+P2052	speed	Sharpness	0.43224447003999145
+P2052	speed	Dimension	0.4229997852028862
+P2052	speed	Spanning_values	0.4181101104505147
+P2052	speed	Scalars	0.41309231640401556
+P2052	speed	Capability	0.41277000567137584
+P2052	speed	Taking_time	0.4101289790722636
+P2052	speed	Motion	0.39566208994004937
+P2052	speed	Path_shape	0.3937865585742803
+P131	located in the administrative territorial entity	Political_locales	0.8205215660411295
+P131	located in the administrative territorial entity	Locale_by_use	0.6647635414566804
+P131	located in the administrative territorial entity	Measure_area	0.6111279574782436
+P131	located in the administrative territorial entity	Isolated_places	0.5946312573583897
+P131	located in the administrative territorial entity	Locale	0.5811597052499864
+P131	located in the administrative territorial entity	Relational_natural_features	0.5729322338789082
+P131	located in the administrative territorial entity	Biological_area	0.5704087150354088
+P131	located in the administrative territorial entity	People_by_jurisdiction	0.5598350248663396
+P131	located in the administrative territorial entity	Natural_features	0.540724185636152
+P131	located in the administrative territorial entity	Buildings	0.5332979091060103
+P114	airline alliance	Alliance	0.6991546519009432
+P114	airline alliance	Be_in_agreement_on_action	0.5375372580291845
+P114	airline alliance	Organization	0.5287635661172152
+P114	airline alliance	Make_agreement_on_action	0.5127300747927708
+P114	airline alliance	Collaboration	0.49686851994550196
+P114	airline alliance	Ratification	0.42618117803160166
+P114	airline alliance	Having_commercial_agreement	0.4260269639781738
+P114	airline alliance	People_along_political_spectrum	0.4070150195181968
+P114	airline alliance	Sign_agreement	0.40398615312329245
+P114	airline alliance	Compatibility	0.40036633837057334
+P7	brother	Kinship	0.8146150270484003
+P7	brother	Personal_relationship	0.665903560286345
+P7	brother	Attention_getting	0.6552663443527503
+P7	brother	People	0.5630965870191184
+P7	brother	People_by_age	0.5573411047932216
+P7	brother	People_by_residence	0.5377747980276398
+P7	brother	People_by_origin	0.49125893623052624
+P7	brother	Body_description_part	0.4847728140339195
+P7	brother	Birth	0.47091705365290465
+P7	brother	Being_named	0.4652473056850421
+P9	sister	Kinship	0.8319101722039427
+P9	sister	Personal_relationship	0.6384966359196581
+P9	sister	People_by_age	0.5404689209500849
+P9	sister	People_by_residence	0.5380708371807159
+P9	sister	Attention_getting	0.5108087960808573
+P9	sister	People	0.4938014767521921
+P9	sister	Birth	0.44961618234991213
+P9	sister	Being_born	0.4455130772389096
+P9	sister	People_by_vocation	0.4322288397115175
+P9	sister	Body_description_part	0.4172792379678795
+P1995	medical specialty	Medical_specialties	0.810414140299094
+P1995	medical specialty	Medical_professionals	0.5733762477255502
+P1995	medical specialty	Medical_instruments	0.5010219778398038
+P1995	medical specialty	Cure	0.47022751453442746
+P1995	medical specialty	Medical_conditions	0.4114954585779277
+P1995	medical specialty	Institutionalization	0.4088415093308272
+P1995	medical specialty	Education_teaching	0.3659115661457311
+P1995	medical specialty	Examination	0.3631062711494796
+P1995	medical specialty	Locale_by_use	0.35396527732164906
+P1995	medical specialty	Studying	0.3504036235770997
+P119	place of burial	Buildings	0.5824845703398664
+P119	place of burial	Dead_or_alive	0.5748142632275397
+P119	place of burial	Rite	0.5198142069444348
+P119	place of burial	Preserving	0.5095204482545749
+P119	place of burial	Residence	0.4977170255401548
+P119	place of burial	Building_subparts	0.48946849958451966
+P119	place of burial	Natural_features	0.47809061044710416
+P119	place of burial	Locale_by_use	0.47414332689400207
+P119	place of burial	Placing	0.45153326243595604
+P119	place of burial	Biological_area	0.4425512927609293
+P2048	height	Natural_features	0.6358066140466626
+P2048	height	Biological_area	0.6222530823189711
+P2048	height	Dimension	0.6172630947032404
+P2048	height	Shapes	0.5611779037819944
+P2048	height	Measure_linear_extent	0.5461892461126989
+P2048	height	Path_shape	0.5071733895721432
+P2048	height	Relational_natural_features	0.48685454524822785
+P2048	height	Part_orientational	0.4865734590964516
+P2048	height	Precipitation	0.47708540892056955
+P2048	height	Weather	0.4751940192752969
+P2049	width	Dimension	0.7189345318866103
+P2049	width	Shapes	0.5887674443059044
+P2049	width	Measure_linear_extent	0.5565182421806041
+P2049	width	Beyond_compare	0.48329229470281565
+P2049	width	Distinctiveness	0.4746758229130917
+P2049	width	Clothing_parts	0.4604950411486031
+P2049	width	Reshaping	0.45985693131978683
+P2049	width	Body_description_holistic	0.458521702884931
+P2049	width	Fullness	0.45665521403423825
+P2049	width	Part_inner_outer	0.45206142339536776
+P1075	rector	Leadership	0.5776949886413543
+P1075	rector	People_by_vocation	0.469848535065889
+P1075	rector	Education_teaching	0.45425920924069
+P1075	rector	Rite	0.44616815573288804
+P1075	rector	Medical_professionals	0.37009898572785643
+P1075	rector	Studying	0.35552121562266975
+P1075	rector	Judicial_body	0.3460177285373269
+P1075	rector	Political_locales	0.3410406742247965
+P1075	rector	Building_subparts	0.3353145999797664
+P1075	rector	Exclude_member	0.3323361937590714
+P1196	manner of death	Rashness	0.6383360495042618
+P1196	manner of death	Conduct	0.6303873721596813
+P1196	manner of death	Catastrophe	0.6242947313101106
+P1196	manner of death	Killing	0.6080801027178222
+P1196	manner of death	People_by_morality	0.5920201690935142
+P1196	manner of death	Morality_evaluation	0.5699722880814285
+P1196	manner of death	Praiseworthiness	0.5560843300886712
+P1196	manner of death	Mental_property	0.5539605042825497
+P1196	manner of death	Measure_scenario	0.552450628120009
+P1196	manner of death	Remembering_to_do	0.5522934979441947
+P2043	length	Dimension	0.7184460743562321
+P2043	length	Measure_linear_extent	0.6506492333648436
+P2043	length	Shapes	0.6070768558556261
+P2043	length	Spanning_values	0.4537470133431
+P2043	length	Cause_expansion	0.42793368194539594
+P2043	length	Clothing_parts	0.41991259130296626
+P2043	length	Expansion	0.419616877281361
+P2043	length	Measure_mass	0.41117561097299915
+P2043	length	Reshaping	0.4111220157225578
+P2043	length	Within_distance	0.41064106988436483
