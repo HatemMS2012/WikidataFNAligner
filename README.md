@@ -42,6 +42,8 @@ We manually created a gold standard of property-frame [alignments](groundtruth/G
 |P127 | owned by | Renting | 0 |
 
 
+The class [MatchingEvaluator](src/hms/alignment/evaluation/MatchingEvaluator.java) can be used to evaluate the matching results in terms of percision, recall and f1 measure. See the main method for an example.
+
 
 
   	
