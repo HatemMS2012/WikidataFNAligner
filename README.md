@@ -33,7 +33,7 @@ Take a look on the main method in [PropertyFrameMatcher](src/hms/alignment/Prope
 
 ## Evaluating the alignment results
 
-We manually created a gold standard of property-frame [alignments](groundtruth/Ground_TRUTH_WITH_NEG_EXAMPLES_NO_DESC_TOW_RATERS_ONLY_AGREEMENT.csv). The file contains property-frame pairs with rating column that state whether a pair is alignment (value 1) or non-alignment (value 0). For instance, the following excerpt of that gorund truth indicates that property "owned by" can be aligned to the frame "Possession" but not to the frame "Renting":
+We manually created a gold standard of property-frame [alignments](groundtruth/Ground_TRUTH_WITH_NEG_EXAMPLES_NO_DESC_TOW_RATERS_ONLY_AGREEMENT.csv). The file contains property-frame pairs with rating column which indicates whether a pair is an alignment (value 1) or non-alignment (value 0). For instance, the following excerpt of that ground truth indicates that property ["owned by"](https://www.wikidata.org/wiki/Property:P127) can be aligned to the frame ["Possession"](https://framenet2.icsi.berkeley.edu/fnReports/data/frame/Possession.xml) but not to the frame ["Renting"](https://framenet2.icsi.berkeley.edu/fnReports/data/frame/Renting.xml):
 
 
 |Property ID | Property Label |	Matching Frame | sum ratings |
