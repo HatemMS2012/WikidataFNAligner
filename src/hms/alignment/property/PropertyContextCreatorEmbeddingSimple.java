@@ -44,8 +44,9 @@ public class PropertyContextCreatorEmbeddingSimple extends PropertyContextCreato
 			
 			List<String> similarWords = embUtil.getEmbeddingSimilarWords(c.getWord(), threshold);
 			for(String w : similarWords){
-				Collection<AnnotatedWord> words = getContextWordSimple(w);
-				finalContext.addAll(words);
+//				Collection<AnnotatedWord> words = getContextWordSimple(w);
+//				finalContext.addAll(words);
+				finalContext.add(new AnnotatedWord(w,"n"));
 			}
 		}
 		finalContext = removeDuplicatesFromContext(finalContext);

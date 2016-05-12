@@ -14,7 +14,6 @@ import de.saar.coli.salsa.reiter.framenet.FrameNet;
 import hms.alignment.frame.FrameContextCreator;
 import hms.alignment.frame.FrameContextDefaultCreator;
 import hms.alignment.property.PropertyContextCreator;
-import hms.alignment.property.PropertyContextCreatorEmbeddingMultiWord;
 import hms.alignment.property.PropertyContextCreatorEmbeddingSimple;
 import hms.alignment.property.PropertyContextDefaultCreator;
 import hms.alignment.similarity.ContextSimilarityCalculator;
@@ -67,11 +66,7 @@ public class PropertyFrameMatcher {
 	 */
 	public double calculateFramePropertySimilarity(Collection<AnnotatedWord> frameContext, Collection<AnnotatedWord> propertyContext,ContextSimilarityCalculator ccc){
 		
-		
-
 		double sim = ccc.calculateSimilarity(frameContext, propertyContext);
-
-		
 		return sim;
 	}
 	
@@ -115,6 +110,96 @@ public class PropertyFrameMatcher {
 	}
 	
 	/**
+	 * Find matching frames for a given property using the following settings:
+	 * 1- Property consists of its label and aliases (default context)
+	 * 2- Similarity measure is the lexical overlap
+	 * @param propertyID
+	 * @return
+	 */
+	public static Map<String, Double> baseline1(String propertyID){
+
+		Map<String, Double> matchingFrames = new HashMap<>();
+
+		ContextSimilarityCalculator overlapSimilarityMeasure = new OverlapSimilarityCalculator();
+		
+		PropertyContextCreator propContextCreator = new PropertyContextDefaultCreator(propertyID);
+		
+		matchingFrames = finMatchingFrames(overlapSimilarityMeasure, propContextCreator);
+		
+		return matchingFrames;
+	}
+
+	
+	/**
+	 * Find matching frames for a list of properties according to baseline1
+	 * @param propFile
+	 * @param resultFile
+	 * @param maxMatch
+	 * @throws IOException
+	 */
+	public void baseline1(String propFile, String resultFile, int maxMatch) throws IOException{
+	
+		
+		PrintWriter out = new PrintWriter(new File(resultFile));
+		
+		out.println("Property ID \t Property Label \t Matching Frame \t	 Score");
+		
+		List<String> propList = GeneralUtil.loadPropertyIdsFromFile(propFile);
+		
+		for(String property:propList){
+			System.out.println("Dealing with property ... " + property + ":"+  WikidataAPI.getLabel(property, WikidataLanguages.en));
+		
+			
+			
+			Map<String, Double> matchingFrames =  baseline1(property);	
+			
+			matchingFrames = MapUtil.getTopN(matchingFrames,maxMatch);
+			
+			for(Entry<String, Double> match : matchingFrames.entrySet()) {
+				out.println(property + "\t" + WikidataAPI.getLabel(property, WikidataLanguages.en) + "\t" + match.getKey() + "\t" + match.getValue());
+				out.flush();
+			}
+		}
+		out.close();
+
+	}
+
+	/**
+	 * Find matching frames for a property given a context creation method and a similarity measure
+	 * @param overlapSimilarityMeasure
+	 * @param propContextCreator
+	 * @return
+	 */
+	private static Map<String, Double> finMatchingFrames(ContextSimilarityCalculator overlapSimilarityMeasure,
+			PropertyContextCreator propContextCreator) {
+
+		Map<String, Double> matchingFrames = new HashMap<>();
+
+		Collection<AnnotatedWord> propertyContext = propContextCreator.createPropertyContext();
+
+		System.out.println("property context: " + propertyContext);
+
+		FrameNet fn = FrameNetDBConnector.getFrameNetInstance();
+
+		for (Frame f : fn.getFrames()) {
+
+			String frameID = f.getName();
+
+			FrameContextCreator defaultFrameContextCreator = new FrameContextDefaultCreator(frameID);
+
+			Collection<AnnotatedWord> frameContext = defaultFrameContextCreator.createFrameContext();
+
+			double value = overlapSimilarityMeasure.calculateSimilarity(frameContext, propertyContext);
+
+			if (value > 0) {
+				matchingFrames.put(frameID, value);
+			}
+		}
+
+		matchingFrames = MapUtil.sortMap(matchingFrames);
+		return matchingFrames;
+	}
+	/**
 	 * This approach was applied in the paper to align Wikidata properties with FrameNet frames
 	 * @param propertyID
 	 * @param wordEmbeddingSpaceForContextExpansion
@@ -129,12 +214,14 @@ public class PropertyFrameMatcher {
 		Map<String, Double> matchingFrames = new HashMap<>();
 		
 
-		PropertyContextCreatorEmbeddingMultiWord propertyEmbeddingContextCalculator = new PropertyContextCreatorEmbeddingMultiWord();
+		PropertyContextCreatorEmbeddingSimple propertyEmbeddingContextCalculator = new PropertyContextCreatorEmbeddingSimple();
 
 		propertyEmbeddingContextCalculator.setPropertyID(propertyID);
 
 		propertyEmbeddingContextCalculator.setWordEmbeddingSpace(wordEmbeddingSpaceForContextExpansion);
 		propertyEmbeddingContextCalculator.setThreshold(expansionThreshold);
+	
+		
 		Collection<AnnotatedWord> propertyContext = propertyEmbeddingContextCalculator.createPropertyContext();
 		
 		System.out.println("property context: " + propertyContext);
@@ -145,10 +232,6 @@ public class PropertyFrameMatcher {
 		for(Frame f : fn.getFrames()){
 
 			String frameID = f.getName();
-			
-			if(frameID.equals("Location_of_light")){
-				System.out.println();
-			}
 			
 			
 			FrameContextCreator defaultFrameContextCreator = new FrameContextDefaultCreator(frameID);
@@ -205,8 +288,11 @@ public class PropertyFrameMatcher {
 //		Map<String, Double> matchingFrames = p.paperApproach(property, WordEmbeddingSpace.LEVY_DEP, WordEmbeddingSpace.GOOGLE_NEWS,VectorCombinationMethod.ADD, 0.7);
 ////		
 //		System.out.println(MapUtil.getTopN(matchingFrames,5));
-		double embedThreshold = 0.7;
-		p.paperApproachForAllProps("groundtruth/Groud_Truth_Props.txt","results/FramePropertyAlignments/paper_method_"+embedThreshold+"_temp.txt",10,embedThreshold);
+		double embedThreshold = 0.4;
+		p.paperApproachForAllProps("groundtruth/Groud_Truth_Props.txt","results/FramePropertyAlignments/paper_method_"+embedThreshold+"_simple_no_lemmatized_of_expansions.txt",10,embedThreshold);
+		
+		
+		p.baseline1("groundtruth/Groud_Truth_Props.txt", "results/FramePropertyAlignments/baseline_1.txt", 10);
 	}
 	
 	public static void main1(String[] args) {

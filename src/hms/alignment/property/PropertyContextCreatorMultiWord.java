@@ -114,7 +114,7 @@ public class PropertyContextCreatorMultiWord extends PropertyContextCreator {
 		if(pattern.equals("n-n-") || pattern.equals("n-n-prop-")){
 			finalWordList.add(new AnnotatedWord(words[0],"n"));
 			finalWordList.add(new AnnotatedWord(words[1],"n"));
-//			finalWordList.add(new AnnotatedWord(words[0] + "_" + words[1],"n"));
+			finalWordList.add(new AnnotatedWord(words[0] + "_" + words[1],"n"));
 		}
 		if(pattern.equals("v-prop-")){
 			finalWordList.add(new AnnotatedWord(words[0],"v"));
@@ -130,7 +130,7 @@ public class PropertyContextCreatorMultiWord extends PropertyContextCreator {
 			finalWordList.add(new AnnotatedWord(words[0],"a"));
 			finalWordList.add(new AnnotatedWord(words[1],"n"));
 			
-//			finalWordList.add(new AnnotatedWord(words[0] + "_" + words[1],"n"));
+			finalWordList.add(new AnnotatedWord(words[0] + "_" + words[1],"n"));
 		}
 	
 		if(pattern.equals("v-n-prop-")){
