@@ -1,10 +1,12 @@
 Property ID 	 Property Label 	 Matching Frame 		 Score
+P941	inspired by	Subjective_influence	2.0
 P941	inspired by	Source_of_getting	1.0
+P941	inspired by	Breathing	1.0
+P941	inspired by	Talking_into	1.0
 P941	inspired by	Relational_natural_features	1.0
 P941	inspired by	Attributed_information	1.0
 P941	inspired by	Source_Path_Goal	1.0
-P941	inspired by	Subjective_influence	1.0
-P1346	winner	Finish_competition	2.0
+P1346	winner	Finish_competition	3.0
 P1104	number of pages	Categorization	1.0
 P1104	number of pages	Proliferating_in_number	1.0
 P1104	number of pages	Reliance_on_expectation	1.0
@@ -13,6 +15,7 @@ P1104	number of pages	Reliance	1.0
 P1104	number of pages	Adding_up	1.0
 P1104	number of pages	Quantity	1.0
 P828	has cause	Causation	2.0
+P828	has cause	Have_as_requirement	1.0
 P828	has cause	Cause_to_move_in_place	1.0
 P828	has cause	Cause_fluidic_motion	1.0
 P828	has cause	Cause_change_of_position_on_a_scale	1.0
@@ -21,27 +24,32 @@ P828	has cause	Cause_expansion	1.0
 P828	has cause	Cause_to_resume	1.0
 P828	has cause	Cause_to_make_noise	1.0
 P828	has cause	Cause_change_of_consistency	1.0
-P828	has cause	Cause_to_be_sharp	1.0
+P1344	participant of	Have_as_requirement	1.0
 P1344	participant of	Part_whole	1.0
 P1344	participant of	Part_edge	1.0
-P1344	participant of	Body_description_part	1.0
+P1344	participant of	Taking_time	1.0
+P1344	participant of	Create_physical_artwork	1.0
 P1344	participant of	Part_ordered_segments	1.0
 P1344	participant of	Membership	1.0
 P1344	participant of	Shaped_part	1.0
-P1344	participant of	Separation	1.0
-P1344	participant of	Participation	1.0
-P1344	participant of	Architectural_part	1.0
-P1344	participant of	Part_inner_outer	1.0
+P1344	participant of	Take_place_of	1.0
+P1344	participant of	Ride_vehicle	1.0
+P1345	number of victims	Undergoing	1.0
 P1345	number of victims	Proliferating_in_number	1.0
 P1345	number of victims	Adding_up	1.0
 P1345	number of victims	Quantity	1.0
 P1100	number of cylinders	Proliferating_in_number	1.0
 P1100	number of cylinders	Adding_up	1.0
 P1100	number of cylinders	Quantity	1.0
+P1100	number of cylinders	Containers	1.0
+P1342	number of members	Membership	2.0
 P1342	number of members	Quantity	2.0
+P1342	number of members	Becoming_a_member	1.0
 P1342	number of members	Proliferating_in_number	1.0
-P1342	number of members	Membership	1.0
+P1342	number of members	Exclude_member	1.0
 P1342	number of members	Adding_up	1.0
+P1342	number of members	Observable_bodyparts	1.0
+P1342	number of members	Clothing_parts	1.0
 P1340	eye color	Observable_bodyparts	1.0
 P1340	eye color	Color	1.0
 P1340	eye color	Perception_active	1.0
@@ -56,11 +64,17 @@ P272	production company	Physical_artworks	1.0
 P272	production company	Fluidic_motion	1.0
 P272	production company	Building_subparts	1.0
 P137	operator	Rite	1.0
+P137	operator	Success_or_failure	1.0
 P137	operator	Locale_by_use	1.0
+P137	operator	Operate_vehicle	1.0
+P137	operator	Operating_a_system	1.0
+P137	operator	Using	1.0
+P137	operator	Successful_action	1.0
 P137	operator	Public_services	1.0
 P137	operator	Entity	1.0
 P931	place served by airport	Political_locales	1.0
 P931	place served by airport	Cause_to_move_in_place	1.0
+P931	place served by airport	Assistance	1.0
 P931	place served by airport	Moving_in_place	1.0
 P931	place served by airport	Locale_by_use	1.0
 P931	place served by airport	Quitting_a_place	1.0
@@ -70,6 +84,11 @@ P931	place served by airport	Place_weight_on	1.0
 P931	place served by airport	Locale	1.0
 P138	named after	Being_named	2.0
 P138	named after	Namesake	1.0
+P138	named after	Adducing	1.0
+P138	named after	Simple_name	1.0
+P138	named after	Name_conferral	1.0
+P138	named after	Referring_by_name	1.0
+P138	named after	Change_of_leadership	1.0
 P495	country of origin	Political_locales	1.0
 P495	country of origin	Cause_to_move_in_place	1.0
 P495	country of origin	Moving_in_place	1.0
@@ -80,8 +99,11 @@ P495	country of origin	Foreign_or_domestic_country	1.0
 P495	country of origin	Quitting_a_place	1.0
 P495	country of origin	Take_place_of	1.0
 P495	country of origin	Place_weight_on	1.0
+P1339	number of injured	Cause_harm	2.0
 P1339	number of injured	Make_noise	1.0
+P1339	number of injured	Experience_bodily_harm	1.0
 P1339	number of injured	Proliferating_in_number	1.0
+P1339	number of injured	Medical_conditions	1.0
 P1339	number of injured	Adding_up	1.0
 P1339	number of injured	Quantity	1.0
 P1339	number of injured	Sounds	1.0
@@ -113,31 +135,50 @@ P1444	journey destination	Cause_to_be_sharp	1.0
 P1444	journey destination	Travel	1.0
 P1444	journey destination	Coming_to_believe	1.0
 P175	performer	Aggregate	2.0
+P170	creator	Invention	1.0
+P170	creator	Create_physical_artwork	1.0
+P170	creator	Create_representation	1.0
 P170	creator	Achieving_first	1.0
+P170	creator	Cause_to_start	1.0
+P170	creator	Creating	1.0
+P170	creator	Intentionally_create	1.0
 P710	participant	Participation	3.0
 P710	participant	Aggregate	2.0
 P710	participant	Social_event	2.0
 P710	participant	Influence_of_event_on_cognizer	1.0
 P710	participant	Change_event_time	1.0
-P710	participant	Performers	1.0
 P710	participant	Event	1.0
-P710	participant	Performers_and_roles	1.0
 P710	participant	Required_event	1.0
 P710	participant	Desirable_event	1.0
-P157	killed by	Killing	3.0
-P157	killed by	Execution	1.0
+P710	participant	Reciprocality_subordinate_event	1.0
+P710	participant	Active_substance	1.0
+P157	killed by	Killing	8.0
+P157	killed by	Execution	2.0
+P157	killed by	Medical_conditions	1.0
+P157	killed by	Cause_harm	1.0
+P157	killed by	Execute_plan	1.0
+P157	killed by	Offenses	1.0
+P157	killed by	Intentionally_act	1.0
+P1318	proved by	Evidence	1.0
+P1318	proved by	Dough_rising	1.0
+P1318	proved by	Reasoning	1.0
 P1313	office held by head of government	Leadership	2.0
 P1313	office held by head of government	Posture	1.0
 P1313	office held by head of government	Change_position_on_a_scale	1.0
 P1313	office held by head of government	Cause_change_of_position_on_a_scale	1.0
-P1313	office held by head of government	Placing	1.0
 P1313	office held by head of government	Observable_bodyparts	1.0
+P1313	office held by head of government	Detaining	1.0
 P1313	office held by head of government	Position_on_a_scale	1.0
-P1313	office held by head of government	Organization	1.0
+P1313	office held by head of government	Containing	1.0
 P1313	office held by head of government	Building_subparts	1.0
 P1313	office held by head of government	Self_motion	1.0
+P1552	has quality	Possession	2.0
+P1552	has quality	Have_as_requirement	1.0
+P1552	has quality	Ingestion	1.0
+P1552	has quality	Have_as_translation_equivalent	1.0
+P1552	has quality	Birth	1.0
 P1552	has quality	Mental_property	1.0
-P1552	has quality	Possession	1.0
+P1552	has quality	Inclusion	1.0
 P1552	has quality	Distinctiveness	1.0
 P17	country	Political_locales	3.0
 P17	country	Change_of_state_endstate	1.0
@@ -159,10 +200,10 @@ P161	cast member	Becoming_a_member	1.0
 P161	cast member	Encoding	1.0
 P161	cast member	Exclude_member	1.0
 P161	cast member	Membership	1.0
+P161	cast member	Performers_and_roles	1.0
 P161	cast member	People_by_vocation	1.0
 P161	cast member	Observable_bodyparts	1.0
 P161	cast member	Adorning	1.0
-P161	cast member	Cause_motion	1.0
 P742	pseudonym	Being_named	2.0
 P742	pseudonym	Adducing	1.0
 P742	pseudonym	Simple_name	1.0
@@ -173,16 +214,16 @@ P742	pseudonym	Text_creation	1.0
 P742	pseudonym	Referring_by_name	1.0
 P742	pseudonym	Feigning	1.0
 P742	pseudonym	Prison	1.0
+P189	location of discovery	Achieving_first	2.0
+P189	location of discovery	Becoming_aware	2.0
 P189	location of discovery	Locale	2.0
 P189	location of discovery	Location_of_light	1.0
 P189	location of discovery	Cause_to_move_in_place	1.0
 P189	location of discovery	Moving_in_place	1.0
 P189	location of discovery	Purpose	1.0
-P189	location of discovery	Achieving_first	1.0
 P189	location of discovery	Quitting_a_place	1.0
 P189	location of discovery	Placing	1.0
 P189	location of discovery	Take_place_of	1.0
-P189	location of discovery	Expected_location_of_person	1.0
 P1029	crew member	Becoming_a_member	1.0
 P1029	crew member	Aggregate	1.0
 P1029	crew member	Exclude_member	1.0
@@ -198,24 +239,35 @@ P509	cause of death	Cause_to_resume	1.0
 P509	cause of death	Cause_to_make_noise	1.0
 P509	cause of death	Cause_change_of_consistency	1.0
 P509	cause of death	Cause_to_be_sharp	1.0
+P748	appointed by	Change_of_leadership	1.0
+P20	place of death	Death	2.0
 P20	place of death	Locale	2.0
 P20	place of death	Location_of_light	1.0
 P20	place of death	Cause_to_move_in_place	1.0
 P20	place of death	Moving_in_place	1.0
-P20	place of death	Death	1.0
 P20	place of death	Quitting_a_place	1.0
 P20	place of death	Placing	1.0
 P20	place of death	Take_place_of	1.0
 P20	place of death	Place_weight_on	1.0
 P20	place of death	Expected_location_of_person	1.0
 P22	father	Kinship	5.0
+P22	father	Birth	2.0
+P22	father	Have_as_requirement	1.0
+P22	father	Ingestion	1.0
+P22	father	Have_as_translation_equivalent	1.0
 P22	father	People_by_age	1.0
-P22	father	Birth	1.0
+P22	father	Possession	1.0
+P22	father	Inclusion	1.0
 P25	mother	Kinship	6.0
+P25	mother	Birth	2.0
+P25	mother	Have_as_requirement	1.0
+P25	mother	Ingestion	1.0
+P25	mother	Have_as_translation_equivalent	1.0
 P25	mother	Volubility	1.0
 P25	mother	People_by_age	1.0
-P25	mother	Birth	1.0
-P26	spouse	Personal_relationship	5.0
+P25	mother	Possession	1.0
+P25	mother	Inclusion	1.0
+P26	spouse	Personal_relationship	4.0
 P26	spouse	Cause_to_move_in_place	1.0
 P26	spouse	Coming_to_be	1.0
 P26	spouse	Left_to_do	1.0
@@ -238,9 +290,21 @@ P194	legislative body	Perception_body	1.0
 P194	legislative body	Body_mark	1.0
 P194	legislative body	Body_description_holistic	1.0
 P177	crosses	Roadways	2.0
-P176	manufacturer	Manufacturing	3.0
-P176	manufacturer	Behind_the_scenes	1.0
-P176	manufacturer	Product_delivery	1.0
+P177	crosses	Body_movement	1.0
+P177	crosses	Court_examination	1.0
+P177	crosses	Traversing	1.0
+P177	crosses	Emotion_directed	1.0
+P177	crosses	Path_shape	1.0
+P176	manufacturer	Manufacturing	5.0
+P176	manufacturer	Building	2.0
+P176	manufacturer	Make_noise	1.0
+P176	manufacturer	Make_cognitive_connection	1.0
+P176	manufacturer	Make_acquaintance	1.0
+P176	manufacturer	Cause_to_make_noise	1.0
+P176	manufacturer	Cooking_creation	1.0
+P176	manufacturer	Cause_change	1.0
+P176	manufacturer	Type	1.0
+P176	manufacturer	Self_motion	1.0
 P739	ammunition	Containers	1.0
 P739	ammunition	Ammunition	1.0
 P30	continent	Natural_features	1.0
@@ -254,18 +318,27 @@ P735	given name	Ordinal_numbers	1.0
 P735	given name	Referring_by_name	1.0
 P735	given name	Part_inner_outer	1.0
 P735	given name	Change_of_leadership	1.0
+P1136	solved by	Resolve_problem	1.0
 P734	family name	Being_named	2.0
-P734	family name	Aggregate	1.0
-P734	family name	Adducing	1.0
+P734	family name	Ingestion	1.0
+P734	family name	Have_as_translation_equivalent	1.0
+P734	family name	Have_as_requirement	1.0
 P734	family name	Simple_name	1.0
-P734	family name	Name_conferral	1.0
-P734	family name	Kinship	1.0
+P734	family name	Birth	1.0
+P734	family name	Aggregate	1.0
+P734	family name	Possession	1.0
 P734	family name	Referring_by_name	1.0
 P734	family name	Change_of_leadership	1.0
 P737	influenced by	Influence_of_event_on_cognizer	1.0
+P737	influenced by	Have_as_requirement	1.0
+P737	influenced by	Ingestion	1.0
+P737	influenced by	Have_as_translation_equivalent	1.0
+P737	influenced by	Reporting	1.0
+P737	influenced by	Birth	1.0
 P737	influenced by	Talking_into	1.0
-P737	influenced by	Subjective_influence	1.0
-P737	influenced by	Objective_influence	1.0
+P737	influenced by	Telling	1.0
+P737	influenced by	Possession	1.0
+P737	influenced by	Inclusion	1.0
 P1376	capital of	Political_locales	1.0
 P1376	capital of	Severity_of_offense	1.0
 P1376	capital of	Money	1.0
@@ -294,23 +367,29 @@ P39	position held	Political_locales	1.0
 P39	position held	Posture	1.0
 P39	position held	Change_position_on_a_scale	1.0
 P39	position held	Cause_change_of_position_on_a_scale	1.0
-P39	position held	Placing	1.0
-P39	position held	People_along_political_spectrum	1.0
+P39	position held	Detaining	1.0
 P39	position held	Position_on_a_scale	1.0
 P39	position held	Secrecy_status	1.0
-P39	position held	Public_services	1.0
+P39	position held	Containing	1.0
 P39	position held	Building_subparts	1.0
-P180	depicts	Communicate_categorization	1.0
+P39	position held	Clothing_parts	1.0
+P180	depicts	Communicate_categorization	2.0
 P180	depicts	Physical_artworks	1.0
 P1924	vaccine for	Hit_target	1.0
 P1924	vaccine for	Medical_conditions	1.0
 P1924	vaccine for	Purpose	1.0
 P1923	participating team	Aggregate	1.0
+P1923	participating team	Participation	1.0
 P40	child	Kinship	7.0
-P40	child	Birth	3.0
+P40	child	Birth	4.0
 P40	child	People_by_age	2.0
+P40	child	Have_as_requirement	1.0
+P40	child	Coming_to_be	1.0
 P40	child	Prevarication	1.0
-P40	child	Attention_getting	1.0
+P40	child	Be_translation_equivalent	1.0
+P40	child	Possession	1.0
+P40	child	Cause_to_be_sharp	1.0
+P40	child	Cause_to_be_wet	1.0
 P43	stepfather	Kinship	2.0
 P43	stepfather	Birth	1.0
 P43	stepfather	Connecting_architecture	1.0
@@ -322,6 +401,8 @@ P512	academic degree	Degree_of_processing	1.0
 P512	academic degree	Rank	1.0
 P512	academic degree	Quantity	1.0
 P512	academic degree	Documents	1.0
+P750	distributor	Dispersal	1.0
+P1478	has immediate cause	Have_as_requirement	1.0
 P1478	has immediate cause	Cause_to_move_in_place	1.0
 P1478	has immediate cause	Cause_fluidic_motion	1.0
 P1478	has immediate cause	Cause_change_of_position_on_a_scale	1.0
@@ -331,29 +412,40 @@ P1478	has immediate cause	Cause_to_resume	1.0
 P1478	has immediate cause	Cause_to_make_noise	1.0
 P1478	has immediate cause	Cause_change_of_consistency	1.0
 P1478	has immediate cause	Cause_to_be_sharp	1.0
-P1478	has immediate cause	Cause_change	1.0
+P50	author	Text_creation	2.0
+P50	author	Spelling_and_pronouncing	1.0
+P50	author	Contacting	1.0
 P50	author	Being_employed	1.0
-P50	author	Text_creation	1.0
+P50	author	Statement	1.0
+P1479	has contributing factor	Have_as_requirement	1.0
+P1479	has contributing factor	Ingestion	1.0
+P1479	has contributing factor	Have_as_translation_equivalent	1.0
+P1479	has contributing factor	Birth	1.0
+P1479	has contributing factor	Giving	1.0
+P1479	has contributing factor	Possession	1.0
+P1479	has contributing factor	Inclusion	1.0
 P1479	has contributing factor	Importance	1.0
 P515	phase of matter	Change_of_phase_scenario	1.0
 P515	phase of matter	Change_of_phase	1.0
 P515	phase of matter	Altered_phase	1.0
 P515	phase of matter	Cause_change_of_phase	1.0
+P1477	birth name	Birth	2.0
+P1477	birth name	Bringing	1.0
 P1477	birth name	Abounding_with	1.0
 P1477	birth name	Adducing	1.0
 P1477	birth name	Simple_name	1.0
-P1477	birth name	Birth	1.0
-P1477	birth name	Text	1.0
-P1477	birth name	Being_born	1.0
 P1477	birth name	Fullness	1.0
+P1477	birth name	Path_shape	1.0
 P1477	birth name	Feeling	1.0
 P1477	birth name	Referring_by_name	1.0
 P1477	birth name	Change_of_leadership	1.0
 P1114	quantity	Adding_up	2.0
 P1114	quantity	Quantity	2.0
 P1114	quantity	Proliferating_in_number	1.0
+P1114	quantity	Sole_instance	1.0
 P1114	quantity	Amounting_to	1.0
 P1114	quantity	Completeness	1.0
+P1114	quantity	Instance	1.0
 P1114	quantity	Render_nonfunctional	1.0
 P1595	charge	Notification_of_charges	1.0
 P1595	charge	Attack	1.0
@@ -362,18 +454,27 @@ P1595	charge	Commerce_collect	1.0
 P1596	penalty	Rewards_and_punishments	1.0
 P58	screenwriter	Text	1.0
 P1591	defendant	Try_defendant	1.0
-P57	director	Behind_the_scenes	1.0
-P57	director	Emotion_directed	1.0
+P57	director	Behind_the_scenes	2.0
+P57	director	Judgment_direct_address	1.0
 P57	director	Leadership	1.0
-P61	discoverer or inventor	Achieving_first	3.0
+P61	discoverer or inventor	Achieving_first	6.0
+P61	discoverer or inventor	Invention	2.0
 P61	discoverer or inventor	First_experience	1.0
+P61	discoverer or inventor	Communicate_categorization	1.0
+P61	discoverer or inventor	Becoming_aware	1.0
 P61	discoverer or inventor	Ordinal_numbers	1.0
 P61	discoverer or inventor	First_rank	1.0
 P1066	student of	Education_teaching	4.0
 P1066	student of	People_by_vocation	1.0
-P69	educated at	Education_teaching	2.0
+P69	educated at	Education_teaching	4.0
 P69	educated at	Locale_by_use	2.0
 P69	educated at	Aggregate	1.0
+P69	educated at	Studying	1.0
+P69	educated at	Scrutiny	1.0
+P69	educated at	Attention	1.0
+P69	educated at	Perception_active	1.0
+P69	educated at	Building_subparts	1.0
+P790	approved by	Grant_permission	1.0
 P770	cause of destruction	Cause_to_move_in_place	1.0
 P770	cause of destruction	Cause_fluidic_motion	1.0
 P770	cause of destruction	Cause_change_of_position_on_a_scale	1.0
@@ -393,6 +494,9 @@ P1050	medical condition	State_of_entity	1.0
 P1050	medical condition	Health_response	1.0
 P1050	medical condition	Medical_professionals	1.0
 P1050	medical condition	Resolve_problem	1.0
+P1840	investigated by	Research	1.0
+P1840	investigated by	Scrutiny	1.0
+P1840	investigated by	Criminal_investigation	1.0
 P209	highest judicial authority	Judicial_body	1.0
 P209	highest judicial authority	Leadership	1.0
 P208	executive body	Body_movement	1.0
@@ -406,17 +510,20 @@ P208	executive body	Body_description_holistic	1.0
 P208	executive body	Body_decoration	1.0
 P1046	discovery method	Achieving_first	1.0
 P1046	discovery method	Becoming_aware	1.0
+P570	date of death	Death	2.0
 P570	date of death	Explaining_the_facts	1.0
 P570	date of death	Personal_relationship	1.0
 P570	date of death	Process_end	1.0
 P570	date of death	Cause_to_end	1.0
 P570	date of death	Calendric_unit	1.0
-P570	date of death	Death	1.0
 P570	date of death	Temporal_subregion	1.0
 P570	date of death	Behind_the_scenes	1.0
 P570	date of death	Employment_end	1.0
 P570	date of death	Measure_duration	1.0
-P676	lyrics by	Text	1.0
+P676	lyrics by	Text	2.0
+P676	lyrics by	Word_relations	1.0
+P676	lyrics by	Simple_name	1.0
+P676	lyrics by	Encoding	1.0
 P1038	relative	Kinship	2.0
 P1038	relative	Becoming_a_member	1.0
 P1038	relative	Aggregate	1.0
@@ -424,7 +531,9 @@ P1038	relative	Exclude_member	1.0
 P1038	relative	Membership	1.0
 P1038	relative	Observable_bodyparts	1.0
 P1038	relative	Relative_time	1.0
-P466	occupant	Residence	1.0
+P1399	convicted of	Verdict	1.0
+P466	occupant	Residence	2.0
+P466	occupant	Occupy_rank	1.0
 P106	occupation	Being_employed	3.0
 P106	occupation	Being_obligated	1.0
 P106	occupation	Employing	1.0
@@ -449,7 +558,7 @@ P102	member of political party	Social_event	1.0
 P102	member of political party	Observable_bodyparts	1.0
 P102	member of political party	People_along_political_spectrum	1.0
 P102	member of political party	Participation	1.0
-P101	field of work	Fields	3.0
+P101	field of work	Fields	2.0
 P101	field of work	Education_teaching	1.0
 P101	field of work	People_by_jurisdiction	1.0
 P101	field of work	Biological_area	1.0
@@ -459,12 +568,14 @@ P101	field of work	Topic	1.0
 P101	field of work	Domain	1.0
 P101	field of work	Being_employed	1.0
 P101	field of work	Building_subparts	1.0
+P1547	depends on	Reliance	2.0
 P1547	depends on	Contingency	1.0
-P1547	depends on	Reliance	1.0
 P1302	primary destinations	First_rank	1.0
-P108	employer	Being_employed	2.0
-P108	employer	Employing	1.0
+P108	employer	Being_employed	3.0
+P108	employer	Employing	2.0
+P108	employer	Using	1.0
 P108	employer	Employer's_scenario	1.0
+P1542	cause of	Have_as_requirement	1.0
 P1542	cause of	Cause_to_move_in_place	1.0
 P1542	cause of	Cause_fluidic_motion	1.0
 P1542	cause of	Cause_change_of_position_on_a_scale	1.0
@@ -474,7 +585,6 @@ P1542	cause of	Cause_expansion	1.0
 P1542	cause of	Cause_to_resume	1.0
 P1542	cause of	Cause_to_make_noise	1.0
 P1542	cause of	Cause_change_of_consistency	1.0
-P1542	cause of	Cause_to_be_sharp	1.0
 P2079	fabrication method	Manufacturing	2.0
 P2079	fabrication method	Process_completed_state	1.0
 P2079	fabrication method	Process_end	1.0
@@ -498,6 +608,7 @@ P451	cohabitant	Foreign_or_domestic_country	1.0
 P451	cohabitant	Increment	1.0
 P451	cohabitant	Collaboration	1.0
 P451	cohabitant	Importance	1.0
+P1537	contributing factor of	Giving	1.0
 P1536	immediate cause of	Cause_to_move_in_place	1.0
 P1536	immediate cause of	Cause_fluidic_motion	1.0
 P1536	immediate cause of	Cause_change_of_position_on_a_scale	1.0
@@ -520,16 +631,18 @@ P1534	end cause	Cause_to_be_sharp	1.0
 P1534	end cause	Cause_change	1.0
 P488	chairperson	Leadership	4.0
 P488	chairperson	First_rank	1.0
+P127	owned by	Possession	3.0
+P127	owned by	Coming_to_be	2.0
+P127	owned by	Cause_to_be_sharp	2.0
+P127	owned by	Cause_to_be_wet	2.0
+P127	owned by	Cause_to_be_dry	2.0
 P127	owned by	Cause_to_move_in_place	1.0
-P127	owned by	Cause_to_wake	1.0
-P127	owned by	Coming_to_be	1.0
 P127	owned by	Left_to_do	1.0
 P127	owned by	Cause_to_end	1.0
 P127	owned by	Cause_to_resume	1.0
 P127	owned by	Cause_to_make_noise	1.0
-P127	owned by	Possession	1.0
-P127	owned by	Cause_to_be_sharp	1.0
-P127	owned by	Coming_to_believe	1.0
+P807	separated from	Forming_relationships	1.0
+P807	separated from	Separation	1.0
 P1884	hair color	Observable_bodyparts	1.0
 P1884	hair color	Color	1.0
 P1884	hair color	Hair_configuration	1.0
@@ -547,27 +660,40 @@ P131	located in the administrative territorial entity	State_of_entity	2.0
 P131	located in the administrative territorial entity	Locale	2.0
 P131	located in the administrative territorial entity	Explaining_the_facts	1.0
 P131	located in the administrative territorial entity	Physical_entity	1.0
+P131	located in the administrative territorial entity	Coming_to_be	1.0
+P131	located in the administrative territorial entity	Eventive_affecting	1.0
 P131	located in the administrative territorial entity	Biological_area	1.0
 P131	located in the administrative territorial entity	Process_completed_state	1.0
-P131	located in the administrative territorial entity	Calendric_unit	1.0
-P131	located in the administrative territorial entity	Process_stopped_state	1.0
 P114	airline alliance	Alliance	1.0
 P7	brother	Kinship	2.0
+P7	brother	Have_as_requirement	1.0
+P7	brother	Ingestion	1.0
+P7	brother	Have_as_translation_equivalent	1.0
+P7	brother	Birth	1.0
+P7	brother	Possession	1.0
+P7	brother	Inclusion	1.0
 P7	brother	Attention_getting	1.0
 P9	sister	Kinship	2.0
+P9	sister	Have_as_requirement	1.0
+P9	sister	Ingestion	1.0
+P9	sister	Have_as_translation_equivalent	1.0
+P9	sister	Birth	1.0
+P9	sister	Possession	1.0
+P9	sister	Inclusion	1.0
 P1995	medical specialty	Medical_specialties	1.0
 P1995	medical specialty	Medical_instruments	1.0
 P1995	medical specialty	Medical_conditions	1.0
 P1995	medical specialty	Medical_professionals	1.0
+P119	place of burial	Placing	2.0
 P119	place of burial	Locale	2.0
 P119	place of burial	Location_of_light	1.0
 P119	place of burial	Cause_to_move_in_place	1.0
 P119	place of burial	Moving_in_place	1.0
 P119	place of burial	Quitting_a_place	1.0
-P119	place of burial	Placing	1.0
 P119	place of burial	Take_place_of	1.0
 P119	place of burial	Place_weight_on	1.0
 P119	place of burial	Expected_location_of_person	1.0
+P119	place of burial	Rest	1.0
 P2048	height	Dimension	2.0
 P2048	height	Natural_features	1.0
 P2049	width	Dimension	2.0

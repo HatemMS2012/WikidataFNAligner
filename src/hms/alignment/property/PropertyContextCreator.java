@@ -13,58 +13,94 @@ import hms.wikidata.api.WikidataLanguages;
 
 public abstract class PropertyContextCreator {
 
-	
+	protected boolean lemmatize ;
+	protected boolean extendedContext ; //Extend context with Subject Items and Talk pages
 	protected String propertyID; 
 	protected WikidataLanguages defaultLanguage = WikidataLanguages.en;
-	
-	public PropertyContextCreator() {
-
-	
-	}
-	
-	public PropertyContextCreator(String propertyID) {
-		
-		this.propertyID = propertyID;
-	}
-
 
 	public abstract Collection<AnnotatedWord> createPropertyContext();
+
+	public PropertyContextCreator() {
 	
+	}
 	
+	public PropertyContextCreator(String propertyID,boolean lemmatize, boolean extendedContext) {
+		
+		this.propertyID = propertyID;
+		this.lemmatize = lemmatize;
+		this.extendedContext = extendedContext;
+	}
 
 	/**
 	 * Helper method to lemmatize an input text
 	 * @param context
 	 * @param text
 	 */
-	protected Collection<AnnotatedWord> getContextWordSimple(String text) {
+	protected Collection<AnnotatedWord> getLemmatizedFilteredWords(String text) {
 		Collection<AnnotatedWord> context = new ArrayList<>();
 		
-		List<CoreLabel> aliasLemmas = NLPUtil.lemmatize(text);
-		
-		for(CoreLabel l:aliasLemmas){
-		
-			String word = l.lemma();
+		if(text!=null){
+			List<CoreLabel> aliasLemmas = NLPUtil.lemmatize(text);
 			
-			String tag = l.tag();
+			for(CoreLabel l:aliasLemmas){
 			
-			if(!tag.equals("IN")){
-				if(tag.startsWith("V")){
-					tag = "v";
+				String word = l.lemma();
+				
+				String tag = l.tag();
+				
+				if(!tag.equals("IN") && !tag.equals("CC")){ //remove propositions and coordinators
+					if(tag.startsWith("V")){
+						tag = "v";
+					}
+					if(tag.startsWith("N")){
+						tag = "n";
+					}
+					if(tag.startsWith("J")){
+						tag = "a";
+					}
+					if(tag.startsWith("IN")){
+						tag = "prop";
+					}
+					if(tag.startsWith("RB")){
+						tag = "rb";
+					}
+					context.add(new AnnotatedWord(word,tag));
 				}
-				if(tag.startsWith("N")){
-					tag = "n";
+			}
+		}
+		return context;
+	}
+	
+	protected Collection<AnnotatedWord> getFilteredWords(String text) {
+		Collection<AnnotatedWord> context = new ArrayList<>();
+		
+		if(text!=null){
+			List<CoreLabel> aliasLemmas = NLPUtil.lemmatize(text);
+			
+			for(CoreLabel l:aliasLemmas){
+			
+				String word = l.originalText();
+				
+				String tag = l.tag();
+				
+				if(!tag.equals("IN") && !tag.equals("CC")){ //remove propositions and coordinators
+					if(tag.startsWith("V")){
+						tag = "v";
+					}
+					if(tag.startsWith("N")){
+						tag = "n";
+					}
+					if(tag.startsWith("J")){
+						tag = "a";
+					}
+					if(tag.startsWith("IN")){
+						tag = "prop";
+					}
+					if(tag.startsWith("RB")){
+						tag = "rb";
+					}
+					context.add(new AnnotatedWord(word,tag));
 				}
-				if(tag.startsWith("J")){
-					tag = "a";
-				}
-				if(tag.startsWith("IN")){
-					tag = "prop";
-				}
-				if(tag.startsWith("RB")){
-					tag = "rb";
-				}
-				context.add(new AnnotatedWord(word,tag));
 			}
 		}
 		return context;

@@ -5,6 +5,7 @@ import java.util.Collection;
 import java.util.List;
 
 import hms.embedding.EmbeddingUtil;
+import hms.embedding.WordEmbeddingSpace;
 import hms.parser.AnnotatedWord;
 
 public class PropertyContextCreatorEmbeddingSimple extends PropertyContextCreator {
@@ -13,8 +14,8 @@ public class PropertyContextCreatorEmbeddingSimple extends PropertyContextCreato
 	private String  wordEmbeddingSpace;
 	private double threshold;
 	
-	public PropertyContextCreatorEmbeddingSimple(String propertyID) {
-		super(propertyID);
+	public PropertyContextCreatorEmbeddingSimple(String propertyID,boolean lemmatize,boolean extendedContext) {
+		super(propertyID,lemmatize, extendedContext);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -32,7 +33,7 @@ public class PropertyContextCreatorEmbeddingSimple extends PropertyContextCreato
 	 */
 	public Collection<AnnotatedWord> createPropertyContext() {
 		
-		PropertyContextCreator defaultCreator = new PropertyContextDefaultCreator(this.propertyID);
+		PropertyContextCreator defaultCreator = new PropertyRawContextCreator(this.propertyID,this.lemmatize,this.extendedContext);
 		
 		Collection<AnnotatedWord> context = defaultCreator.createPropertyContext();
 		
@@ -43,10 +44,17 @@ public class PropertyContextCreatorEmbeddingSimple extends PropertyContextCreato
 		for(AnnotatedWord c : context){
 			
 			List<String> similarWords = embUtil.getEmbeddingSimilarWords(c.getWord(), threshold);
+
 			for(String w : similarWords){
-//				Collection<AnnotatedWord> words = getContextWordSimple(w);
-//				finalContext.addAll(words);
-				finalContext.add(new AnnotatedWord(w,"n"));
+				Collection<AnnotatedWord> words = null;
+			
+				if(this.lemmatize){
+					words = getLemmatizedFilteredWords(w);
+				}
+				else{
+					words = getFilteredWords(w);
+				}
+				finalContext.addAll(words);
 			}
 		}
 		finalContext = removeDuplicatesFromContext(finalContext);
@@ -69,7 +77,21 @@ public class PropertyContextCreatorEmbeddingSimple extends PropertyContextCreato
 	public void setThreshold(double threshold) {
 		this.threshold = threshold;
 	}
-	
+
+
+	public static void main(String[] args) {
+		String propertyID2 = "P69";
+		PropertyContextCreatorEmbeddingSimple c = new PropertyContextCreatorEmbeddingSimple(propertyID2,true,false);
+		c.setWordEmbeddingSpace(WordEmbeddingSpace.LEVY_DEP);
+		c.setThreshold(0.7);
+		System.out.println(c.createPropertyContext());
+		
+		
+		PropertyContextCreatorEmbeddingSimple c2 = new PropertyContextCreatorEmbeddingSimple(propertyID2,true,true);
+		c2.setWordEmbeddingSpace(WordEmbeddingSpace.LEVY_DEP);
+		c2.setThreshold(0.7);
+		System.out.println(c2.createPropertyContext());
+	}
 	
 
 }

@@ -15,7 +15,7 @@ import hms.alignment.frame.FrameContextCreator;
 import hms.alignment.frame.FrameContextDefaultCreator;
 import hms.alignment.property.PropertyContextCreator;
 import hms.alignment.property.PropertyContextCreatorEmbeddingSimple;
-import hms.alignment.property.PropertyContextDefaultCreator;
+import hms.alignment.property.PropertyRawContextCreator;
 import hms.alignment.similarity.ContextSimilarityCalculator;
 import hms.alignment.similarity.EmbeddingSimilarityCalculator;
 import hms.alignment.similarity.OverlapSimilarityCalculator;
@@ -122,7 +122,8 @@ public class PropertyFrameMatcher {
 
 		ContextSimilarityCalculator overlapSimilarityMeasure = new OverlapSimilarityCalculator();
 		
-		PropertyContextCreator propContextCreator = new PropertyContextDefaultCreator(propertyID);
+		//No lemmatization, no extension
+		PropertyContextCreator propContextCreator = new PropertyRawContextCreator(propertyID,true,true);
 		
 		matchingFrames = finMatchingFrames(overlapSimilarityMeasure, propContextCreator);
 		
@@ -214,9 +215,7 @@ public class PropertyFrameMatcher {
 		Map<String, Double> matchingFrames = new HashMap<>();
 		
 
-		PropertyContextCreatorEmbeddingSimple propertyEmbeddingContextCalculator = new PropertyContextCreatorEmbeddingSimple();
-
-		propertyEmbeddingContextCalculator.setPropertyID(propertyID);
+		PropertyContextCreatorEmbeddingSimple propertyEmbeddingContextCalculator = new PropertyContextCreatorEmbeddingSimple(propertyID,true,true);
 
 		propertyEmbeddingContextCalculator.setWordEmbeddingSpace(wordEmbeddingSpaceForContextExpansion);
 		propertyEmbeddingContextCalculator.setThreshold(expansionThreshold);
@@ -288,70 +287,14 @@ public class PropertyFrameMatcher {
 //		Map<String, Double> matchingFrames = p.paperApproach(property, WordEmbeddingSpace.LEVY_DEP, WordEmbeddingSpace.GOOGLE_NEWS,VectorCombinationMethod.ADD, 0.7);
 ////		
 //		System.out.println(MapUtil.getTopN(matchingFrames,5));
-		double embedThreshold = 0.4;
-		p.paperApproachForAllProps("groundtruth/Groud_Truth_Props.txt","results/FramePropertyAlignments/paper_method_"+embedThreshold+"_simple_no_lemmatized_of_expansions.txt",10,embedThreshold);
+		double embedThreshold = 0.7;
+		p.paperApproachForAllProps("groundtruth/Groud_Truth_Props.txt","results/FramePropertyAlignments/paper_method_"+embedThreshold+"_l_e.txt",10,embedThreshold);
 		
 		
-		p.baseline1("groundtruth/Groud_Truth_Props.txt", "results/FramePropertyAlignments/baseline_1.txt", 10);
+//		p.baseline1("groundtruth/Groud_Truth_Props.txt", "results/FramePropertyAlignments/baseline_1_lemmatize_extend.txt", 10);
 	}
 	
-	public static void main1(String[] args) {
-		
-		PropertyFrameMatcher p = new PropertyFrameMatcher();
-		String prop = "P1038";
-		String frameID = "Killing";
-		FrameContextCreator defaultFrameContextCreator = new FrameContextDefaultCreator(frameID);
-		PropertyContextCreator defaultPropertyContextCreator = new PropertyContextDefaultCreator(prop);
-		
-		System.out.println("Overlap Similarity");
-		ContextSimilarityCalculator overlap = new OverlapSimilarityCalculator();
-		double sim = p.calculateFramePropertySimilarity(defaultFrameContextCreator,defaultPropertyContextCreator,overlap);
-		System.out.println(sim);
-		System.out.println("............");
-		
-		System.out.println("..Embedding Similarity.");
-		ContextSimilarityCalculator embedSim = new EmbeddingSimilarityCalculator(WordEmbeddingSpace.LEVY_DEP, VectorCombinationMethod.ADD);
-		sim = p.calculateFramePropertySimilarity(defaultFrameContextCreator,defaultPropertyContextCreator,embedSim);
-		System.out.println(sim);
-		
-		
-		
-		String property = "P1038";
-		System.out.println("-.-----Default Property Context + Overlap------");
-		System.out.println(p.getMatchingFrames(property,defaultPropertyContextCreator,defaultFrameContextCreator,overlap));
-		System.out.println("-.------------");
-		
-		System.out.println("-.-----Default Property Context + Embedding------");
-		System.out.println(p.getMatchingFrames(property,defaultPropertyContextCreator,defaultFrameContextCreator,embedSim));
-		System.out.println("-.------------");
-//		
-		
-//		
-//		System.out.println("-.-----Multi-Word Property Context------");
-//		System.out.println(p.getMatchingFrames(property, new PropertyContextCreatorMultiWord(),new FrameContextDefaultCreator()));
-//		System.out.println("-.------------");
-//
-		System.out.println("-.-----Embeding Simple Property Context + overlap------");
-		PropertyContextCreatorEmbeddingSimple propertyEmbeddingContextCalculator = new PropertyContextCreatorEmbeddingSimple();
-		propertyEmbeddingContextCalculator.setWordEmbeddingSpace(WordEmbeddingSpace.LEVY_DEP);
-		propertyEmbeddingContextCalculator.setThreshold(0.6);
-		System.out.println(p.getMatchingFrames(property,propertyEmbeddingContextCalculator,defaultFrameContextCreator,overlap));
-		System.out.println("-.------------");
-		
-		
-		System.out.println("-.-----Embeding Simple Property Context + Embedding SImilarity------");
-		System.out.println(p.getMatchingFrames(property,propertyEmbeddingContextCalculator,defaultFrameContextCreator,embedSim));
-		System.out.println("-.------------");
-		
-		
-//		System.out.println("-.-----Embeding Multi-Word Property Context------");
-//		PropertyContextCreatorEmbeddingMultiWord pcc2 = new PropertyContextCreatorEmbeddingMultiWord();
-//		pcc.setWordEmbeddingSpace(WordEmbeddingSpace.LEVY_DEP);
-//		pcc.setThreshold(0.6);
-//		System.out.println(p.getMatchingFrames(property,pcc2,new FrameContextDefaultCreator()));
-//		System.out.println("-.------------");
-//		
-	}
+
 	
 }
 
